@@ -1,0 +1,13 @@
+.carousel .thumb img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel.carousel-slider{
+    margin-left: 150px;
+}
+
+.carousel .slide img {
+    max-height: 500px;  /* change this to whatever you want */
+    width: auto;
+}
