@@ -1,7 +1,9 @@
 .carousel .thumb img {
     width: 100% !important;
-    height: 100% !important;
+    height: 50px !important;
+    
 }
+
 
 .carousel.carousel-slider{
     margin-left: 150px;
