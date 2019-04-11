@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+
+[Demo](https://github.com/ignaciogatti/artwork-curator-frontend/blob/master/art-curator-front.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
