@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo
 
-[Demo](https://github.com/ignaciogatti/artwork-curator-frontend/blob/master/art-curator-front.png)
+[Demo]!(https://github.com/ignaciogatti/artwork-curator-frontend/blob/master/art-curator-front.png)
 
 ## Available Scripts
 
