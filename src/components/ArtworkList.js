@@ -15,24 +15,33 @@ class ArtworkList extends React.Component{
     render(){
         if(this.props.artworks.length > 0){
             return(
-                <Carousel showThumbs={true} showArrows={true} width="700px" dynamicHeight>
-                {
-                    this.props.artworks.map((artwork, index)=>{
-                        let name = artwork.substring(artwork.lastIndexOf('/')+1);
-                        name = name.split('.jpg')[0];
-                        let url = artwork.split('.jpg')[0];
-                        url = url +'.jpg';
-                        return(
-                            <div key={index}>
-                                <img src={url}/>
-                            </div>
-                        );
-                    })
-                }
-                </Carousel>
+                <div className="ui segment">
+                    <h1 className="title">Curator selection</h1>
+                    <hr />
+                    <Carousel showThumbs={true} showArrows={true} dynamicHeight>
+                    {
+                        this.props.artworks.map((artwork, index)=>{
+                            let name = artwork.substring(artwork.lastIndexOf('/')+1);
+                            name = name.split('.jpg')[0];
+                            let url = artwork.split('.jpg')[0];
+                            url = url +'.jpg';
+                            return(
+                                <div key={index}>
+                                    <img src={url}/>
+                                </div>
+                            );
+                        })
+                    }
+                    </Carousel>
+                </div>
             );
         }else{
-            return <div></div>
+            return (
+            <div className="ui segment">
+                <h1 className="title">Curator selection</h1>
+                <hr />
+            </div>
+            );
         }
         
     };

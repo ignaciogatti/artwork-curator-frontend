@@ -1,0 +1,10 @@
+.preview-container {
+    height: 20.9375em;
+    width: 100%;
+    margin-bottom: 2.5em;
+  }
+  
+  .upload-container {
+    cursor: pointer;
+    height: 18.75em;
+  }

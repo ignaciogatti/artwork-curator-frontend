@@ -1,11 +1,17 @@
 img {
-    max-height: 240px;
+    max-height: 15em;
     margin: 0 auto;
   }
   
+  .ui.placeholder.segment {
+    width: 34.375em;
+    margin: 2.5em auto;
+    margin-left: 0em auto;
+  }
+
   .app-container {
-    width: 500px;
-    margin: 30px auto;
+    width: 31.25em;
+    margin: 1.875em auto;
   }
   
   .clear {
@@ -18,12 +24,12 @@ img {
   }
   
   .error {
-    margin-top: 4px;
+    margin-top: 0.25em;
     color: red;
   }
   
   .has-error {
-    border: 1px dotted red;
+    border: 0.0625em dotted red;
   }
   
   .image-container {
@@ -32,18 +38,18 @@ img {
     width: 85%;
     height: 80%;
     float: left;
-    margin: 15px 10px 10px 37px;
+    margin: 0.9375em 0.625em 0.625em 2.3125em;
     text-align: center;
   }
   
   .preview-container {
-    height: 335px;
+    height: 20.9375em;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
   }
   
   .upload-container {
     cursor: pointer;
-    height: 300px;
+    height: 18.75em;
   }
   

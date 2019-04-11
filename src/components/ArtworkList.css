@@ -1,15 +1,29 @@
 .carousel .thumb img {
     width: 100% !important;
-    height: 50px !important;
+    height: 3.125em !important;
     
 }
 
 
+.ui.segment {
+    width: 50em auto;
+    margin: 2.5em auto;
+    align-items: center;
+  }
+
+  .ui.segment:first-child {
+    width: 50em auto;
+    margin: 2.5em auto;
+    margin-right: 15em;
+    margin-left: auto;
+}
+
 .carousel.carousel-slider{
-    margin-left: 150px;
+    margin: 2.5em auto;
+    max-width: 43.75em;
 }
 
 .carousel .slide img {
-    max-height: 500px;  /* change this to whatever you want */
+    max-height: 31.25em;  /* change this to whatever you want */
     width: auto;
 }

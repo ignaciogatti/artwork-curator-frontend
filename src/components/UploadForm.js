@@ -35,38 +35,40 @@ class UploadImageForm extends Component {
   resetForm = () => this.setState({ imageFile: [] }, () => this.props.reset());
 
   render = () => (
-    <div className="app-container">
-      <h1 className="title">Upload An Artwork</h1>
-      <hr />
-      <Form onSubmit={this.props.handleSubmit(this.handleFormSubmit)}>
-        <Field
-          name="imageToUpload"
-          component={DropZoneField}
-          type="file"
-          imagefile={this.state.imageFile}
-          handleOnDrop={this.handleOnDrop}
-          validate={[imageIsRequired]}
-        />
-        <Button
-          type="submit"
-          variant="primary"
-          size="lg"
-          disabled={this.props.submitting}
-        >
-          Submit
-        </Button>
-        <Button
-          type="button"
-          size="lg"
-          variant="secondary"
-          disabled={this.props.pristine || this.props.submitting}
-          onClick={this.resetForm}
-          style={{ float: "right" }}
-        >
-          Clear
-        </Button>
-      </Form>
-      <div className="clear" />
+    <div className="ui placeholder segment">
+      <div className="app-container">
+        <h1 className="title">Upload An Artwork</h1>
+        <hr />
+        <Form onSubmit={this.props.handleSubmit(this.handleFormSubmit)}>
+          <Field
+            name="imageToUpload"
+            component={DropZoneField}
+            type="file"
+            imagefile={this.state.imageFile}
+            handleOnDrop={this.handleOnDrop}
+            validate={[imageIsRequired]}
+          />
+          <Button
+            type="submit"
+            variant="primary"
+            size="lg"
+            disabled={this.props.submitting}
+          >
+            Submit
+          </Button>
+          <Button
+            type="button"
+            size="lg"
+            variant="secondary"
+            disabled={this.props.pristine || this.props.submitting}
+            onClick={this.resetForm}
+            style={{ float: "right" }}
+          >
+            Clear
+          </Button>
+        </Form>
+        <div className="clear" />
+      </div>
     </div>
   );
 }
