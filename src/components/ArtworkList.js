@@ -13,6 +13,7 @@ class ArtworkList extends React.Component{
 
 
     render(){
+        console.log(this.props.artworks);
         if(this.props.artworks.length > 0){
             return(
                 <div className="ui segment">
