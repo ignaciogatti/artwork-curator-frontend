@@ -1,0 +1,23 @@
+runtime: nodejs
+api_version: '1.0'
+env: flexible
+threadsafe: true
+handlers:
+  - url: /
+    application_readable: false
+    static_files: build/index.html
+    require_matching_file: false
+    upload: build/index.html
+  - url: '/(.*)'
+    application_readable: false
+    static_files: "build/\\1"
+    require_matching_file: false
+    upload: 'build/.*'
+
+manual_scaling:
+  instances: 1
+
+resources:
+  cpu: .5
+  memory_gb: 1.8
+  disk_size_gb: 10

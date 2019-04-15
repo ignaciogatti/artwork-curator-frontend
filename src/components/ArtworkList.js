@@ -22,13 +22,14 @@ class ArtworkList extends React.Component{
                     <Carousel showThumbs={true} showArrows={true} dynamicHeight>
                     {
                         this.props.artworks.map((artwork, index)=>{
-                            let name = artwork.substring(artwork.lastIndexOf('/')+1);
-                            name = name.split('.jpg')[0];
-                            let url = artwork.split('.jpg')[0];
+                            let url = artwork.imageUrl.split('.jpg')[0];
                             url = url +'.jpg';
                             return(
-                                <div key={index}>
+                                <div key={artwork.id}>
                                     <img src={url}/>
+                                    <p className="legend">
+                                        <b>{artwork.title}</b> by {artwork.artist} 
+                                    </p>
                                 </div>
                             );
                         })
