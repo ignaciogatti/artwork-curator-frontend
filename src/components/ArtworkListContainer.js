@@ -6,15 +6,20 @@ import ArtworkList from './ArtworkList';
 const ArtworkListContainer = () => {
     return (
 
-        <div className="ui stackable two column grid">
-            <div className="column">
-                <UploardForm />
-            </div>
-            <div className="column">
-                <ArtworkList />
-            </div>
-        </div>
+        <section id="resume">
+            <div className="row">
 
+                <div className="three column">
+                    <UploardForm />
+                </div>
+
+                <div className=" nine column main-col">
+                    <ArtworkList />
+                </div>
+            </div>
+
+
+        </section>
 
     );
 }

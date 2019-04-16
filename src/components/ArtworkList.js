@@ -16,7 +16,7 @@ class ArtworkList extends React.Component{
         console.log(this.props.artworks);
         if(this.props.artworks.length > 0){
             return(
-                <div className="ui segment">
+                <div className="row item">
                     <h1 className="title">Curator selection</h1>
                     <hr />
                     <Carousel showThumbs={true} showArrows={true} dynamicHeight>
@@ -39,8 +39,8 @@ class ArtworkList extends React.Component{
             );
         }else{
             return (
-            <div className="ui segment">
-                <h1 className="title">Curator selection</h1>
+            <div className="row item">
+                <h1><span>Curator selection</span></h1>
                 <hr />
             </div>
             );

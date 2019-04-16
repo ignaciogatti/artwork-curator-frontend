@@ -1,24 +1,28 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import {LinkContainer} from 'react-router-bootstrap';
+import {Link} from 'react-router-dom';
 
 const Header = () =>{
     return(
-        <Navbar bg="light" expand="lg">
-        <LinkContainer exact to="/">
-            <Navbar.Brand>Artwork Curator</Navbar.Brand>
-        </LinkContainer>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-            <Nav className="justify-content-center" >
-                <LinkContainer to="/aboutme">
-                    <Nav.Link>About Me</Nav.Link>
-                </LinkContainer>
-            </Nav>
-        </Navbar.Collapse>
-        </Navbar>
-    );
+        <header id="home">
+
+            <nav id="nav-wrap">
+
+    
+            <ul id="nav" className="nav">
+                <li className="current">
+                    <Link to="/">Artwork Curator</Link>
+                </li>
+                <li>
+                    <Link to="/aboutme">About me</Link>
+                </li>
+            </ul>
+    
+            </nav>
+    
+        </header>
+
+
+        );
 };
 
 export default Header;

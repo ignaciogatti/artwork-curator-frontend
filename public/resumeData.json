@@ -1,0 +1,100 @@
+{
+"main": {
+    "name":"Ignacio Gatti",
+    "occupation":"Software Engineer & AI Researcher",
+    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image":"foto_perfil.jpg",
+    "bio":"Currently, I am doing my Phd studies on Computer Science. In a few words, I am working with Recommender Systems techniques, applying them to art domain.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "nacho.gatti@gmail.com",
+    "phone": "+54 9 249 4021564",
+    "address":{
+      "street":"General Roca 960 dpto 3",
+      "city":"Tandil",
+      "state":"Argentina",
+      "zip": "7000"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ignacio-gatti-81615168/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/ig.gatti",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/ignaciogatti",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I am curious Python developer that love to merge software with other areas. ",
+    "education":[
+      {
+        "school":"National University of Center of Buenos Aires Province (UNCPBA- Argentina)",
+        "degree":"Phd Computer Science",
+        "graduated":"On progress",
+        "description":""
+      },
+      {
+        "school":"National University of Center of Buenos Aires Province (UNCPBA- Argentina)",
+        "degree":"B.Sc. in Software Engineer",
+        "graduated":"September 2015",
+        "description":"Thesis title: An assistant for working team selection based on SAT techniques"
+      }
+    ],
+    "work":[
+      {
+        "company":"ISISTAN Institute Research",
+        "title":"Artwork curator System",
+        "years":"May 2016 - Present",
+        "description":"Lead the devolpment and reseacrh of a novel Artwork Recommender System, using Deep Learning techniques. The idea is to find interesting relationships between artworks. The project is developed in Python. We use Autoencoder techniques (Denoising and Sliced-Wasserstein) to represent artworks images (obtaining a low-dimension representation) . Developed with Keras and Tensorflow. Also, we add an influence graph to connect authors. This graph was extracted from DBpedia Ontology and modeled using Networkx library. To compare vectors, we analyze different metrics, provided by Sklearn and Scipy. Nowadays, we have an API that is developed with Flask and Flask-Restplus and is deployed in Google App Engine"
+      },
+      {
+        "company":"ISISTAN Institute Research",
+        "title":"Cross-domain Recommender System",
+        "years":"March 2014 - February 2016",
+        "description":"Developed a Cross-domain Recommender System approach to recommend books taking data from movie domain. The idea is to mitigate the cold-start problem in the book domain. The project is developed in Python. To model the items, we use word embedding techniques (Word2Vect and GLoVe). Developed with GenSim library. To link books and movies, we decided to generate an influence graph that connect authors. This graph was extracted from DBpedia Ontology and modeled using Networkx library. To compare vectors, we analyze different metrics, provided by Sklearn. Also, to store and manage the data, we use Pandas and MySql."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"Machine Learning",
+        "level":"80%"
+      },
+      {
+        "name":"Flask",
+        "level":"70%"
+      },
+      {
+        "name":"MySql",
+        "level":"80%"
+      },
+      {
+        "name":"Java",
+        "level":"60%"
+      },
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"40%"
+      }
+
+    ]
+  }
+
+}

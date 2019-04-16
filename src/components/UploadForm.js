@@ -35,7 +35,7 @@ class UploadImageForm extends Component {
   resetForm = () => this.setState({ imageFile: [] }, () => this.props.reset());
 
   render = () => (
-    <div className="ui placeholder segment">
+    <div className="row item">
       <div className="app-container">
         <h1 className="title">Upload An Artwork</h1>
         <hr />
