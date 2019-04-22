@@ -37,7 +37,7 @@ class UploadImageForm extends Component {
   render = () => (
     <div className="row item">
       <div className="app-container">
-        <h1 className="title">Upload An Artwork</h1>
+        <h1>Upload An Artwork</h1>
         <hr />
         <Form onSubmit={this.props.handleSubmit(this.handleFormSubmit)}>
           <Field
@@ -54,7 +54,7 @@ class UploadImageForm extends Component {
             size="lg"
             disabled={this.props.submitting}
           >
-            Submit
+            Search
           </Button>
           <Button
             type="button"

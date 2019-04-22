@@ -6,14 +6,13 @@ import ArtworkList from './ArtworkList';
 const ArtworkListContainer = () => {
     return (
 
-        <section id="resume">
+        <section id="artworkList">
             <div className="row">
-
-                <div className="three column">
+                <div className="three columns header-col">
                     <UploardForm />
                 </div>
 
-                <div className=" nine column main-col">
+                <div className=" nine columns main-col">
                     <ArtworkList />
                 </div>
             </div>

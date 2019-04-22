@@ -1,45 +1,19 @@
 import React from 'react';
-import $ from 'jquery';
 import About from './CV/About';
 import Resume from './CV/Resume';
+import {connect} from 'react-redux';
+
 
 
 
 class AboutMe extends React.Component{
 
-    constructor(props){
-        super(props);
-        this.state = {
-          resumeData: {}
-        };
-    
-    }
-    
-      getResumeData(){
-        $.ajax({
-          url:'/resumeData.json',
-          dataType:'json',
-          cache: false,
-          success: function(data){
-            this.setState({resumeData: data});
-          }.bind(this),
-          error: function(xhr, status, err){
-            console.log(err);
-            alert(err);
-          }
-        });
-      }
-    
-      componentDidMount(){
-        this.getResumeData();
-      }
-    
     render(){
-
+      console.log(this.props.resumeData);
         return(
             <div>
-                <About data={this.state.resumeData.main}/>
-                <Resume data={this.state.resumeData.resume}/>
+                <About data={this.props.resumeData.main}/>
+                <Resume data={this.props.resumeData.resume}/>
             </div>
         );
 
@@ -47,4 +21,10 @@ class AboutMe extends React.Component{
 
 }
 
-export default AboutMe;
+const mapStateToProps = state =>{
+
+    return { resumeData: state.resumeData };
+}
+
+
+export default connect(mapStateToProps, null)(AboutMe);

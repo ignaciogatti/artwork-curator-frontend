@@ -10,8 +10,9 @@ img {
   }
 
   .app-container {
-    width: 31.25em;
-    margin: 1.875em auto;
+    max-width: 31.25em;
+    justify-content: center;
+    align-items: center;
   }
   
   .clear {
@@ -34,12 +35,13 @@ img {
   
   .image-container {
     align-items: center;
+    justify-content: center;
     display: flex;
     width: 85%;
     height: 80%;
     float: left;
-    margin: 0.9375em 0.625em 0.625em 2.3125em;
     text-align: center;
+    margin: 15px 10px 10px 15px;
   }
   
   .preview-container {

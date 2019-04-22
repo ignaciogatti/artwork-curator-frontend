@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -228,6 +228,19 @@ ul#nav li.current a { color: #F06000; }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+}
+
+/* header social links */
+#about .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+#about .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
 }
 
 
@@ -1009,3 +1022,55 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+
+/* ------------------------------------------------------------------ */
+/* d. ArtworkList Section
+/* ------------------------------------------------------------------ */
+
+#artworkList {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#artworkList a, #artworkList a:visited  { color: #11ABB0; }
+#artworkList a:hover, #artworkList a:focus { color: #313131; }
+
+#artworkList h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#artworkList h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#artworkList h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#artworkList .header-col { 
+   padding-top: 9px; 
+}
+#artworkList .main-col { 
+   padding-right: 10%;
+   padding-left: 20%;
+}
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+
+#artworkList .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#artworkList .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
