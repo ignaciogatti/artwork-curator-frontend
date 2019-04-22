@@ -8,12 +8,23 @@ class ArtworkList extends React.Component{
 
 
     shouldComponentUpdate(nextProps, nextState) {
-        return nextProps.artoworks !== this.props.artworks;
+        return (nextProps.artworks !== this.props.artworks) || (nextProps.isFetching !== this.props.isFetching);
     }
 
 
     render(){
-        console.log(this.props.artworks);
+        console.log(this.props);
+        if (this.props.isFetching){
+            return (
+                <div className="row item">
+                    <h3>Curator selection</h3>
+                    <hr />
+                    <div className="ui active inverted dimmer">
+                        <div className="ui small text loader">Searching</div>
+                    </div>
+                </div>
+                );
+        }
         if(this.props.artworks.length > 0){
             return(
                 <div className="row item">
@@ -50,7 +61,11 @@ class ArtworkList extends React.Component{
 }
 
 const mapStateToProps = state => {
-    return {artworks : state.artworks}
+    
+    return {
+        artworks : state.artworksFetchData.items,
+        isFetching : state.artworksFetchData.isFetching
+    } 
 }
 
 export default connect(mapStateToProps)(ArtworkList);
