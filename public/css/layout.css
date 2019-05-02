@@ -1026,7 +1026,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. ArtworkList Section
+/* j. ArtworkList Section
 /* ------------------------------------------------------------------ */
 
 #artworkList {
@@ -1073,4 +1073,25 @@ footer .social-links li:first-child { margin-left: 0; }
 #artworkList .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* k. Description Section
+/* ------------------------------------------------------------------ */
+
+#description {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+   justify-content: center;
+   align-items: center;
+}
+
+#description .description-app {
+   display: inline-block;
+   vertical-align: middle;
+   max-width: 900px;
+   max-height: 500px;
 }

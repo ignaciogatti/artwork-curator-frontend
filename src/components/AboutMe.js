@@ -9,7 +9,6 @@ import {connect} from 'react-redux';
 class AboutMe extends React.Component{
 
     render(){
-      console.log(this.props.resumeData);
         return(
             <div>
                 <About data={this.props.resumeData.main}/>

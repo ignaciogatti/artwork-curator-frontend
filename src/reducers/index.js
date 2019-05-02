@@ -6,7 +6,7 @@ import cvDataReducer from './cvDataReducer';
 
 export default combineReducers({
     form : formReducer,
-    artworks : artworkRetrievalReducer,
+    artworksFetchData : artworkRetrievalReducer,
     resumeData : cvDataReducer
 
 });

@@ -3,6 +3,7 @@ import artworkRetrieval from '../apis/artworkRetrieval';
 
 export const uploadArtwork = fd => async dispatch => {
 
+    dispatch({type:'REQUEST_DATA'});
 
     const config = {
        headers: {'Content-Type': 'multipart/form-data' }
@@ -10,8 +11,6 @@ export const uploadArtwork = fd => async dispatch => {
 
 
     const response = await artworkRetrieval.post('/artwork/predict/', fd, config);
-    
-    console.log(response);
 
 
     dispatch({type : 'UPLOAD_ARTWORK', payload : response.data.sim_artworks});
