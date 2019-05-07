@@ -152,11 +152,14 @@ ul#nav {
    /* center align the menu */
    text-align: center;
 }
-ul#nav li {
-   position: relative;
-   list-style: none;
-   height: 48px;
+ul#nav > li {
    display: inline-block;
+   float: left;
+   height: 48px;
+}
+
+ul#nav > li.auth {
+   float: right !important;
 }
 
 /* Links */
@@ -181,7 +184,12 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
+.red.google.button {
+   height: 48px;
+   background-color: rgb(149, 15, 15);
+}
 
+.red.google.button:hover{background-color: rgb(231, 25, 25)}
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
