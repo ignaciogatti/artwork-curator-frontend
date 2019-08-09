@@ -16,3 +16,17 @@ export const uploadArtwork = fd => async dispatch => {
     dispatch({type : 'UPLOAD_ARTWORK', payload : response.data.sim_artworks});
   
   };
+
+
+export const signIn = userId =>{
+    return {
+        type: 'SIGN_IN',
+        payload: userId
+    };
+};
+
+export const signOut = () =>{
+    return {
+        type: 'SIGN_OUT'
+    };
+};

@@ -1,15 +1,15 @@
-runtime: nodejs
-api_version: '1.0'
-env: flexible
-threadsafe: true
+runtime: nodejs8
+# api_version: '1.0'
+# env: flexible
+# threadsafe: true
 handlers:
   - url: /
-    application_readable: false
+#    application_readable: false
     static_files: build/index.html
     require_matching_file: false
     upload: build/index.html
   - url: '/(.*)'
-    application_readable: false
+#    application_readable: false
     static_files: "build/\\1"
     require_matching_file: false
     upload: 'build/.*'
