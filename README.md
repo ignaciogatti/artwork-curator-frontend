@@ -6,4 +6,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Artwork Curator
 
-This idea of this app is to find interesting and curious relationships between artworks
+This idea of [this app](https://artwork-curator.appspot.com/) is to find interesting and curious relationships between artworks
