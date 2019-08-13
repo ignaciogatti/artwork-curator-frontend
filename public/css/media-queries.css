@@ -237,6 +237,13 @@
      font-size: 22px;
   }
 
+  /* header social links */
+  #about .social {
+   margin: 18px 0 24px 0;
+   font-size: 24px;
+   line-height: 36px;      
+  }
+  #about .social li { margin: 0 10px; }
 
   /* Resume Section
   --------------------------------------------------------------------- */
@@ -389,8 +396,8 @@
   }
  
   /* header social links */
-  header .social { font-size: 20px;}
-  header .social li { margin: 0 6px; }
+  #about .social { font-size: 20px;}
+  #about .social li { margin: 0 6px; }
 
   /* footer
   ------------------------------------------------------------------------ */

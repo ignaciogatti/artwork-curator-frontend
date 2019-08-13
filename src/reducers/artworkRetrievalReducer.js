@@ -1,17 +1,22 @@
+import {
+    UPLOAD_ARTWORK,
+    REQUEST_DATA
+} from '../actions/types'
+
 export default (
     state={
         items:[], 
         isFetching : false
     },
-         action)=> {
+         action) => {
              switch(action.type){
-                 case 'UPLOAD_ARTWORK':
+                 case UPLOAD_ARTWORK:
                     return {
                         ...state,
                         items: action.payload,
                         isFetching:false
                     };
-                 case 'REQUEST_DATA':
+                 case REQUEST_DATA:
                     return {
                         ...state,
                         isFetching:true

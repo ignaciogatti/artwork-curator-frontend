@@ -25,7 +25,7 @@ class Header extends React.Component{
 
                 {this.props.isSignedIn && (
                     <li>
-                        <Link className="header-link" to="/aboutme">Tests</Link>
+                        <Link className="header-link" to="/experiment">Experiments</Link>
                     </li>
                     )}
                     

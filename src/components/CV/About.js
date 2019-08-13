@@ -40,7 +40,7 @@ class About extends Component {
                      <span>{email}</span>
 					   </p>
                </div>
-               <div className="row banner">
+               <div className="columns banner">
                   <div className="banner-text">
                      <ul className="social">
                         {networks}
