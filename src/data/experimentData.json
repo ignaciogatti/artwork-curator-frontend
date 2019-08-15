@@ -1,0 +1,124 @@
+{
+  "sim_artworks": [
+    {
+      "title": "Waterloo Bridge",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads4.wikiart.org/images/claude-monet/waterloo-bridge-1901.jpg!Large.jpg",
+      "id": 7066
+    },
+    {
+      "title": "Happyness of meeting",
+      "artist": "Lev Lagorio",
+      "imageUrl": "https://uploads8.wikiart.org/images/lev-lagorio/happyness-of-meeting-1903.jpg!Large.jpg",
+      "id": 30499
+    },
+    {
+      "title": "River floods, such as seas",
+      "artist": "Ivan Shishkin",
+      "imageUrl": "https://uploads6.wikiart.org/images/ivan-shishkin/river-floods-such-as-seas-1890.jpg!Large.jpg",
+      "id": 26355
+    },
+    {
+      "title": "The Watering Place at Marly Le Roi Hoarfrost",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads7.wikiart.org/images/alfred-sisley/the-watering-place-at-marly-le-roi-hoarfrost-1875.jpg!Large.jpg",
+      "id": 14825
+    },
+    {
+      "title": "A boat in the sea. Crimea",
+      "artist": "Arkhip Kuindzhi",
+      "imageUrl": "https://uploads2.wikiart.org/images/arkhip-kuindzhi/a-boat-in-the-sea-crimea.jpg!Large.jpg",
+      "id": 27334
+    },
+    {
+      "title": "Landscape, Louveciennes",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads1.wikiart.org/images/camille-pissarro/landscape-louveciennes.jpg!Large.jpg",
+      "id": 12356
+    },
+    {
+      "title": "Fog in the mountains. Caucasus",
+      "artist": "Arkhip Kuindzhi",
+      "imageUrl": "https://uploads7.wikiart.org/images/arkhip-kuindzhi/fog-in-the-mountains-caucasus.jpg!Large.jpg",
+      "id": 29599
+    },
+    {
+      "title": "Cherbourg",
+      "artist": "Eugene Boudin",
+      "imageUrl": "https://uploads8.wikiart.org/images/eugene-boudin/cherbourg-1883.jpg!Large.jpg",
+      "id": 18045
+    },
+    {
+      "title": "On the Banks of the River Loing",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads7.wikiart.org/images/alfred-sisley/on-the-banks-of-the-river-loing.jpg!Large.jpg",
+      "id": 10763
+    },
+    {
+      "title": "Trees by the River",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads1.wikiart.org/images/gustave-loiseau/trees-by-the-river-1891.jpg!Large.jpg",
+      "id": 10052
+    },
+    {
+      "title": "The Spring at Vetheuil",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads6.wikiart.org/images/claude-monet/the-spring-at-vetheuil.jpg!Large.jpg",
+      "id": 3768
+    },
+    {
+      "title": "Landscape of Paddy Field",
+      "artist": "Abdullah Suriosubroto",
+      "imageUrl": "https://uploads8.wikiart.org/images/abdullah-suriosubroto/landscape-of-paddy-field.jpg!Large.jpg",
+      "id": 31016
+    },
+    {
+      "title": "The Dam at Saint Mammes",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads4.wikiart.org/images/alfred-sisley/the-dam-at-saint-mammes-1885.jpg!Large.jpg",
+      "id": 12249
+    },
+    {
+      "title": "Trebizond from the Sea",
+      "artist": "Ivan Aivazovsky",
+      "imageUrl": "https://uploads5.wikiart.org/images/ivan-aivazovsky/trebizond-from-the-sea-1856.jpg!Large.jpg",
+      "id": 26436
+    },
+    {
+      "title": "Clipping iceberg",
+      "artist": "Caspar David Friedrich",
+      "imageUrl": "https://uploads1.wikiart.org/images/caspar-david-friedrich/clipping-iceberg.jpg!Large.jpg",
+      "id": 3950
+    },
+    {
+      "title": "The Havre, the trade bassin",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads1.wikiart.org/images/claude-monet/the-havre-the-bassin-trade.jpg!Large.jpg",
+      "id": 3234
+    },
+    {
+      "title": "Mediterranean Scene",
+      "artist": "William Leighton Leitch",
+      "imageUrl": "https://uploads5.wikiart.org/images/william-leighton-leitch/mediterranean-scene.jpg!Large.jpg",
+      "id": 42902
+    },
+    {
+      "title": "The Boats Regatta at Argenteuil",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads6.wikiart.org/images/claude-monet/the-boats-regatta-at-argenteuil.jpg!Large.jpg",
+      "id": 1364
+    },
+    {
+      "title": "Easter in the Village",
+      "artist": "Margareta Sterian",
+      "imageUrl": "https://uploads1.wikiart.org/images/margareta-sterian/easter-in-the-village.jpg!Large.jpg",
+      "id": 850
+    },
+    {
+      "title": "Hill with the Ruins of Montmajour",
+      "artist": "Vincent van Gogh",
+      "imageUrl": "https://uploads8.wikiart.org/images/vincent-van-gogh/hill-with-the-ruins-of-montmajour-1888.jpg!Large.jpg",
+      "id": 4158
+    }
+  ]
+}

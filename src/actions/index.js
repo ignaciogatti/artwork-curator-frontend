@@ -37,10 +37,18 @@ export const signOut = () =>{
     };
 };
 
-export const save_data = rating => async (dispatch, getState) => {
+export const save_data = data => async (dispatch, getState) => {
 
     const {userId} = getState().auth;
-    const response = await dataExperiment.post('/putData', {...{id : userId, message: rating} });
+    const {sourceArtworkId, ratedArtworkId, rating} = data;
+    const response = await dataExperiment.post(
+        '/putData', 
+        {...{id : parseInt(`${userId}${sourceArtworkId}`),
+            userId: userId,
+            sourceArtworkId: sourceArtworkId,
+            ratedArtworkId: ratedArtworkId, 
+            rating: rating
+        } });
     
     dispatch({type: SAVE_DATA, payload: response.data});
 

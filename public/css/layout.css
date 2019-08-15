@@ -32,7 +32,7 @@ body { background: #0f0f0f; }
 header {
    position: relative;
    height: 50em;
-   max-height: 3.125em;
+   max-height: 3.225em;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
@@ -1105,3 +1105,48 @@ footer .social-links li:first-child { margin-left: 0; }
    max-width: 56.25em;
    max-height: 31.25em;
 }
+
+/* -------------------------------------------------------------------- */
+/* l. Experiment
+/* -------------------------------------------------------------------- */
+
+#experiment {
+   background: #fff;
+   padding-top: 5.625em;
+   padding-bottom: 4.5em;
+   overflow: hidden;
+}
+
+#experiment a, #experiment a:visited  { color: #11ABB0; }
+#experiment a:hover, #experiment a:focus { color: #313131; }
+
+#experiment h1 {
+   font: 1.125em/1.5em 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 0.0625em;
+}
+#experiment h1 span {
+   border-bottom: 0.1875em solid #11ABB0;
+   padding-bottom: 0.375em;
+}
+#experiment h3 {
+   font: 1.5625em/1.875em 'opensans-bold', sans-serif;
+}
+
+#experiment .header-col { 
+   padding-top: 0.5625em; 
+   background-color: #095153;
+}
+#experiment .main-col { 
+   
+   background-color: #95A3A3;
+   display: block;
+   text-align: center;
+
+ }
+
+ #experiment #carousel{
+    margin: 0 auto;
+
+ }
+
