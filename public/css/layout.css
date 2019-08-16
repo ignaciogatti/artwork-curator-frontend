@@ -24,6 +24,7 @@
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
+#root{ height: 100%;}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -201,7 +202,7 @@ ul#nav li.current .header-link { color: #F06000; }
    color: #7A7A7A;
 }
 #about .profile-pic {
-   position: relative;
+   display: inline-block;
    width: 7.5em;
    height: 7.5em;
    border-radius: 100%;
@@ -211,6 +212,12 @@ ul#nav li.current .header-link { color: #F06000; }
    width: 58.33333%;
    padding-top: 0.375em;
 }
+
+#about .header-col { 
+   padding-right: 5%;
+   text-align: right;
+}
+
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 0.375em;
@@ -281,7 +288,11 @@ ul#nav li.current .header-link { color: #F06000; }
    font: 1.5625em/1.875em 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 0.5625em; }
+#resume .header-col { 
+   padding-top: 0.5625em; 
+   padding-right: 5%;
+   text-align: right;
+}
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -1112,41 +1123,67 @@ footer .social-links li:first-child { margin-left: 0; }
 
 #experiment {
    background: #fff;
-   padding-top: 5.625em;
-   padding-bottom: 4.5em;
-   overflow: hidden;
+   height: 100%;
+   margin: 0;
 }
 
 #experiment a, #experiment a:visited  { color: #11ABB0; }
 #experiment a:hover, #experiment a:focus { color: #313131; }
 
+#experiment #sourceImg{
+   border: 4px solid #ddd;
+   border-radius: 4px;
+   padding: 5px;
+}
+
 #experiment h1 {
    font: 1.125em/1.5em 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 0.0625em;
+   padding-bottom: 0.375em;
 }
 #experiment h1 span {
    border-bottom: 0.1875em solid #11ABB0;
    padding-bottom: 0.375em;
 }
 #experiment h3 {
-   font: 1.5625em/1.875em 'opensans-bold', sans-serif;
+   font-family: "Roboto", Helvetica, sans-serif;
+   font-size: 2.25em;
+   font-weight: 700;
+   padding-bottom: 0.375em;
+   padding-top: 0.375em;
+}
+
+#experiment .row{
+   background-color: #0D0D0D;
 }
 
 #experiment .header-col { 
    padding-top: 0.5625em; 
-   background-color: #095153;
+   background-color: rgb(238, 236, 235);
+   text-align: center;
 }
 #experiment .main-col { 
    
+   padding: 0;
    background-color: #95A3A3;
    display: block;
    text-align: center;
-
+   height: calc(100vh - 4.25em);
  }
 
- #experiment #carousel{
-    margin: 0 auto;
-
+ #experiment .carousel-item {
+   height: calc(100vh - 4.25em);
  }
 
+ #experiment .carousel-item img{
+      min-height: calc(100vh - 4.25em);
+      object-fit: cover;
+      position: sticky;
+      border: 10px solid #ddd;
+ }
+
+ #experiment .carousel-caption {
+   color:  rgba(14, 10, 10, 0.705) !important;
+   font-size: 2.075em;
+}

@@ -1,10 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {save_data} from '../actions';
-//import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image } from 'pure-react-carousel';
-//import 'pure-react-carousel/dist/react-carousel.es.css';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from 'react-bootstrap/Carousel'
 
 class Experiment extends React.Component{
 
@@ -21,20 +18,18 @@ class Experiment extends React.Component{
             let url = artwork.imageUrl.split('.jpg')[0];
             url = url +'.jpg';
             return(
-                <div key={index} >
-                    <img src={url}/>
-                    <p className="legend">
-                        <b>{artwork.title}</b> by {artwork.artist} 
-                    </p>
-                    <button 
-                    onClick={this.onClick({
-                        sourceArtworkId : 32, 
-                        ratedArtworkId : artwork.id, 
-                        rating :'Agree'
-                    })}>
-                        Agree
-                    </button>
-                </div>
+                <Carousel.Item key={artwork.id}>
+                    <img 
+                        src={url} 
+                        alt={artwork.title}
+                        className="d-block w-100"
+                    />
+                    <Carousel.Caption>
+                        <p className="legend">
+                            <i>{artwork.title}</i> by {artwork.artist} 
+                        </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
             );
         })
     }
@@ -47,17 +42,18 @@ class Experiment extends React.Component{
             <section id="experiment">
                 <div className="row">
                     <div className="three columns header-col">
-                        <h2>Image</h2>
-                        <img src="https://uploads8.wikiart.org/images/claude-monet/waterloo-bridge-london-1.jpg!Large.jpg" alt="Source Artwork" />
+                        <h3>D-Curator</h3>
+                        <p>The following artworks was selected by an IA. It consider that are related to <i>"Waterloo Bridge, London"</i> (Monet, 1903) </p>
+                        <img 
+                            id="sourceImg"
+                            src="https://uploads8.wikiart.org/images/claude-monet/waterloo-bridge-london-1.jpg!Large.jpg" alt="Source Artwork" 
+                        />
                     </div>
 
                     <div className=" nine columns main-col">
-                        <h3>Curator selection</h3>
-                        <div id="carousel">
-                            <Carousel showThumbs={true} showArrows={true}>
-                                {this.renderSlides()}
-                            </Carousel>
-                        </div>
+                        <Carousel interval={null}>
+                            {this.renderSlides()}
+                        </Carousel>
                     </div>
                 </div>
 

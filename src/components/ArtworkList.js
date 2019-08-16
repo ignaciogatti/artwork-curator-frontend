@@ -37,7 +37,7 @@ class ArtworkList extends React.Component{
                             url = url +'.jpg';
                             return(
                                 <div key={artwork.id}>
-                                    <img src={url}/>
+                                    <img src={url} alt={artwork.title}/>
                                     <p className="legend">
                                         <b>{artwork.title}</b> by {artwork.artist} 
                                     </p>

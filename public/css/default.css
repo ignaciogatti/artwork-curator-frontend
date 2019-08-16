@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -153,13 +153,14 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+html,body { height:100%; }
 /*  2. Typography
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
    color: #313131;
-	font-family: 'opensans-bold', sans-serif;
+	font-family: "Roboto", Helvetica, sans-serif;
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -593,12 +594,12 @@ input[type="checkbox"] { display: inline; }
 /* default
 --------------------------------------------------------------- */
 .row {
-   width: 96%;
-   max-width: 1020px;
+/*   width: 96%;
+   max-width: 1020px;*/
    margin: 0 auto;
 }
 /* fixed width for IE8 */
-.ie .row { width: 1000px ; }
+.ie .row { width: 100% ; }
 
 .narrow .row { max-width: 980px; }
 
