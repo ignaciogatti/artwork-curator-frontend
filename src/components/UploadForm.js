@@ -35,10 +35,7 @@ class UploadImageForm extends Component {
   resetForm = () => this.setState({ imageFile: [] }, () => this.props.reset());
 
   render = () => (
-    <div className="row item">
       <div className="app-container">
-        <h1>Upload An Artwork</h1>
-        <hr />
         <Form onSubmit={this.props.handleSubmit(this.handleFormSubmit)}>
           <Field
             name="imageToUpload"
@@ -49,6 +46,7 @@ class UploadImageForm extends Component {
             validate={[imageIsRequired]}
           />
           <Button
+            className="uploadButton"
             type="submit"
             variant="primary"
             size="lg"
@@ -57,19 +55,18 @@ class UploadImageForm extends Component {
             Search
           </Button>
           <Button
+            className="uploadButton"
             type="button"
             size="lg"
             variant="secondary"
             disabled={this.props.pristine || this.props.submitting}
             onClick={this.resetForm}
-            style={{ float: "right" }}
           >
             Clear
           </Button>
         </Form>
         <div className="clear" />
       </div>
-    </div>
   );
 }
 

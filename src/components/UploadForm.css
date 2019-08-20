@@ -1,6 +1,7 @@
 img {
     max-height: 15em;
-    margin: 0 auto;
+    margin: auto;
+    display: inline-block;
   }
   
   .ui.placeholder.segment {
@@ -10,9 +11,10 @@ img {
   }
 
   .app-container {
-    max-width: 31.25em;
+    display: inline-block;
     justify-content: center;
     align-items: center;
+    border: 10px solid #ddd;
   }
   
   .clear {
@@ -36,22 +38,49 @@ img {
   .image-container {
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: inline-block;
     width: 85%;
     height: 80%;
-    float: left;
     text-align: center;
-    margin: 15px 10px 10px 15px;
+    padding-top: 1.25em;
   }
   
   .preview-container {
-    height: 20.9375em;
     width: 100%;
-    margin-bottom: 2.5em;
+    margin: auto;
+    padding: 0.8em;
+    display: inline-block;
+  }
+
+  .preview-container p{
+    text-align: center;
+  }
+
+  .placeholder-preview {
+    cursor: pointer;
   }
   
+  .placeholder-preview,
+  .render-preview {
+    text-align: center;
+    background-color: #efebeb;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
   .upload-container {
     cursor: pointer;
     height: 18.75em;
   }
   
+  #uploadIcon{
+    height: 40%;
+    width: 40%;
+    padding: 0.8em;
+  }
+
+  .uploadButton{
+    margin: 0.8em;
+  }

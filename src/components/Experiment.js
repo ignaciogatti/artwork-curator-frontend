@@ -22,11 +22,10 @@ class Experiment extends React.Component{
                     <img 
                         src={url} 
                         alt={artwork.title}
-                        className="d-block w-100"
                     />
                     <Carousel.Caption>
                         <p className="legend">
-                            <i>{artwork.title}</i> by {artwork.artist} 
+                            <i>{artwork.title}</i> by <strong>{artwork.artist}</strong> 
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -43,7 +42,11 @@ class Experiment extends React.Component{
                 <div className="row">
                     <div className="three columns header-col">
                         <h3>D-Curator</h3>
-                        <p>The following artworks was selected by an IA. It consider that are related to <i>"Waterloo Bridge, London"</i> (Monet, 1903) </p>
+                        <p>The following artworks was selected by an IA. It consider that are related to 
+                            <i>"{this.props.experimentData.source_artwork.title}"</i> ({this.props.experimentData.source_artwork.artist}, {this.props.experimentData.source_artwork.year}).
+                            <br />
+                            Help it to improve: tell it if you agree with the choice or not. 
+                        </p>
                         <img 
                             id="sourceImg"
                             src="https://uploads8.wikiart.org/images/claude-monet/waterloo-bridge-london-1.jpg!Large.jpg" alt="Source Artwork" 

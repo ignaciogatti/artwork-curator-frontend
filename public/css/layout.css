@@ -1052,9 +1052,8 @@ footer .social-links li:first-child { margin-left: 0; }
 
 #artworkList {
    background: #fff;
-   padding-top: 5.625em;
-   padding-bottom: 4.5em;
-   overflow: hidden;
+   height: 100%;
+   margin: 0;
 }
 
 #artworkList a, #artworkList a:visited  { color: #11ABB0; }
@@ -1073,27 +1072,49 @@ footer .social-links li:first-child { margin-left: 0; }
    font: 1.5625em/1.875em 'opensans-bold', sans-serif;
 }
 
+#artworkList p{
+   font-size: 1.2em;
+   text-align: left;
+}
+
+
 #artworkList .header-col { 
    padding-top: 0.5625em; 
+   background-color: rgb(238, 236, 235);
+   text-align: center;
 }
 #artworkList .main-col { 
-   padding-right: 10%;
-   padding-left: 20%;
+   
+   padding: 0;
+   background-color: #2B2B2B;
+   display: block;
+   text-align: center;
+   height: calc(100vh - 4.25em);
+ }
+
+ #artworkList .carousel-item {
+   height: calc(100vh - 4.25em);
+ }
+
+ #artworkList .carousel-item img{
+      min-height: calc(100vh - 4.25em);
+      object-fit: contain; 
+      position: sticky;
+      border: 10px solid #ddd;
+ }
+
+
+ #artworkList .carousel-item img#description{
+    border: none;
 }
 
-.education, .work {
-   margin-bottom: 3em;
-   padding-bottom: 1.5em;
-   border-bottom: 0.0625em solid #E8E8E8;
+ #artworkList .carousel-caption {
+   color:  rgba(14, 10, 10, 0.705) !important;
+   font-size: 2.075em;
 }
 
-#artworkList .info span {
-   margin-right: 0.3125em;
-   margin-left: 0.3125em;
-}
-#artworkList .date {
-   font: 0.9375em/1.5em 'opensans-regular', sans-serif;
-   margin-top: 0.375em;
+#artworkList .carousel-caption p{
+   text-align: center;
 }
 
 
@@ -1118,7 +1139,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 /* -------------------------------------------------------------------- */
-/* l. Experiment
+/* l. Experiment Section
 /* -------------------------------------------------------------------- */
 
 #experiment {
@@ -1154,6 +1175,19 @@ footer .social-links li:first-child { margin-left: 0; }
    padding-top: 0.375em;
 }
 
+#experiment p{
+   font-size: 1.2em;
+   text-align: left;
+}
+
+#experiment strong{
+   font-size: 0.8em;
+}
+
+#experiment i{
+   font-size: 1em;
+}
+
 #experiment .row{
    background-color: #0D0D0D;
 }
@@ -1166,7 +1200,7 @@ footer .social-links li:first-child { margin-left: 0; }
 #experiment .main-col { 
    
    padding: 0;
-   background-color: #95A3A3;
+   background-color: #2B2B2B;
    display: block;
    text-align: center;
    height: calc(100vh - 4.25em);
@@ -1178,12 +1212,16 @@ footer .social-links li:first-child { margin-left: 0; }
 
  #experiment .carousel-item img{
       min-height: calc(100vh - 4.25em);
-      object-fit: cover;
+      object-fit: contain;
       position: sticky;
       border: 10px solid #ddd;
  }
 
  #experiment .carousel-caption {
-   color:  rgba(14, 10, 10, 0.705) !important;
+   color:  rgba(0, 0, 0, 0.705) !important;
    font-size: 2.075em;
+}
+
+#experiment .carousel-caption p{
+   text-align: center;
 }

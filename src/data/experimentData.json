@@ -1,4 +1,11 @@
 {
+  "source_artwork":{
+    "title": "Waterloo Bridge",
+    "artist": "Claude Monet",
+    "imageUrl": "https://uploads4.wikiart.org/images/claude-monet/waterloo-bridge-1901.jpg!Large.jpg",
+    "year": 1903,
+    "id": 7066
+  },
   "sim_artworks": [
     {
       "title": "Waterloo Bridge",
