@@ -19,7 +19,7 @@ class ArtworkList extends React.Component{
                     <img 
                         src={url} 
                         alt={artwork.title}
-                        className="d-block w-100"
+                        className="d-block"
                     />
                     <Carousel.Caption>
                         <p className="legend">

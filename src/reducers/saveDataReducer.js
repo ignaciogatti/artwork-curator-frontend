@@ -1,16 +1,15 @@
 import {SAVE_DATA} from '../actions/types';
 
+/*
 const INITIAL_STATE = {
-    id : null,
-    userId: null,
-    sourceArtworkId: null,
-    ratedArtworkId: null,
-    rating: null
+    success : null,
+    ratedArtworks: []
 };
+*/
 
-export default (state = INITIAL_STATE, action) => {
+export default (state = [], action) => {
     if (action.type === SAVE_DATA){
-        return { ...state, [action.payload.id]: action.payload };
+        return [...state, action.payload];
     }else {
         return state;
     };

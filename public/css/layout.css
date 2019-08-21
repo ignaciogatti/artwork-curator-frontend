@@ -32,7 +32,6 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 50em;
    max-height: 3.225em;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
@@ -1225,3 +1224,8 @@ footer .social-links li:first-child { margin-left: 0; }
 #experiment .carousel-caption p{
    text-align: center;
 }
+
+
+ #experiment .carousel-item button{
+   margin: 0.8em;
+ }
