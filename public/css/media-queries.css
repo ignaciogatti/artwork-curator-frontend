@@ -383,22 +383,35 @@
    /*--------------------------------------------------------------------- */ 
    #artworkList .header-col {
       padding-top: 0;
-      margin-bottom: 48px;
       text-align: center;
    }
    #artworkList h1 { letter-spacing: 3px; }
-   #artworkList .main-col { padding-right: 30px; }
+   #artworkList h3 {
+      font-size: 1.5em;
+   }
+   #artworkList p{ 
+      font-size: 0.9em;
+    }
    #artworkList h3, #artworkList .info { text-align: center; }
 
      /* Experiment Section
   --------------------------------------------------------------------- */
   #experiment .header-col {
    padding-top: 0;
-   margin-bottom: 48px;
    text-align: center;
    }
+
+   #experiment #sourceImg{
+      width: 9.375em;
+   }
+   #experiment h3 {
+      font-size: 1.5em;
+   }
+   #experiment p{ 
+      font-size: 0.9em;
+    }
+
    #experiment h1 { letter-spacing: 3px; }
-   #experiment .main-col { padding-right: 30px; }
    #experiment h3, #experiment .info { text-align: center; }
       
    .bars { width: 100%; }

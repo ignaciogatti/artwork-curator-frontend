@@ -1219,6 +1219,7 @@ footer .social-links li:first-child { margin-left: 0; }
  #experiment .carousel-caption {
    color:  rgba(0, 0, 0, 0.705) !important;
    font-size: 2.075em;
+   bottom: 2.5em;
 }
 
 #experiment .carousel-caption p{
@@ -1227,5 +1228,15 @@ footer .social-links li:first-child { margin-left: 0; }
 
 
  #experiment .carousel-item button{
+   position: absolute;
    margin: 0.8em;
+   bottom: 1.2em;
+ }
+
+ #experiment .carousel-item button.left{
+   left: 15%;
+ }
+
+ #experiment .carousel-item button.right{
+   right: 15%;
  }

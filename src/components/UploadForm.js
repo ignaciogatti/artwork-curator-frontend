@@ -36,7 +36,7 @@ class UploadImageForm extends Component {
 
   render = () => (
       <div className="app-container">
-        <Form onSubmit={this.props.handleSubmit(this.handleFormSubmit)}>
+        <Form id="uploadForm" onSubmit={this.props.handleSubmit(this.handleFormSubmit)}>
           <Field
             name="imageToUpload"
             component={DropZoneField}

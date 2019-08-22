@@ -1,11 +1,14 @@
 import artworkRetrieval from '../apis/artworkRetrieval';
 import dataExperiment from '../apis/dataExperiment';
+import experimentData from '../data/experimentData';
+import history from '../history';
 import {
     REQUEST_DATA,
     UPLOAD_ARTWORK,
     SIGN_IN,
     SIGN_OUT,
-    SAVE_DATA
+    SAVE_DATA,
+    FETCH_EXPERIMENT_DATA
 } from './types';
 
 
@@ -32,6 +35,7 @@ export const signIn = userId =>{
 };
 
 export const signOut = () =>{
+    history.push('/');
     return {
         type: SIGN_OUT
     };
@@ -53,3 +57,10 @@ export const save_data = data => async (dispatch, getState) => {
     dispatch({type: SAVE_DATA, payload: response.data});
 
 };
+
+export const fetch_experiment_data = () =>{
+    return{
+        type:FETCH_EXPERIMENT_DATA,
+        payload:experimentData
+    };
+}

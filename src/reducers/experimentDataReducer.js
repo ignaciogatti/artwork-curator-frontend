@@ -1,5 +1,13 @@
-import experimentData from '../data/experimentData';
+import {FETCH_EXPERIMENT_DATA} from '../actions/types'
 
-export default ()=>{
-  return experimentData;
-}
+const INITIAL_STATE = {};
+
+export default (state=INITIAL_STATE, action) => {
+  switch (action.type){
+      case FETCH_EXPERIMENT_DATA:
+          return {...action.payload};
+      default:
+          return state;
+  }
+
+};

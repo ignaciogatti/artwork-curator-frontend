@@ -1,22 +1,16 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {save_data} from '../actions';
+import _ from 'lodash';
+import {save_data, fetch_experiment_data} from '../actions';
 import Carousel from 'react-bootstrap/Carousel'
+import AgreeDesagreeButtons from './AgreeDesagreeButtons';
 
 class Experiment extends React.Component{
 
-    onClick(data){ 
-        return event => {
-            event.preventDefault();
-
-            this.props.save_data(data);
-        };
+    componentDidMount(){
+        this.props.fetch_experiment_data();
     }
-
-    renderButtons(artworkId){
-        const ratedArtwork = this.props.saveData.find(rated => rated.ratedArtworkId === artworkId)
-    }
-
+    
     renderSlides(){
         return this.props.experimentData.sim_artworks.map((artwork, index)=>{
             let url = artwork.imageUrl.split('.jpg')[0];
@@ -32,30 +26,11 @@ class Experiment extends React.Component{
                         <p className="legend">
                             <i>{artwork.title}</i> by <strong>{artwork.artist}</strong> 
                         </p>
-                        <div>
-                            <button 
-                                className="massive circular ui icon positive left floated button"
-                                onClick={this.onClick({
-                                    sourceArtworkId: this.props.experimentData.source_artwork.id, 
-                                    ratedArtworkId: artwork.id,
-                                    rating: 'Agree'
-                                })}
-                            >
-                                <i className="massive thumbs up outline icon"></i>
-                            </button>
-                            <button 
-                                className="massive circular ui icon negative right floated button"
-                                onClick={this.onClick({
-                                    sourceArtworkId: this.props.experimentData.source_artwork.id, 
-                                    ratedArtworkId: artwork.id,
-                                    rating: 'Disagree'
-                                })}
-                            >
-                                <i className="massive thumbs down outline icon"></i>
-                        </button>
-
-                        </div>
                     </Carousel.Caption>
+                    <AgreeDesagreeButtons 
+                        sourceArtworkId={this.props.experimentData.source_artwork.id} 
+                        ratedArtworkId={artwork.id} 
+                    />
                 </Carousel.Item>
             );
         })
@@ -63,7 +38,11 @@ class Experiment extends React.Component{
 
 
     render(){
-        console.log(this.props.saveData);
+
+        if(_.isEmpty(this.props.experimentData)){
+            return <div>Loading...</div>;
+        }
+
         return(
             <div>
             <section id="experiment">
@@ -96,7 +75,6 @@ class Experiment extends React.Component{
 }
 
 const mapStateToProps = state =>{
-
     return { 
         experimentData: state.experimentData,
         saveData : state.saveData
@@ -105,4 +83,4 @@ const mapStateToProps = state =>{
 }
 
 
-export default connect(mapStateToProps, {save_data})(Experiment);
+export default connect(mapStateToProps, {save_data, fetch_experiment_data})(Experiment);
