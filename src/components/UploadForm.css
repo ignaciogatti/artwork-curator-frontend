@@ -99,6 +99,24 @@
     bottom: 0.8em;
   }
 
+  /* screenwidth less than 1050px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1050px) {
+  .app-container{
+    width: 100%;
+  }
+}
+
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+  .uploadButton{
+    font-size: 0.8em;
+    margin: 0.5em;
+  }
+}
+
 
   @media only screen and (max-width: 767px) {
 

@@ -89,20 +89,16 @@
   }
   #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
 
-    /* Resume Section
+    /* ArtworkList Section
   ------------------------------------------------------------------- */
   #artworkList h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-  #artworkList .main-col { height: 66.6vh; }   
-  #artworkList .carousel-item { height: 66.6vh; }
-  #artworkList .carousel-item img{ min-height: 66.6vh; }  
+  #artworkList .carousel-item img{ max-height: 100vh; }  
   #artworkList .carousel-caption { font-size: 1.75em; }
 
-    /* Resume Section
+    /* Experiment Section
   ------------------------------------------------------------------- */
   #experiment h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-  #experiment .main-col { height: 66.6vh; }
-  #experiment .carousel-item { height: 66.6vh; }
-  #experiment .carousel-item img{ min-height: 66.6vh; }  
+  #experiment .carousel-item img{ max-height: 100vh; }  
   #experiment .carousel-caption { font-size: 1.75em; }
 
 

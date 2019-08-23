@@ -1093,13 +1093,15 @@ footer .social-links li:first-child { margin-left: 0; }
 
  #artworkList .carousel-item {
    height: calc(100vh - 4.25em);
+   text-align: center;
  }
 
  #artworkList .carousel-item img{
-      min-height: calc(100vh - 4.25em);
+      height: calc(100vh - 4.25em);
       object-fit: contain; 
       position: sticky;
       border: 10px solid #ddd;
+      margin: auto;
  }
 
 
@@ -1207,13 +1209,15 @@ footer .social-links li:first-child { margin-left: 0; }
 
  #experiment .carousel-item {
    height: calc(100vh - 4.25em);
+   text-align: center;
  }
 
  #experiment .carousel-item img{
-      min-height: calc(100vh - 4.25em);
+      height: calc(100vh - 4.25em);
       object-fit: contain;
       position: sticky;
       border: 10px solid #ddd;
+      margin: auto;
  }
 
  #experiment .carousel-caption {
