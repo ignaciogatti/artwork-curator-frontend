@@ -1,5 +1,5 @@
   #imageUpload {
-    max-height: 12em;
+    max-height: 100%;
     display: inline-block;
     margin-top: 10%; 
   }
@@ -15,8 +15,7 @@
     justify-content: center;
     align-items: center;
     border: 10px solid #ddd;
-    max-height: 25em;
-    height: 100%;
+    height: 40%;
     width: 80%;
   }
 
@@ -50,7 +49,7 @@
     display: inline-block;
     width: 85%;
     text-align: center;
-    max-height: 15em;
+    height: 80%;
   }
   
   .preview-container {
