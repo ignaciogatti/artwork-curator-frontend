@@ -8,7 +8,8 @@ import {
     SIGN_IN,
     SIGN_OUT,
     SAVE_DATA,
-    FETCH_EXPERIMENT_DATA
+    FETCH_EXPERIMENT_DATA,
+    FETCH_USER_RATINGS
 } from './types';
 
 
@@ -63,4 +64,15 @@ export const fetch_experiment_data = () =>{
         type:FETCH_EXPERIMENT_DATA,
         payload:experimentData
     };
+}
+
+export const fetch_user_ratings = () => async (dispatch, getState) =>{
+
+    const {userId} = getState().auth;
+    console.log(userId);
+    const response = await dataExperiment.get(
+        `/getUserRatings/${userId}`
+    )
+    
+    dispatch({type: FETCH_USER_RATINGS, payload: response.data});
 }

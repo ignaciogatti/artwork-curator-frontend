@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import _ from 'lodash';
-import {save_data, fetch_experiment_data} from '../actions';
+import {save_data, fetch_experiment_data, fetch_user_ratings} from '../actions';
 import Carousel from 'react-bootstrap/Carousel'
 import AgreeDesagreeButtons from './AgreeDesagreeButtons';
 
@@ -9,6 +9,16 @@ class Experiment extends React.Component{
 
     componentDidMount(){
         this.props.fetch_experiment_data();
+        if (this.props.isSignedIn){
+            this.props.fetch_user_ratings();
+         }
+    }
+
+    componentDidUpdate(prevProps){
+        if (prevProps.isSignedIn !== this.props.isSignedIn){
+            this.props.fetch_user_ratings();
+        }
+     
     }
     
     renderSlides(){
@@ -42,7 +52,6 @@ class Experiment extends React.Component{
         if(_.isEmpty(this.props.experimentData)){
             return <div>Loading...</div>;
         }
-
         return(
             <div>
             <section id="experiment">
@@ -77,10 +86,12 @@ class Experiment extends React.Component{
 const mapStateToProps = state =>{
     return { 
         experimentData: state.experimentData,
-        saveData : state.saveData
+        saveData : state.saveData,
+        isSignedIn : state.auth.isSignedIn,
+        userRatings : state.userRatings
 
     };
 }
 
 
-export default connect(mapStateToProps, {save_data, fetch_experiment_data})(Experiment);
+export default connect(mapStateToProps, {save_data, fetch_experiment_data, fetch_user_ratings})(Experiment);

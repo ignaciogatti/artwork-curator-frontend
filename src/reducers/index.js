@@ -5,6 +5,7 @@ import cvDataReducer from './cvDataReducer';
 import authReducer from './authReducer';
 import saveDataReducer from './saveDataReducer';
 import experimentDataReducer from './experimentDataReducer';
+import fetchUserRatingsReducer from './fetchUserRatingsReducer';
 
 
 export default combineReducers({
@@ -13,6 +14,7 @@ export default combineReducers({
     resumeData : cvDataReducer,
     auth : authReducer,
     saveData : saveDataReducer,
-    experimentData : experimentDataReducer
+    experimentData : experimentDataReducer,
+    userRatings : fetchUserRatingsReducer
 
 });
