@@ -25,7 +25,7 @@ class AgreeDesagreeButtons extends React.Component{
                             rating: 'Agree'
                         })}
                     >
-                        <i className="massive thumbs up outline icon"></i>
+                        <i className="massive check icon"></i>
                     </button>
                     <button 
                         className="massive circular ui icon negative right button"
@@ -35,7 +35,7 @@ class AgreeDesagreeButtons extends React.Component{
                             rating: 'Disagree'
                         })}
                     >
-                        <i className="massive thumbs down outline icon"></i>
+                        <i className="massive times icon"></i>
                 </button>
             </React.Fragment>);
         }
