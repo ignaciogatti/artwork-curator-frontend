@@ -1,0 +1,161 @@
+{
+    "source_artwork":{
+      "title": "Bathroom",
+      "artist": "Charles Maurin",
+      "imageUrl": "https://uploads3.wikiart.org/images/charles-maurin/bathroom.jpg!Large.jpg",
+      "year": 1903,
+      "id": 5629
+    },
+    "sim_artworks": [
+        {
+          "title": "Bathroom",
+          "artist": "Charles Maurin",
+          "imageUrl": "https://uploads3.wikiart.org/images/charles-maurin/bathroom.jpg!Large.jpg",
+          "id": 5629
+        },
+        {
+          "title": "The Pearl",
+          "artist": "Salvador Dali",
+          "imageUrl": "https://uploads3.wikiart.org/images/salvador-dali/the-pearl.jpg!Large.jpg",
+          "id": 6911
+        },
+        {
+          "title": "Woman's Head with Beauty Spot",
+          "artist": "Amedeo Modigliani",
+          "imageUrl": "https://uploads0.wikiart.org/images/amedeo-modigliani/woman-s-head-with-beauty-spot.jpg!Large.jpg",
+          "id": 16658
+        },
+        {
+          "title": "Combat des Princes Saturniens III",
+          "artist": "Wolfgang Paalen",
+          "imageUrl": "https://uploads7.wikiart.org/images/wolfgang-paalen/combat-des-princes-saturniens-iii-1939.jpg!Large.jpg",
+          "id": 45461
+        },
+        {
+          "title": "Sacrifice of Abel",
+          "artist": "Kuzma Petrov-Vodkin",
+          "imageUrl": "https://uploads4.wikiart.org/images/kuzma-petrov-vodkin/sacrifice-of-abel-1910.jpg!Large.jpg",
+          "id": 21163
+        },
+        {
+          "title": "Sitting Nude from the Back",
+          "artist": "Janos Tornyai",
+          "imageUrl": "https://uploads7.wikiart.org/images/janos-tornyai/sitting-nude-from-the-back-1919.jpg!Large.jpg",
+          "id": 27034
+        },
+        {
+          "title": "Spring Symphony",
+          "artist": "Nikolaos Gyzis",
+          "imageUrl": "https://uploads6.wikiart.org/images/nikolaos-gyzis/vernal-symphony-1886.jpg!Large.jpg",
+          "id": 21331
+        },
+        {
+          "title": "Thinking",
+          "artist": "Nicolae Vermont",
+          "imageUrl": "https://uploads0.wikiart.org/images/nicolae-vermont/thinking-1924.jpg!Large.jpg",
+          "id": 22615
+        },
+        {
+          "title": "Portrait of a girl with crown",
+          "artist": "Guido Reni",
+          "imageUrl": "https://uploads7.wikiart.org/images/guido-reni/portrait-of-a-girl-with-crown-1642.jpg!Large.jpg",
+          "id": 1558
+        },
+        {
+          "title": "Self-portrait",
+          "artist": "Constantin Stahi",
+          "imageUrl": "https://uploads6.wikiart.org/images/constantin-stahi/self-portrait-1871.jpg!Large.jpg",
+          "id": 40791
+        },
+        {
+          "title": "Emerging Luz",
+          "artist": "Remedios Varo",
+          "imageUrl": "https://uploads6.wikiart.org/images/remedios-varo/emerging-luz.jpg!Large.jpg",
+          "id": 30706
+        },
+        {
+          "title": "Ballerina Carlotta Chabert as Venus",
+          "artist": "Francesco Hayez",
+          "imageUrl": "https://uploads0.wikiart.org/images/francesco-hayez/ballerina-carlotta-chabert-as-venus-1830.jpg!Large.jpg",
+          "id": 1367
+        },
+        {
+          "title": "The town Zell on the Moselle River in Germany",
+          "artist": "Karl Bodmer",
+          "imageUrl": "https://uploads6.wikiart.org/images/karl-bodmer/the-town-zell-on-the-moselle-river-in-germany-1841.jpg!Large.jpg",
+          "id": 25743
+        },
+        {
+          "title": "Sleeping Beauty",
+          "artist": "Gustave Dore",
+          "imageUrl": "https://uploads8.wikiart.org/images/gustave-dore/sleeping-beauty.jpg!Large.jpg",
+          "id": 17525
+        },
+        {
+          "title": "Lying Nude (The Bather IX)",
+          "artist": "Georges Braque",
+          "imageUrl": "https://uploads6.wikiart.org/images/georges-braque/lying-nude-the-bather-ix-1932.jpg!Large.jpg",
+          "id": 36444
+        },
+        {
+          "title": "Woman with Flowers in Her Hair",
+          "artist": "Gabriel von Max",
+          "imageUrl": "https://uploads8.wikiart.org/images/gabriel-von-max/woman-with-flowers-in-her-hair.jpg!Large.jpg",
+          "id": 36680
+        },
+        {
+          "title": "The Butler s Table",
+          "artist": "Jean-Baptiste-Simeon Chardin",
+          "imageUrl": "https://uploads5.wikiart.org/images/jean-baptiste-simeon-chardin/the-butler-s-table-1756.jpg!Large.jpg",
+          "id": 18784
+        },
+        {
+          "title": "Mrs. Henry White (Margaret Daisy Stuyvesant Rutherford)",
+          "artist": "John Singer Sargent",
+          "imageUrl": "https://uploads3.wikiart.org/images/john-singer-sargent/mrs-henry-white-margaret-daisy-stuyvesant-rutherford-1883.jpg!Large.jpg",
+          "id": 16821
+        },
+        {
+          "title": "Winter Morning Veneux",
+          "artist": "Alfred Sisley",
+          "imageUrl": "https://uploads2.wikiart.org/images/alfred-sisley/winter-morning-veneux-1881.jpg!Large.jpg",
+          "id": 32665
+        },
+        {
+          "title": "Le soleil du dimanche",
+          "artist": "Felix Labisse",
+          "imageUrl": "https://uploads2.wikiart.org/images/felix-labisse/le-soleil-du-dimanche-1954.jpg!Large.jpg",
+          "id": 20660
+        },
+        {
+          "title": "Landscape Vanderhovensdrif, Apies River, Pretoria",
+          "artist": "Pieter Wenning",
+          "imageUrl": "https://uploads6.wikiart.org/images/pieter-wenning/landscape-vanderhovensdrif-apies-river-pretoria.jpg!Large.jpg",
+          "id": 44103
+        },
+        {
+          "title": "At the Well",
+          "artist": "Nicolae Vermont",
+          "imageUrl": "https://uploads3.wikiart.org/images/nicolae-vermont/at-the-well-1920.jpg!Large.jpg",
+          "id": 29955
+        },
+        {
+          "title": "Odessa at night",
+          "artist": "Ivan Aivazovsky",
+          "imageUrl": "https://uploads7.wikiart.org/images/ivan-aivazovsky/odessa-at-night-1846.jpg!Large.jpg",
+          "id": 25972
+        },
+        {
+          "title": "Apollo's Chariot",
+          "artist": "Odilon Redon",
+          "imageUrl": "https://uploads0.wikiart.org/images/odilon-redon/apollo-s-chariot.jpg!Large.jpg",
+          "id": 10235
+        },
+        {
+          "title": "Summer Landscape",
+          "artist": "Aleksey Savrasov",
+          "imageUrl": "https://uploads0.wikiart.org/images/aleksey-savrasov/summer-landscape-1850.jpg!Large.jpg",
+          "id": 23995
+        }
+      ]
+  }

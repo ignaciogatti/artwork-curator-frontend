@@ -7,6 +7,9 @@ import AgreeDesagreeButtons from './AgreeDesagreeButtons';
 
 class Experiment extends React.Component{
 
+
+    state ={current_index:1};
+
     componentDidMount(){
         this.props.fetch_experiment_data();
         if (this.props.isSignedIn){
@@ -22,7 +25,7 @@ class Experiment extends React.Component{
     }
     
     renderSlides(){
-        return this.props.experimentData.sim_artworks.map((artwork, index)=>{
+        return this.props.experimentData[this.state.current_index].sim_artworks.map((artwork, index)=>{
             let url = artwork.imageUrl.split('.jpg')[0];
             url = url +'.jpg';
             return(
@@ -38,7 +41,7 @@ class Experiment extends React.Component{
                         </p>
                     </Carousel.Caption>
                     <AgreeDesagreeButtons 
-                        sourceArtworkId={this.props.experimentData.source_artwork.id} 
+                        sourceArtworkId={this.props.experimentData[this.state.current_index].source_artwork.id} 
                         ratedArtworkId={artwork.id} 
                     />
                 </Carousel.Item>
@@ -52,6 +55,9 @@ class Experiment extends React.Component{
         if(_.isEmpty(this.props.experimentData)){
             return <div>Loading...</div>;
         }
+        console.log(this.state);
+        let url = this.props.experimentData[this.state.current_index].source_artwork.imageUrl.split('.jpg')[0];
+        url = url +'.jpg';
         return(
             <div>
             <section id="experiment">
@@ -59,14 +65,15 @@ class Experiment extends React.Component{
                     <div className="three columns header-col">
                         <h3>D-Curator</h3>
                         <p>The following artworks was selected by an IA. It consider that are related to 
-                            <i>"{this.props.experimentData.source_artwork.title}"</i> ({this.props.experimentData.source_artwork.artist}, {this.props.experimentData.source_artwork.year}).
+                            <i>"{this.props.experimentData[this.state.current_index].source_artwork.title}"</i> ({this.props.experimentData[this.state.current_index].source_artwork.artist}, {this.props.experimentData[this.state.current_index].source_artwork.year}).
                             <br />
                             Help it to improve: tell it if you agree with the choice or not. 
                         </p>
                         <img 
                             id="sourceImg"
-                            src="https://uploads8.wikiart.org/images/claude-monet/waterloo-bridge-london-1.jpg!Large.jpg" alt="Source Artwork" 
+                            src={url} alt="Source Artwork" 
                         />
+                        <button className="massive primary left button">Next</button>
                     </div>
 
                     <div className=" nine columns main-col">
@@ -75,8 +82,6 @@ class Experiment extends React.Component{
                         </Carousel>
                     </div>
                 </div>
-
-
             </section>
         </div>
         );

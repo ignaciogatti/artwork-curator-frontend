@@ -1,5 +1,7 @@
 import artworkRetrieval from '../apis/artworkRetrieval';
 import dataExperiment from '../apis/dataExperiment';
+import experimentData2 from '../data/experimentData2';
+import experimentData3 from '../data/experimentData3';
 import experimentData from '../data/experimentData';
 import history from '../history';
 import {
@@ -62,14 +64,13 @@ export const save_data = data => async (dispatch, getState) => {
 export const fetch_experiment_data = () =>{
     return{
         type:FETCH_EXPERIMENT_DATA,
-        payload:experimentData
+        payload:[experimentData, experimentData2, experimentData3]
     };
 }
 
 export const fetch_user_ratings = () => async (dispatch, getState) =>{
 
     const {userId} = getState().auth;
-    console.log(userId);
     const response = await dataExperiment.get(
         `/getUserRatings/${userId}`
     )

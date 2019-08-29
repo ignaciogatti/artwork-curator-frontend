@@ -1,0 +1,161 @@
+{
+    "source_artwork":{
+      "title": "Swallow, Love",
+      "artist": "Joan Miro",
+      "imageUrl": "https://uploads2.wikiart.org/images/joan-miro/swallow-love.jpg!Large.jpg",
+      "year": 1934,
+      "id": 33965
+    },
+    "sim_artworks": [
+        {
+          "title": "Swallow, Love",
+          "artist": "Joan Miro",
+          "imageUrl": "https://uploads2.wikiart.org/images/joan-miro/swallow-love.jpg!Large.jpg",
+          "id": 33965
+        },
+        {
+          "title": "Where is Pease-Blossom",
+          "artist": "Arthur Rackham",
+          "imageUrl": "https://uploads8.wikiart.org/images/arthur-rackham/where-is-pease-blossom.jpg!Large.jpg",
+          "id": 45813
+        },
+        {
+          "title": "Lilac",
+          "artist": "Ilya Mashkov",
+          "imageUrl": "https://uploads7.wikiart.org/images/ilya-mashkov/lilac.jpg!Large.jpg",
+          "id": 39058
+        },
+        {
+          "title": "Marinha",
+          "artist": "Antonio Carneiro",
+          "imageUrl": "https://uploads0.wikiart.org/images/antonio-carneiro/marinha-1916.jpg!Large.jpg",
+          "id": 40242
+        },
+        {
+          "title": "Mysterious Boat",
+          "artist": "Odilon Redon",
+          "imageUrl": "https://uploads8.wikiart.org/images/odilon-redon/mysterious-boat.jpg!Large.jpg",
+          "id": 10672
+        },
+        {
+          "title": "Grapes in a basket and roses in a vase",
+          "artist": "Frans Snyders",
+          "imageUrl": "https://uploads5.wikiart.org/images/frans-snyders/grapes-in-a-basket-and-roses-in-a-vase.jpg!Large.jpg",
+          "id": 40804
+        },
+        {
+          "title": "View from the Dunes with Beach and Piers",
+          "artist": "Piet Mondrian",
+          "imageUrl": "https://uploads3.wikiart.org/images/piet-mondrian/view-from-the-dunes-with-beach-and-piers-1909.jpg!Large.jpg",
+          "id": 6135
+        },
+        {
+          "title": "From a High Place II",
+          "artist": "Arshile Gorky",
+          "imageUrl": "https://uploads5.wikiart.org/images/arshile-gorky/from-a-high-place-ii.jpg!Large.jpg",
+          "id": 44937
+        },
+        {
+          "title": "Fight with the dragon",
+          "artist": "Nicholas Roerich",
+          "imageUrl": "https://uploads5.wikiart.org/images/nicholas-roerich/fight-with-the-dragon-1912.jpg!Large.jpg",
+          "id": 30785
+        },
+        {
+          "title": "Nymphs of the Stars",
+          "artist": "Edward Burne-Jones",
+          "imageUrl": "https://uploads5.wikiart.org/images/edward-burne-jones/nymphs-of-the-stars-1896.jpg!Large.jpg",
+          "id": 42300
+        },
+        {
+          "title": "Anna Pavlova in the Ballet Sylphyde",
+          "artist": "Valentin Serov",
+          "imageUrl": "https://uploads8.wikiart.org/images/valentin-serov/anna-pavlova-in-the-ballet-sylphyde-1909.jpg!Large.jpg",
+          "id": 16079
+        },
+        {
+          "title": "Lucie Bellanger",
+          "artist": "Henri de Toulouse-Lautrec",
+          "imageUrl": "https://uploads8.wikiart.org/images/henri-de-toulouse-lautrec/lucie-bellanger-1896.jpg!Large.jpg",
+          "id": 35694
+        },
+        {
+          "title": "England",
+          "artist": "Boris Kustodiev",
+          "imageUrl": "https://uploads8.wikiart.org/images/boris-kustodiev/england-1924.jpg!Large.jpg",
+          "id": 21576
+        },
+        {
+          "title": "Young Woman in the Atelier",
+          "artist": "Janos Tornyai",
+          "imageUrl": "https://uploads7.wikiart.org/images/janos-tornyai/young-woman-in-the-atelier-1904.jpg!Large.jpg",
+          "id": 29481
+        },
+        {
+          "title": "Creation of the Birds",
+          "artist": "Remedios Varo",
+          "imageUrl": "https://uploads6.wikiart.org/images/remedios-varo/creation-of-the-birds.jpg!Large.jpg",
+          "id": 13446
+        },
+        {
+          "title": "The Family of the Painter Adalbert Trillhaase",
+          "artist": "Otto Dix",
+          "imageUrl": "https://uploads3.wikiart.org/images/otto-dix/the-family-of-the-painter-adalbert-trillhaase-1923.jpg!Large.jpg",
+          "id": 4211
+        },
+        {
+          "title": "Buchenhain",
+          "artist": "Gustav Klimt",
+          "imageUrl": "https://uploads3.wikiart.org/images/gustav-klimt/buchenhain.jpg!Large.jpg",
+          "id": 2411
+        },
+        {
+          "title": "Study to \"Song of Songs IV\"",
+          "artist": "Marc Chagall",
+          "imageUrl": "https://uploads5.wikiart.org/images/marc-chagall/study-to-song-of-songs-iv-1958.jpg!Large.jpg",
+          "id": 8644
+        },
+        {
+          "title": "Bay. Vyko",
+          "artist": "Nikolai Ge",
+          "imageUrl": "https://uploads8.wikiart.org/images/nikolai-ge/bay-vyko.jpg!Large.jpg",
+          "id": 15724
+        },
+        {
+          "title": "Self Portrait",
+          "artist": "Giovanni Boldini",
+          "imageUrl": "https://uploads6.wikiart.org/images/giovanni-boldini/self-portrait-1892.jpg!Large.jpg",
+          "id": 34995
+        },
+        {
+          "title": "Self-Portrait",
+          "artist": "Frederic Bazille",
+          "imageUrl": "https://uploads6.wikiart.org/images/frederic-bazille/self-portrait-1866.jpg!Large.jpg",
+          "id": 1707
+        },
+        {
+          "title": "Figure Inspired by the Adam of the Ceiling of the Sistine Chapel",
+          "artist": "Salvador Dali",
+          "imageUrl": "https://uploads4.wikiart.org/images/salvador-dali/figure-inspired-by-the-adam-of-the-ceiling-of-the-sistine-chapel.jpg!Large.jpg",
+          "id": 3397
+        },
+        {
+          "title": "A Summer's Evening",
+          "artist": "Philip Wilson Steer",
+          "imageUrl": "https://uploads0.wikiart.org/images/philip-wilson-steer/a-summer-s-evening.jpg!Large.jpg",
+          "id": 36998
+        },
+        {
+          "title": "Outskirts of Louveciennes",
+          "artist": "Camille Pissarro",
+          "imageUrl": "https://uploads0.wikiart.org/images/camille-pissarro/outskirts-of-louveciennes-1871.jpg!Large.jpg",
+          "id": 13734
+        },
+        {
+          "title": "Andromeda",
+          "artist": "Odilon Redon",
+          "imageUrl": "https://uploads2.wikiart.org/images/odilon-redon/andromeda.jpg!Large.jpg",
+          "id": 28441
+        }
+      ]
+  }

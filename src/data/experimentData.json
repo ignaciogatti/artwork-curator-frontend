@@ -126,6 +126,36 @@
       "artist": "Vincent van Gogh",
       "imageUrl": "https://uploads8.wikiart.org/images/vincent-van-gogh/hill-with-the-ruins-of-montmajour-1888.jpg!Large.jpg",
       "id": 4158
+    },
+    {
+      "title": "Sailboats Racing' study of the Delaware River",
+      "artist": "Thomas Eakins",
+      "imageUrl": "https://uploads2.wikiart.org/images/thomas-eakins/sailboats-racing-study-of-the-delaware-river.jpg!Large.jpg",
+      "id": 1448
+    },
+    {
+      "title": "The Silver Veil and the Golden Gate",
+      "artist": "Childe Hassam",
+      "imageUrl": "https://uploads2.wikiart.org/images/childe-hassam/the-silver-veil-and-the-golden-gate.jpg!Large.jpg",
+      "id": 5064
+    },
+    {
+      "title": "Velieri sullo scalo a Viareggio",
+      "artist": "Galileo Chini",
+      "imageUrl": "https://uploads3.wikiart.org/images/galileo-chini/velieri-sullo-scalo-a-viareggio-1937.jpg!Large.jpg",
+      "id": 41127
+    },
+    {
+      "title": "Palazzo Vecchio",
+      "artist": "Ottone Rosai",
+      "imageUrl": "https://uploads2.wikiart.org/images/ottone-rosai/palazzo-vecchio(2).jpg!Large.jpg",
+      "id": 39622
+    },
+    {
+      "title": "Illustration for Tudor Arghezi's Good Morning, Springtime",
+      "artist": "Constantin Piliuta",
+      "imageUrl": "https://uploads1.wikiart.org/images/constantin-piliuta/illustration-for-tudor-arghezi-s-good-morning-springtime.jpg!Large.jpg",
+      "id": 2589
     }
   ]
 }
