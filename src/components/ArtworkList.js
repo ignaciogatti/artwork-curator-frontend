@@ -5,11 +5,6 @@ import Carousel from 'react-bootstrap/Carousel'
 class ArtworkList extends React.Component{
 
 
-    shouldComponentUpdate(nextProps, nextState) {
-        return (nextProps.artworks !== this.props.artworks) || (nextProps.isFetching !== this.props.isFetching);
-    }
-
-
     renderSlides=()=>{
         return this.props.artworks.map((artwork, index)=>{
             let url = artwork.imageUrl.split('.jpg')[0];
@@ -52,7 +47,7 @@ class ArtworkList extends React.Component{
     renderCarousel(renderSlide){
         return(
             <div className="nine columns main-col">
-                <Carousel interval={null}>
+                <Carousel interval={null} indicators={false}>
                     {renderSlide()}
                 </Carousel>
             </div>

@@ -8,7 +8,12 @@ import AgreeDesagreeButtons from './AgreeDesagreeButtons';
 class Experiment extends React.Component{
 
 
-    state ={current_index:1};
+    state ={current_index:0};
+
+    onClick = () => {
+        let new_index = (this.state.current_index + 1) % this.props.experimentData.length; 
+        this.setState({current_index: new_index});
+    }
 
     componentDidMount(){
         this.props.fetch_experiment_data();
@@ -55,7 +60,7 @@ class Experiment extends React.Component{
         if(_.isEmpty(this.props.experimentData)){
             return <div>Loading...</div>;
         }
-        console.log(this.state);
+  
         let url = this.props.experimentData[this.state.current_index].source_artwork.imageUrl.split('.jpg')[0];
         url = url +'.jpg';
         return(
@@ -69,11 +74,19 @@ class Experiment extends React.Component{
                             <br />
                             Help it to improve: tell it if you agree with the choice or not. 
                         </p>
-                        <img 
-                            id="sourceImg"
-                            src={url} alt="Source Artwork" 
-                        />
-                        <button className="massive primary left button">Next</button>
+                        <div className="card">
+                            <img 
+                                id="sourceImg"
+                                src={url} alt="Source Artwork" 
+                            />
+                        </div>
+                        <button 
+                            className="huge ui right labeled icon primary button"
+                            onClick= {this.onClick}
+                        >
+                            Next
+                            <i className="huge angle double right icon"></i>
+                        </button>
                     </div>
 
                     <div className=" nine columns main-col">
@@ -91,7 +104,6 @@ class Experiment extends React.Component{
 const mapStateToProps = state =>{
     return { 
         experimentData: state.experimentData,
-        saveData : state.saveData,
         isSignedIn : state.auth.isSignedIn,
         userRatings : state.userRatings
 

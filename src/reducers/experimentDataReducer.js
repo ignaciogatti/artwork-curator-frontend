@@ -1,4 +1,4 @@
-import {FETCH_EXPERIMENT_DATA} from '../actions/types'
+import {FETCH_EXPERIMENT_DATA} from '../actions/types';
 
 const INITIAL_STATE = [];
 

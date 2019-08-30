@@ -1,14 +1,16 @@
 import {
     UPLOAD_ARTWORK,
-    REQUEST_DATA
+    REQUEST_DATA,
+    RESET_ARTWORK_LIST
 } from '../actions/types'
 
-export default (
-    state={
-        items:[], 
-        isFetching : false
-    },
-         action) => {
+
+const INITIAL_STATE = {
+    items:[], 
+    isFetching : false
+}
+
+export default (state= INITIAL_STATE, action) => {
              switch(action.type){
                  case UPLOAD_ARTWORK:
                     return {
@@ -21,6 +23,12 @@ export default (
                         ...state,
                         isFetching:true
                     };
+                  case RESET_ARTWORK_LIST:
+                    return {
+                        ...state,
+                        items: [],
+                        isFetching:false
+                    }
                  default:
                     return state;
             }

@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import './ImagePreview.css';
+
 
 const ImagePreview = ({ imagefile }) =>
   imagefile.map(({ name, preview, size }) => (

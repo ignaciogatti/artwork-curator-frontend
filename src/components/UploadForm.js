@@ -4,7 +4,7 @@ import{connect} from 'react-redux';
 import Button from 'react-bootstrap/Button';
 
 import DropZoneField from "./DropzoneField/DropzoneField";
-import {uploadArtwork} from '../actions';
+import {uploadArtwork, resetArtworkList} from '../actions';
 import './UploadForm.css';
 
 const imageIsRequired = value => (!value ? "Required" : undefined);
@@ -32,7 +32,10 @@ class UploadImageForm extends Component {
     this.setState({ imageFile: [imageFile] }, () => onChange(imageFile));
   };
 
-  resetForm = () => this.setState({ imageFile: [] }, () => this.props.reset());
+  resetForm = () => {
+    this.setState({ imageFile: [] }, () => this.props.reset());
+    this.props.resetArtworkList();
+  };
 
   render = () => (
       <div className="app-container">
@@ -75,4 +78,4 @@ const formWrapped = reduxForm( {
     form: 'uploadImageForm'
 })(UploadImageForm);
 
-export default connect(null,{uploadArtwork})(formWrapped);
+export default connect(null,{uploadArtwork, resetArtworkList})(formWrapped);

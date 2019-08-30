@@ -1081,6 +1081,7 @@ footer .social-links li:first-child { margin-left: 0; }
    padding-top: 0.5625em; 
    background-color: rgb(238, 236, 235);
    text-align: center;
+   height: calc(100vh - 4.25em);
 }
 #artworkList .main-col { 
    
@@ -1152,10 +1153,28 @@ footer .social-links li:first-child { margin-left: 0; }
 #experiment a, #experiment a:visited  { color: #11ABB0; }
 #experiment a:hover, #experiment a:focus { color: #313131; }
 
-#experiment #sourceImg{
+
+#experiment .card{
+   display: inline-block;
+   position: relative;
+   height: 30%;
+   max-height: 30%;
+   width: 90%;
+   margin-top: 1em;
+   margin-bottom: 1em;
    border: 4px solid #ddd;
    border-radius: 4px;
-   padding: 5px;
+   text-align: center;
+   background-color: #2B2B2B;
+}
+
+#experiment #sourceImg{   
+   border-radius: 4px;
+   object-fit: contain;
+   position: sticky;
+   margin: auto;
+   height: 100%;
+
 }
 
 #experiment h1 {
@@ -1197,6 +1216,7 @@ footer .social-links li:first-child { margin-left: 0; }
    padding-top: 0.5625em; 
    background-color: rgb(238, 236, 235);
    text-align: center;
+   height: calc(100vh - 4.25em);
 }
 #experiment .main-col { 
    
@@ -1244,3 +1264,4 @@ footer .social-links li:first-child { margin-left: 0; }
  #experiment .carousel-item button.right{
    right: 15%;
  }
+

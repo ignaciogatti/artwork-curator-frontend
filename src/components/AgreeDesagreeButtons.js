@@ -12,9 +12,9 @@ class AgreeDesagreeButtons extends React.Component{
     }
 
     render(){
-        let rated = this.props.saveData.find(res => res.ratedArtworkId === this.props.ratedArtworkId);
+
         let old_ratings = this.props.userRatings.find(res => res.ratedArtworkId === this.props.ratedArtworkId);
-        if ((!rated) && (!old_ratings)){
+        if (!old_ratings){
             return(
                 <React.Fragment>
                     <button 
@@ -48,7 +48,6 @@ class AgreeDesagreeButtons extends React.Component{
 const mapStateToProps = state =>{
 
     return {
-        saveData : state.saveData,
         userRatings : state.userRatings
     };
 }

@@ -1,0 +1,161 @@
+{
+    "source_artwork":{
+      "title": "A Bar at the Folies-Bergere",
+      "artist": "Edouard Manet",
+      "imageUrl": "https://uploads1.wikiart.org/00129/images/edouard-manet/a-bar-at-the-folies-bergere.jpg!Large.jpg",
+      "year": 1882,
+      "id": 36457
+    },
+    "sim_artworks": [
+        {
+          "title": "Avenue of Schloss Kammer Park",
+          "artist": "Gustav Klimt",
+          "imageUrl": "https://uploads4.wikiart.org/images/gustav-klimt/avenue-of-schloss-kammer-park.jpg!Large.jpg",
+          "id": 1113
+        },
+        {
+          "title": "Old man Dressed as Saint Paul",
+          "artist": "Rembrandt",
+          "imageUrl": "https://uploads6.wikiart.org/images/rembrandt/old-man-dressed-as-saint-paul-1632.jpg!Large.jpg",
+          "id": 28600
+        },
+        {
+          "title": "Dans Le Tramway",
+          "artist": "Theophile Steinlen",
+          "imageUrl": "https://uploads1.wikiart.org/images/theophile-steinlen/dans-le-tramway-1890.jpg!Large.jpg",
+          "id": 962
+        },
+        {
+          "title": "Alexander and Diogenes",
+          "artist": "Cornelis de Vos",
+          "imageUrl": "https://uploads7.wikiart.org/images/cornelis-de-vos/cornelis-de-vos-alexander-and-diogenes.jpg!Large.jpg",
+          "id": 40508
+        },
+        {
+          "title": "Triton",
+          "artist": "Annibale Carracci",
+          "imageUrl": "https://uploads4.wikiart.org/images/annibale-carracci/triton.jpg!Large.jpg",
+          "id": 36229
+        },
+        {
+          "title": "A bouquet of flowers",
+          "artist": "Ilya Repin",
+          "imageUrl": "https://uploads7.wikiart.org/images/ilya-repin/a-bouquet-of-flowers-1878.jpg!Large.jpg",
+          "id": 24714
+        },
+        {
+          "title": "Farnlandschaft",
+          "artist": "Richard Oelze",
+          "imageUrl": "https://uploads8.wikiart.org/images/richard-oelze/farnlandschaft.jpg!Large.jpg",
+          "id": 41399
+        },
+        {
+          "title": "Spring in the Forest",
+          "artist": "Isaac Levitan",
+          "imageUrl": "https://uploads1.wikiart.org/images/isaac-levitan/spring-in-the-forest-1882.jpg!Large.jpg",
+          "id": 19812
+        },
+        {
+          "title": "The leap of the rabbit",
+          "artist": "Amadeo de Souza-Cardoso",
+          "imageUrl": "https://uploads7.wikiart.org/images/amadeo-de-souza-cardoso/the-leap-of-the-rabbit-1911(1).jpg!Large.jpg",
+          "id": 13528
+        },
+        {
+          "title": "Carnations and baby's breath in a green pitcher",
+          "artist": "Odilon Redon",
+          "imageUrl": "https://uploads4.wikiart.org/images/odilon-redon/carnations-and-baby-s-breath-in-a-green-pitcher.jpg!Large.jpg",
+          "id": 30502
+        },
+        {
+          "title": "Portrait of E. Zvantseva",
+          "artist": "Ilya Repin",
+          "imageUrl": "https://uploads1.wikiart.org/images/ilya-repin/portrait-of-e-zvantseva-1889.jpg!Large.jpg",
+          "id": 31068
+        },
+        {
+          "title": "Thicket",
+          "artist": "Ivan Shishkin",
+          "imageUrl": "https://uploads6.wikiart.org/images/ivan-shishkin/thicket-1879.jpg!Large.jpg",
+          "id": 22627
+        },
+        {
+          "title": "Town Street",
+          "artist": "Abraham Manievich",
+          "imageUrl": "https://uploads0.wikiart.org/images/abraham-manievich/town-street.jpg!Large.jpg",
+          "id": 41000
+        },
+        {
+          "title": "Goldwald",
+          "artist": "Helen Dahm",
+          "imageUrl": "https://uploads4.wikiart.org/images/helen-dahm/goldwald-1957.jpg!Large.jpg",
+          "id": 41526
+        },
+        {
+          "title": "Sir John Sherard",
+          "artist": "John Riley",
+          "imageUrl": "https://uploads7.wikiart.org/images/john-riley/sir-john-sherard.jpg!Large.jpg",
+          "id": 35842
+        },
+        {
+          "title": "Seated Monk",
+          "artist": "Salvador Dali",
+          "imageUrl": "https://uploads5.wikiart.org/images/salvador-dali/seated-monk.jpg!Large.jpg",
+          "id": 28269
+        },
+        {
+          "title": "Caricature of Alexander Baillie Cochrane M.P.",
+          "artist": "James Tissot",
+          "imageUrl": "https://uploads1.wikiart.org/images/james-tissot/caricature-of-alexander-baillie-cochrane-m-p.jpg!Large.jpg",
+          "id": 42743
+        },
+        {
+          "title": "Carpet design",
+          "artist": "Otto Eckmann",
+          "imageUrl": "https://uploads2.wikiart.org/images/otto-eckmann/carpet-design-1898.jpg!Large.jpg",
+          "id": 39604
+        },
+        {
+          "title": "The Golden Knight",
+          "artist": "Gustav Klimt",
+          "imageUrl": "https://uploads1.wikiart.org/images/gustav-klimt/the-golden-knight.jpg!Large.jpg",
+          "id": 5968
+        },
+        {
+          "title": "Self Portrait",
+          "artist": "Mark Tobey",
+          "imageUrl": "https://uploads0.wikiart.org/images/mark-tobey/self-portrait-1949.jpg!Large.jpg",
+          "id": 45111
+        },
+        {
+          "title": "The Descent Of Night",
+          "artist": "Charles Rennie Mackintosh",
+          "imageUrl": "https://uploads4.wikiart.org/images/charles-rennie-mackintosh/the-descent-of-night-1894.jpg!Large.jpg",
+          "id": 40142
+        },
+        {
+          "title": "Portrait of an unknown man",
+          "artist": "Orest Kiprensky",
+          "imageUrl": "https://uploads0.wikiart.org/images/orest-kiprensky/portrait-of-an-unknown-man-1811.jpg!Large.jpg",
+          "id": 27167
+        },
+        {
+          "title": "Dusk over the port of Le Havre",
+          "artist": "Eugene Boudin",
+          "imageUrl": "https://uploads6.wikiart.org/images/eugene-boudin/dusk-over-the-port-of-le-havre.jpg!Large.jpg",
+          "id": 2058
+        },
+        {
+          "title": "Coming of Fall",
+          "artist": "Karl Schrag",
+          "imageUrl": "https://uploads6.wikiart.org/images/karl-schrag/coming-of-fall.jpg!Large.jpg",
+          "id": 40733
+        },
+        {
+          "title": "Portrait of Konstantin Batyushkov",
+          "artist": "Orest Kiprensky",
+          "imageUrl": "https://uploads7.wikiart.org/images/orest-kiprensky/portrait-of-konstantin-batyushkov-1815.jpg!Large.jpg",
+          "id": 6952
+        }
+      ]
+  }

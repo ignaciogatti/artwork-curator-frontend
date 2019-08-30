@@ -2,6 +2,8 @@ import artworkRetrieval from '../apis/artworkRetrieval';
 import dataExperiment from '../apis/dataExperiment';
 import experimentData2 from '../data/experimentData2';
 import experimentData3 from '../data/experimentData3';
+import experimentData4 from '../data/experimentData4';
+import experimentData5 from '../data/experimentData5';
 import experimentData from '../data/experimentData';
 import history from '../history';
 import {
@@ -11,7 +13,8 @@ import {
     SIGN_OUT,
     SAVE_DATA,
     FETCH_EXPERIMENT_DATA,
-    FETCH_USER_RATINGS
+    FETCH_USER_RATINGS,
+    RESET_ARTWORK_LIST
 } from './types';
 
 
@@ -29,6 +32,11 @@ export const uploadArtwork = fd => async dispatch => {
   
   };
 
+export const resetArtworkList = () =>{
+    return {
+        type: RESET_ARTWORK_LIST
+    }
+}
 
 export const signIn = userId =>{
     return {
@@ -64,7 +72,7 @@ export const save_data = data => async (dispatch, getState) => {
 export const fetch_experiment_data = () =>{
     return{
         type:FETCH_EXPERIMENT_DATA,
-        payload:[experimentData, experimentData2, experimentData3]
+        payload:[experimentData, experimentData2, experimentData3, experimentData4, experimentData5]
     };
 }
 

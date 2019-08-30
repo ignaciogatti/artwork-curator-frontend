@@ -1,0 +1,161 @@
+{
+    "source_artwork":{
+      "title": "Self Portrait",
+      "artist": "Tsuguharu Foujita",
+      "imageUrl": "https://uploads7.wikiart.org/images/tsuguharu-foujita/self-portrait-1921.jpg!Large.jpg",
+      "year": 1921,
+      "id": 43809
+    },
+    "sim_artworks": [
+        {
+          "title": "Self Portrait",
+          "artist": "Tsuguharu Foujita",
+          "imageUrl": "https://uploads7.wikiart.org/images/tsuguharu-foujita/self-portrait-1921.jpg!Large.jpg",
+          "id": 43809
+        },
+        {
+          "title": "Portrait of Olga Alyabyeva",
+          "artist": "Konstantin Korovin",
+          "imageUrl": "https://uploads3.wikiart.org/images/konstantin-korovin/portrait-of-olga-alyabyeva-1889.jpg!Large.jpg",
+          "id": 21606
+        },
+        {
+          "title": "Head of a Kirgiz-convict",
+          "artist": "Vasily Perov",
+          "imageUrl": "https://uploads4.wikiart.org/images/vasily-perov/head-of-a-kirgiz-convict-1873.jpg!Large.jpg",
+          "id": 5455
+        },
+        {
+          "title": "Summer day. Trees",
+          "artist": "Ivan Shishkin",
+          "imageUrl": "https://uploads1.wikiart.org/images/ivan-shishkin/summer-day-trees.jpg!Large.jpg",
+          "id": 28321
+        },
+        {
+          "title": "Portrait of General Ulrich Wille",
+          "artist": "Ferdinand Hodler",
+          "imageUrl": "https://uploads7.wikiart.org/images/ferdinand-hodler/portrait-of-general-ulrich-wille-1915.jpg!Large.jpg",
+          "id": 1689
+        },
+        {
+          "title": "Alexina Ledoux",
+          "artist": "Camille Corot",
+          "imageUrl": "https://uploads8.wikiart.org/images/camille-corot/alexina-ledoux.jpg!Large.jpg",
+          "id": 17377
+        },
+        {
+          "title": "The spirit of adventure",
+          "artist": "Rene Magritte",
+          "imageUrl": "https://uploads7.wikiart.org/images/rene-magritte/the-spirit-of-adventure-1962(1).jpg!Large.jpg",
+          "id": 39754
+        },
+        {
+          "title": "The Man with the Hoe",
+          "artist": "Jean-Francois Millet",
+          "imageUrl": "https://uploads8.wikiart.org/images/jean-francois-millet/the-man-with-the-hoe-1862.jpg!Large.jpg",
+          "id": 1354
+        },
+        {
+          "title": "Promenade Hivernale",
+          "artist": "Giuseppe de Nittis",
+          "imageUrl": "https://uploads0.wikiart.org/images/giuseppe-de-nittis/promenade-hivernale.jpg!Large.jpg",
+          "id": 2056
+        },
+        {
+          "title": "Cottages near pond",
+          "artist": "Theodore Rousseau",
+          "imageUrl": "https://uploads8.wikiart.org/images/theodore-rousseau/not_detected_198949.jpg!Large.jpg",
+          "id": 31111
+        },
+        {
+          "title": "Boy wearing suspenders",
+          "artist": "Spyros Papaloukas",
+          "imageUrl": "https://uploads7.wikiart.org/images/spyros-papaloukas/boy-wearing-suspenders-1925.jpg!Large.jpg",
+          "id": 37534
+        },
+        {
+          "title": "V. A. Musin-Pushkin",
+          "artist": "Karl Bryullov",
+          "imageUrl": "https://uploads2.wikiart.org/images/karl-bryullov/v-a-musin-pushkin.jpg!Large.jpg",
+          "id": 42329
+        },
+        {
+          "title": "Portrait of L.P. Albrecht",
+          "artist": "Boris Kustodiev",
+          "imageUrl": "https://uploads7.wikiart.org/images/boris-kustodiev/portrait-of-l-p-albrecht-1905.jpg!Large.jpg",
+          "id": 16039
+        },
+        {
+          "title": "The old Jew",
+          "artist": "Alexej von Jawlensky",
+          "imageUrl": "https://uploads8.wikiart.org/images/alexej-von-jawlensky/the-old-jew-1893.jpg!Large.jpg",
+          "id": 14552
+        },
+        {
+          "title": "Young Woman Wearing a Large Hat",
+          "artist": "Gwen John",
+          "imageUrl": "https://uploads3.wikiart.org/images/gwen-john/young-woman-wearing-a-large-hat.jpg!Large.jpg",
+          "id": 31503
+        },
+        {
+          "title": "Portrait of Marchesa Elena Grimaldi, wife of Marchese Nicola Cattaneo",
+          "artist": "Anthony van Dyck",
+          "imageUrl": "https://uploads7.wikiart.org/images/anthony-van-dyck/portrait-of-marchesa-elena-grimaldi-wife-of-marchese-nicola-cattaneo-1623.jpg!Large.jpg",
+          "id": 26799
+        },
+        {
+          "title": "Portrait of Miss Hedwig Ruetz",
+          "artist": "Max Liebermann",
+          "imageUrl": "https://uploads2.wikiart.org/images/max-liebermann/portrait-of-miss-hedwig-ruetz-1903.jpg!Large.jpg",
+          "id": 39768
+        },
+        {
+          "title": "Fire in a Haystack",
+          "artist": "Jules Breton",
+          "imageUrl": "https://uploads7.wikiart.org/images/jules-breton/fire-in-a-haystack-1856.jpg!Large.jpg",
+          "id": 4477
+        },
+        {
+          "title": "Portrait of Maria Morozova",
+          "artist": "Valentin Serov",
+          "imageUrl": "https://uploads8.wikiart.org/images/valentin-serov/portrait-of-maria-morozova-1897.jpg!Large.jpg",
+          "id": 18553
+        },
+        {
+          "title": "Cansada",
+          "artist": "Henrique Pousao",
+          "imageUrl": "https://uploads8.wikiart.org/images/henrique-pousao/cansada-1882.jpg!Large.jpg",
+          "id": 38107
+        },
+        {
+          "title": "The Persian",
+          "artist": "Vasily Surikov",
+          "imageUrl": "https://uploads2.wikiart.org/images/vasily-surikov/the-persian-1902.jpg!Large.jpg",
+          "id": 18464
+        },
+        {
+          "title": "Monkey",
+          "artist": "Gabriel von Max",
+          "imageUrl": "https://uploads2.wikiart.org/images/gabriel-von-max/monkey.jpg!Large.jpg",
+          "id": 40114
+        },
+        {
+          "title": "Temperance",
+          "artist": "Gabriel von Max",
+          "imageUrl": "https://uploads6.wikiart.org/images/gabriel-von-max/temperance.jpg!Large.jpg",
+          "id": 11257
+        },
+        {
+          "title": "The Son of Man",
+          "artist": "Rene Magritte",
+          "imageUrl": "https://uploads3.wikiart.org/images/rene-magritte/son-of-man-1964(1).jpg!Large.jpg",
+          "id": 6219
+        },
+        {
+          "title": "Dutch Ships Ramming Spanish Galleys off the Flemish Coast in October 1602",
+          "artist": "Hendrick Cornelisz Vroom",
+          "imageUrl": "https://uploads2.wikiart.org/images/hendrick-cornelisz-vroom/dutch-ships-ramming-spanish-galleys-off-the-flemish-coast-in-october-1602-1617.jpg!Large.jpg",
+          "id": 9262
+        }
+      ]
+  }
