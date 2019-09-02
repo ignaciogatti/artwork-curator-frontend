@@ -8,11 +8,24 @@ import AgreeDesagreeButtons from './AgreeDesagreeButtons';
 class Experiment extends React.Component{
 
 
-    state ={current_index:0};
+    state ={
+        current_index:0,
+        index:0,
+        direction:null
+    };
+
+
+    handleSelect = (selectedIndex, e) => {
+        this.setState({index:selectedIndex, direction: e.direction});
+      };
 
     onClick = () => {
         let new_index = (this.state.current_index + 1) % this.props.experimentData.length; 
-        this.setState({current_index: new_index});
+        this.setState({
+            current_index: new_index,
+            index:0, 
+            direction: null
+        });
     }
 
     componentDidMount(){
@@ -60,7 +73,7 @@ class Experiment extends React.Component{
         if(_.isEmpty(this.props.experimentData)){
             return <div>Loading...</div>;
         }
-  
+
         let url = this.props.experimentData[this.state.current_index].source_artwork.imageUrl.split('.jpg')[0];
         url = url +'.jpg';
         return(
@@ -90,7 +103,13 @@ class Experiment extends React.Component{
                     </div>
 
                     <div className=" nine columns main-col">
-                        <Carousel interval={null} indicators={false}>
+                        <Carousel 
+                            activeIndex={this.state.index} 
+                            direction={this.state.direction}
+                            onSelect={this.handleSelect}
+                            interval={null} 
+                            indicators={false}
+                        >
                             {this.renderSlides()}
                         </Carousel>
                     </div>

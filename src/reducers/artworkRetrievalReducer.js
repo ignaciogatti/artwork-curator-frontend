@@ -6,7 +6,12 @@ import {
 
 
 const INITIAL_STATE = {
-    items:[], 
+    items:[{
+        "title": "",
+        "artist": "",
+        "imageUrl": "images/description-app.jpg",
+        "id": -1
+    }], 
     isFetching : false
 }
 
@@ -24,11 +29,7 @@ export default (state= INITIAL_STATE, action) => {
                         isFetching:true
                     };
                   case RESET_ARTWORK_LIST:
-                    return {
-                        ...state,
-                        items: [],
-                        isFetching:false
-                    }
+                    return INITIAL_STATE;
                  default:
                     return state;
             }

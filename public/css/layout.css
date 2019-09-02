@@ -1087,7 +1087,6 @@ footer .social-links li:first-child { margin-left: 0; }
    
    padding: 0;
    background-color: #2B2B2B;
-   display: block;
    text-align: center;
    height: calc(100vh - 4.25em);
  }
