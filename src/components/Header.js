@@ -10,30 +10,30 @@ class Header extends React.Component{
         return(
         <header id="home">
             
+            <button id="mobile-btn" className="ui icon button">
+                <i className="big bars icon"></i>
+            </button>
             <nav id="nav-wrap">
 
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
-            <ul id="nav" className="nav">
-                <li className="current">
-                    <Link className="header-link" to="/">Artwork Curator</Link>
-                </li>
-                <li>
-                    <Link className="header-link" to="/aboutme">About me</Link>
-                </li>
-
-                {this.props.isSignedIn && (
-                    <li>
-                        <Link className="header-link" to="/experiment">Experiments</Link>
+                <ul id="nav" className="nav">
+                    <li className="current">
+                        <Link className="header-link" to="/">Artwork Curator</Link>
                     </li>
-                    )}
-                    
-                <li className="auth">
-                    <GoogleAuth />
-                </li>
+                    <li>
+                        <Link className="header-link" to="/aboutme">About me</Link>
+                    </li>
 
-            </ul>
+                    {this.props.isSignedIn && (
+                        <li>
+                            <Link className="header-link" to="/experiment">Experiments</Link>
+                        </li>
+                        )}
+                        
+                    <li className="auth">
+                        <GoogleAuth />
+                    </li>
+
+                </ul>
     
             </nav>
     

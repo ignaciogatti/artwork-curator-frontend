@@ -34,76 +34,11 @@ header {
    position: relative;
    max-height: 3.225em;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
+   background: #161415;
    text-align: center;
-   overflow: hidden;
-}
-
-/* vertically center banner section */
-header:before {
-   content: '';
-   display: inline-block;
    vertical-align: middle;
-   height: 100%;
-}
-header .banner {
-   display: inline-block;
-   vertical-align: middle;
-   margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;
-   text-align: center;
 }
 
-header .banner-text { width: 100%; }
-header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
-   letter-spacing: -2p0.125em;
-   margin: 0 auto 1.125em auto;
-   text-shadow: 0em 0.0625em 0.1875em rgba(0, 0, 0, .8);
-}
-header .banner-text h3 {
-   font: 1.125em/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
-   margin: 0 auto;
-   width: 70%;
-   text-shadow: 0em 0.0625em 0.125em rgba(0, 0, 0, .5);
-}
-header .banner-text h3 span,
-header .banner-text h3 a {
-   color: #fff;
-}
-header .banner-text hr {
-   width: 60%;
-   margin: 1.125em auto 1.5em auto;
-   border-color: #2F2D2E;
-   border-color: rgba(150, 150, 150, .1);
-}
-
-
-/* scrolldown link */
-header .scrolldown a {
-   position: absolute;
-   bottom: 1.875em;
-   left: 50%;
-   margin-left: -1.8125em;
-   color: #fff;
-   display: block;
-   height: 2.625em;
-   width: 2.625em;
-   font-size: 2.625em;
-   line-height: 2.625em;
-   color: #fff;
-   border-radius: 100%;
-
-   -webkit-transition: all .3s ease-in-out;
-   -moz-transition: all .3s ease-in-out;
-   -o-transition: all .3s ease-in-out;
-   transition: all .3s ease-in-out;
-}
 header .scrolldown a:hover { color: #11ABB0; }
 
 /* primary navigation
@@ -122,15 +57,17 @@ header .scrolldown a:hover { color: #11ABB0; }
    text-transform: uppercase;
    letter-spacing: 0.15625em;
    margin: 0 auto;
-   z-index: 100;
-   position: fixed;
    left: 0;
    top: 0;
+   z-index: 100;
+   position: fixed;
+   background: #161415;
+   overflow: hidden;
 }
 .opaque { background-color: #333; }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+#mobile-btn { display: none; }
 
 ul#nav {
    min-height: 4.25em;

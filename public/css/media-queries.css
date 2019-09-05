@@ -113,70 +113,44 @@
 
   /* mobile navigation
   -------------------------------------------------------------------- */
+  
+  
   #nav-wrap {
      font: 12px 'opensans-bold', sans-serif;
-     background: transparent !important;
+     background: #1f2024 !important;
      letter-spacing: 1.5px;  
      width: auto;
      position: fixed;
-     top: 0;
+     top: 48px;
      right: 0;
-  }
-  #nav-wrap > a {
-     width: 48px;
-     height: 48px;
+     visibility: hidden;
+     display: block;
      text-align: left;
-     background-color: #CC5200;
-     position: relative;
-     border: none;
-     float: left;
+   }
 
-     font: 0/0 a;
-     text-shadow: none;
-     color: transparent;
+  #mobile-btn {
+      display: block !important;
+      height: 100%;
+      background-color: #CC5200;
+      position: relative;
+      top: 0;
+      border: none;
+      float: left;
+      top: 0px;
+      left: 0px;
+   }
 
-     position: relative;
-     top: 0px;
-     left: 10px;
+
+  #mobile-btn + #nav-wrap:active,
+  #mobile-btn:focus + #nav-wrap {
+    visibility: visible;
   }
 
-  #nav-wrap > a:before,
-  #nav-wrap > a:after {
-     position: absolute;
-     border: 2px solid #fff;
-     top: 35%;
-     left: 25%;
-     right: 25%;
-     content: '';
-  }
-  #nav-wrap > a:after { top: 60%; }
-
-  /* toggle buttons */
-  #nav-wrap:not( :target ) > a:first-of-type,
-  #nav-wrap:target > a:last-of-type  {
-     display: block;
-  }
-
-  /* hide menu panel */
-  #nav-wrap ul#nav {
-     height: auto;
-     display: none;
-     clear: both;
-     width: auto; 
-     float: left;     
-
-     position: relative;
-     top: 12px;
-     right: 0;
-  }
-
-  /* display menu panels */
-  #nav-wrap:target > ul#nav	{
-     display: block;
+  #nav-wrap > ul#nav	{
+     display: inline-block;
      width: 100%;
      height: auto;
      position: relative;
-     background: #1f2024;
      list-style-type: none;
      padding: 30px 20px 48px 20px;
      clear: both;
