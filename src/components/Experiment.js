@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import _ from 'lodash';
+import {Link} from 'react-router-dom';
 import {save_data, fetch_experiment_data, fetch_user_ratings} from '../actions';
 import Carousel from 'react-bootstrap/Carousel'
 import AgreeDesagreeButtons from './AgreeDesagreeButtons';
@@ -26,6 +27,11 @@ class Experiment extends React.Component{
             index:0, 
             direction: null
         });
+    }
+
+    updateCarouselIndex = () => {
+        let new_index = (this.state.index + 1) % this.props.experimentData[this.state.current_index].sim_artworks.length; 
+        this.setState({index:new_index});
     }
 
     componentDidMount(){
@@ -60,7 +66,8 @@ class Experiment extends React.Component{
                     </Carousel.Caption>
                     <AgreeDesagreeButtons 
                         sourceArtworkId={this.props.experimentData[this.state.current_index].source_artwork.id} 
-                        ratedArtworkId={artwork.id} 
+                        ratedArtworkId={artwork.id}
+                        onClickUpdateCarousel={this.updateCarouselIndex} 
                     />
                 </Carousel.Item>
             );
@@ -85,7 +92,9 @@ class Experiment extends React.Component{
                         <p>The following artworks were selected by an AI. They are considered to be related to 
                             <i>"{this.props.experimentData[this.state.current_index].source_artwork.title}"</i> ({this.props.experimentData[this.state.current_index].source_artwork.artist}, {this.props.experimentData[this.state.current_index].source_artwork.year}).
                             <br />
-                            The AI is learning how to analyze and compare artworks. Help it to improve: tell it if you agree with the choice or not. 
+                            This AI is learning how to analyze and compare artworks. <Link to="/aboutai">Read more about the experiment.</Link>
+                            <br />
+                            Help it to improve: tell it if you agree with the choice or not. 
                         </p>
                         <div className="card">
                             <img 

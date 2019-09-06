@@ -8,6 +8,7 @@ class AgreeDesagreeButtons extends React.Component{
         return event => {
             event.preventDefault();
             this.props.save_data(data);
+            this.props.onClickUpdateCarousel();
         };
     }
 

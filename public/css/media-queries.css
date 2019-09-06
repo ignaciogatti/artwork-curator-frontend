@@ -30,9 +30,7 @@
   #artworkList .carousel-item img{ max-height: 100vh; }  
   #artworkList .carousel-caption { font-size: 1.75em; }
 
-}
-
-  /* Experiment Section
+    /* Experiment Section
   ------------------------------------------------------------------- */
   #experiment h1 { font: 16px/24px 'opensans-bold', sans-serif; }
   #experiment h3 {
@@ -42,8 +40,22 @@
     font-size: 1em;
    }
 
+   #experiment .card{
+      width: 70%;
+   }
+
+   #experiment .header-col button{
+      margin: 0.8em;
+      bottom: 1.2em;
+      font-size: 0.7em;
+    }
+
   #experiment .carousel-item img{ max-height: 100vh; }  
   #experiment .carousel-caption { font-size: 1.75em; }
+
+}
+
+
 
 
 /* screenwidth less than 900px
@@ -136,6 +148,16 @@
     font-size: 0.9em;
    }
 
+   #experiment .card{
+      width: 70%;
+   }
+
+   #experiment .header-col button{
+      margin: 0.8em;
+      bottom: 1.2em;
+      font-size: 0.7em;
+    }
+
   #experiment .carousel-item img{ max-height: 100vh; }  
   #experiment .carousel-caption { font-size: 1.75em; }
 
@@ -158,8 +180,9 @@
      background: #1f2024 !important;
      letter-spacing: 1.5px;  
      width: auto;
+     height: 50vh !important;
      position: fixed;
-     top: 48px;
+     margin-left: 40px;
      right: 0;
      visibility: hidden;
      display: block;
@@ -168,9 +191,10 @@
 
   #mobile-btn {
       display: block !important;
-      height: 100%;
       background-color: #CC5200;
-      position: relative;
+      height: 48px;
+      position: fixed;
+      z-index: 100;
       top: 0;
       border: none;
       float: left;

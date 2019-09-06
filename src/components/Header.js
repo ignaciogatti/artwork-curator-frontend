@@ -16,7 +16,7 @@ class Header extends React.Component{
             <nav id="nav-wrap">
 
                 <ul id="nav" className="nav">
-                    <li className="current">
+                    <li className="active">
                         <Link className="header-link" to="/">Artwork Curator</Link>
                     </li>
                     <li>
@@ -28,7 +28,13 @@ class Header extends React.Component{
                             <Link className="header-link" to="/experiment">Experiments</Link>
                         </li>
                         )}
-                        
+                    
+                    {this.props.isSignedIn && (
+                        <li>
+                            <Link className="header-link" to="/aboutai">About DCurator</Link>
+                        </li>
+                        )}
+
                     <li className="auth">
                         <GoogleAuth />
                     </li>
