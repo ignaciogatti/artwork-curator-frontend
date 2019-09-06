@@ -104,6 +104,11 @@
   .app-container{
     width: 100%;
   }
+
+  .preview-container p{
+    font-size: 0.9em !important;
+  }
+
 }
 
 /* screenwidth less than 900px
@@ -114,6 +119,11 @@
     font-size: 0.8em;
     margin: 0.5em;
   }
+
+  .preview-container p{
+    font-size: 0.9em !important;
+  }
+  
 }
 
 

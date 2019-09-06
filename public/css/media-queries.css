@@ -18,8 +18,33 @@
      letter-spacing: -1px;
      margin: 0 auto 12px auto;
   }
+ /* ArtworkList Section
+  ------------------------------------------------------------------- */
+  #artworkList h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+  #artworkList h3 {
+   font-size: 1.5em;
+   }
+   #artworkList p{ 
+     font-size: 1em;
+   }
+  #artworkList .carousel-item img{ max-height: 100vh; }  
+  #artworkList .carousel-caption { font-size: 1.75em; }
 
 }
+
+  /* Experiment Section
+  ------------------------------------------------------------------- */
+  #experiment h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+  #experiment h3 {
+   font-size: 1.5em;
+   }
+   #experiment p{ 
+    font-size: 1em;
+   }
+
+  #experiment .carousel-item img{ max-height: 100vh; }  
+  #experiment .carousel-caption { font-size: 1.75em; }
+
 
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
@@ -92,12 +117,25 @@
     /* ArtworkList Section
   ------------------------------------------------------------------- */
   #artworkList h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+  #artworkList h3 {
+   font-size: 1.5em;
+   }
+   #artworkList p{ 
+     font-size: 0.9em;
+   }
   #artworkList .carousel-item img{ max-height: 100vh; }  
   #artworkList .carousel-caption { font-size: 1.75em; }
 
     /* Experiment Section
   ------------------------------------------------------------------- */
   #experiment h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+  #experiment h3 {
+   font-size: 1.5em;
+   }
+   #experiment p{ 
+    font-size: 0.9em;
+   }
+
   #experiment .carousel-item img{ max-height: 100vh; }  
   #experiment .carousel-caption { font-size: 1.75em; }
 

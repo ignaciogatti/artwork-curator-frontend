@@ -52,6 +52,12 @@
     ],
     "work":[
       {
+        "company":"ISISTAN Institute Research - Politecnico di Milano",
+        "title":"MoMA Dataset",
+        "years":"June 2019",
+        "description":"Developed a crawler to extract images from MoMA web page. The objective was to create a dataset that can be useful to develop an artistic DNN."
+      },
+      {
         "company":"ISISTAN Institute Research",
         "title":"Artwork curator System",
         "years":"May 2016 - Present",

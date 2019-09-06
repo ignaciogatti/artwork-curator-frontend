@@ -82,10 +82,10 @@ class Experiment extends React.Component{
                 <div className="row">
                     <div className="three columns header-col">
                         <h3>D-Curator</h3>
-                        <p>The following artworks was selected by an IA. It consider that are related to 
+                        <p>The following artworks were selected by an AI. They are considered to be related to 
                             <i>"{this.props.experimentData[this.state.current_index].source_artwork.title}"</i> ({this.props.experimentData[this.state.current_index].source_artwork.artist}, {this.props.experimentData[this.state.current_index].source_artwork.year}).
                             <br />
-                            Help it to improve: tell it if you agree with the choice or not. 
+                            The AI is learning how to analyze and compare artworks. Help it to improve: tell it if you agree with the choice or not. 
                         </p>
                         <div className="card">
                             <img 
@@ -97,7 +97,7 @@ class Experiment extends React.Component{
                             className="huge ui right labeled icon primary button"
                             onClick= {this.onClick}
                         >
-                            Next
+                            Next Image
                             <i className="huge angle double right icon"></i>
                         </button>
                     </div>
