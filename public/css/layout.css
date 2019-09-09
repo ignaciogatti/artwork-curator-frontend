@@ -1090,14 +1090,17 @@ footer .social-links li:first-child { margin-left: 0; }
 #experiment a, #experiment a:visited  { color: #11ABB0; }
 #experiment a:hover, #experiment a:focus { color: #313131; }
 
+#experiment .description-container{
+   max-height: 50vh;
+}
 
 #experiment .card{
    display: inline-block;
    position: relative;
    height: 30%;
-   max-height: 30%;
+   max-height: 30vh;
    width: 90%;
-   margin-top: 1em;
+   margin-top: 1.2em;
    margin-bottom: 1em;
    border: 4px solid #ddd;
    border-radius: 4px;

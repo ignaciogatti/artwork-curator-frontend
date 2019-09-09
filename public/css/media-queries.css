@@ -37,7 +37,7 @@
    font-size: 1.5em;
    }
    #experiment p{ 
-    font-size: 1em;
+    font-size: 0.9em;
    }
 
    #experiment .card{
@@ -133,7 +133,7 @@
    font-size: 1.5em;
    }
    #artworkList p{ 
-     font-size: 0.9em;
+     font-size: 0.8em;
    }
   #artworkList .carousel-item img{ max-height: 100vh; }  
   #artworkList .carousel-caption { font-size: 1.75em; }
@@ -145,7 +145,7 @@
    font-size: 1.5em;
    }
    #experiment p{ 
-    font-size: 0.9em;
+    font-size: 0.8em;
    }
 
    #experiment .card{

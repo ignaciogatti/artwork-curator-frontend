@@ -89,13 +89,15 @@ class Experiment extends React.Component{
                 <div className="row">
                     <div className="three columns header-col">
                         <h3>D-Curator</h3>
-                        <p>The following artworks were selected by an AI. They are considered to be related to 
-                            <i>"{this.props.experimentData[this.state.current_index].source_artwork.title}"</i> ({this.props.experimentData[this.state.current_index].source_artwork.artist}, {this.props.experimentData[this.state.current_index].source_artwork.year}).
-                            <br />
-                            This AI is learning how to analyze and compare artworks. <Link to="/aboutai">Read more about the experiment.</Link>
-                            <br />
-                            Help it to improve: tell it if you agree with the choice or not. 
-                        </p>
+                        <div className="description-container">
+                            <p>The following artworks were selected by an AI. They are considered to be related to 
+                                <i>"{this.props.experimentData[this.state.current_index].source_artwork.title}"</i> ({this.props.experimentData[this.state.current_index].source_artwork.artist}, {this.props.experimentData[this.state.current_index].source_artwork.year}).
+                                <br />
+                                This AI is learning how to analyze and compare artworks. <Link to="/aboutai">Read more about the experiment.</Link>
+                                <br />
+                                Help it to improve: tell it if you agree with the choice or not. 
+                            </p>
+                        </div>
                         <div className="card">
                             <img 
                                 id="sourceImg"
