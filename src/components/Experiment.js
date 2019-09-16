@@ -5,9 +5,11 @@ import {Link} from 'react-router-dom';
 import {save_data, fetch_experiment_data, fetch_user_ratings} from '../actions';
 import Carousel from 'react-bootstrap/Carousel'
 import AgreeDesagreeButtons from './AgreeDesagreeButtons';
+import LanguageContext from '../contexts/LanguageContext';
 
 class Experiment extends React.Component{
 
+    static contextType = LanguageContext;
 
     state ={
         current_index:0,
@@ -76,6 +78,8 @@ class Experiment extends React.Component{
 
 
     render(){
+
+        console.log(this.context);
 
         if(_.isEmpty(this.props.experimentData)){
             return <div>Loading...</div>;

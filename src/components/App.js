@@ -6,6 +6,7 @@ import Header from './Header';
 import Experiment from './Experiment';
 import AboutDCurator from './AboutDCurator';
 import history from '../history';
+import {LanguageStore} from '../contexts/LanguageContext';
 
 class App extends React.Component{
 
@@ -15,11 +16,13 @@ class App extends React.Component{
             <div>
                 <Router history={history}>
                 <div>
-                    <Header />
-                    <Route path="/" exact component={ArtworkListContainer}></Route>
-                    <Route path="/aboutme" component={AboutMe}></Route>
-                    <Route path="/experiment" component={Experiment}></Route>
-                    <Route path="/aboutai" component={AboutDCurator}></Route>                             
+                    <LanguageStore>
+                        <Header />
+                        <Route path="/" exact component={ArtworkListContainer}></Route>
+                        <Route path="/aboutme" component={AboutMe}></Route>
+                        <Route path="/experiment" component={Experiment}></Route>
+                        <Route path="/aboutai" component={AboutDCurator}></Route>                             
+                    </LanguageStore>
                 </div>
                 </Router>
             </div>

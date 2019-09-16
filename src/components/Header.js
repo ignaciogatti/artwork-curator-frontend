@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import GoogleAuth from './GoogleAuth';
 import {connect} from 'react-redux';
+import GoogleAuth from './GoogleAuth';
+import LanguageSelector from './LanguageSelector';
 
 
 class Header extends React.Component{
@@ -16,21 +17,21 @@ class Header extends React.Component{
             <nav id="nav-wrap">
 
                 <ul id="nav" className="nav">
-                    <li className="active">
+                    <li className="header-li">
                         <Link className="header-link" to="/">Artwork Curator</Link>
                     </li>
-                    <li>
+                    <li className="header-li">
                         <Link className="header-link" to="/aboutme">About me</Link>
                     </li>
 
                     {this.props.isSignedIn && (
-                        <li>
+                        <li className="header-li">
                             <Link className="header-link" to="/experiment">Experiments</Link>
                         </li>
                         )}
                     
                     {this.props.isSignedIn && (
-                        <li>
+                        <li className="header-li">
                             <Link className="header-link" to="/aboutai">About DCurator</Link>
                         </li>
                         )}
@@ -38,6 +39,12 @@ class Header extends React.Component{
                     <li className="auth">
                         <GoogleAuth />
                     </li>
+
+                    <li className="flag-li">
+                        <LanguageSelector />
+                    </li>
+
+
 
                 </ul>
     
