@@ -79,11 +79,12 @@ class Experiment extends React.Component{
 
     render(){
 
-        console.log(this.context);
 
         if(_.isEmpty(this.props.experimentData)){
             return <div>Loading...</div>;
         }
+
+        let short_description = this.props.experimentDescription.short_description[this.context.language];
 
         let url = this.props.experimentData[this.state.current_index].source_artwork.imageUrl.split('.jpg')[0];
         url = url +'.jpg';
@@ -94,12 +95,12 @@ class Experiment extends React.Component{
                     <div className="three columns header-col">
                         <h3>D-Curator</h3>
                         <div className="description-container">
-                            <p>The following artworks were selected by an AI. They are considered to be related to 
-                                <i>"{this.props.experimentData[this.state.current_index].source_artwork.title}"</i> ({this.props.experimentData[this.state.current_index].source_artwork.artist}, {this.props.experimentData[this.state.current_index].source_artwork.year}).
+                            <p>{short_description.sentence_1} 
+                                <i> "{this.props.experimentData[this.state.current_index].source_artwork.title}"</i> ({this.props.experimentData[this.state.current_index].source_artwork.artist}, {this.props.experimentData[this.state.current_index].source_artwork.year}).
                                 <br />
-                                This AI is learning how to analyze and compare artworks. <Link to="/aboutai">Read more about the experiment.</Link>
+                                {short_description.sentence_2} <Link to="/aboutai">{short_description.link}</Link>
                                 <br />
-                                Help it to improve: tell it if you agree with the choice or not. 
+                                {short_description.sentence_3} 
                             </p>
                         </div>
                         <div className="card">
@@ -112,7 +113,7 @@ class Experiment extends React.Component{
                             className="huge ui right labeled icon primary button"
                             onClick= {this.onClick}
                         >
-                            Next Image
+                            {short_description.button}
                             <i className="huge angle double right icon"></i>
                         </button>
                     </div>
@@ -139,7 +140,8 @@ const mapStateToProps = state =>{
     return { 
         experimentData: state.experimentData,
         isSignedIn : state.auth.isSignedIn,
-        userRatings : state.userRatings
+        userRatings : state.userRatings,
+        experimentDescription : state.experimentDescription
 
     };
 }

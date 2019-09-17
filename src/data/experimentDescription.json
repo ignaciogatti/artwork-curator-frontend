@@ -1,0 +1,49 @@
+{
+    "short_description": {
+        "english":{
+            "sentence_1": "The following artworks were selected by an AI. They are considered to be related to",
+            "sentence_2": "This AI is learning how to analyze and compare artworks.",
+            "link": "Read more about the experiment.",
+            "sentece_3": "Help it to improve: tell it if you agree with the choice or not.",
+            "button": "Next Image"
+        },
+        "spanish":{
+            "sentence_1": "Las obras de artes presentadas fueron seleccionadas por una IA. La IA considera que la obras se relacionan con",
+            "sentence_2": "Esta IA está aprendiendo a analizar y comparar obras de artes.",
+            "link": "Leer más sobre el experimento.",
+            "sentece_3": "Ayudala a mejorar: dile si estás de acuerdo (o no) con su elección.",
+            "button": "Siguiente Imagen"
+        }
+    },
+
+    "full_description": {
+        "english":{
+            "about_dcurator": {
+                "title": "About D-Curator",
+                "paragraph_1": "D-Curator is a Artificial Intelligence (AI) developed with Deep Learning techniques. Basically, these techniques allow the machine to analize the images taking into account only pixel representation. In other words, D-Curator has no idea about who painted each artwork, or the history behind it, or what it means when someone says \"this is an impressionist painting\".",
+                "paragraph_2": "It only looks at the image and takes its own conclusions. Despite of the fact that it doesn't know anything about Art History, it is able to find interesting connections between artworks. Indeed, it seems that D-Curator can find artworks that have  a similar composition (color, structure, strength lines)."
+            },
+            "about_experiment": {
+                "title": "Experiment",
+                "paragraph_1": "The objective of the experiment is to provide feedback to D-Curator. In order to improve its skills as artwork analyzer, it is necessary to tell which choices were right and which ones weren't.",
+                "paragraph_2": "In this experiment you will have a reference artwork and a set of artworks that were selected by D-Curator. Your task consists on analyzing if each artwork of the set is related to the reference artwork. Remember that D-Curator only takes into account the compositon (color, structure, strength lines). Don't expect to find relationships like \"same artist\" or \"same genre\", because D-Curator doesn't know anything about Art History.",
+                "paragraph_3": "Also, you have to know that D-Curator only considered artworks from the following periods: Baroque, Romanticism, Realism, Impressionism, Expressionism, Surrealism, Symbolism and Art-Nouveau. Therefore, all the artworks in the set belong to those periods."
+            },
+            "link": "Begin with experiment!"
+        },
+        "spanish":{
+            "about_dcurator": {
+                "title": "Sobre D-Curator",
+                "paragraph_1": "D-Curator es una Inteligencia Artificial (IA) desarrollada con técnicas de Deep Learning. Básicamente, estas técnicas permiten que la máquina analice las imágenes teniendo en cuenta solo la representación digital. En otras palabras, D-Curator no sabe quién pintó cada obra de arte, o la historia detrás de ella, o a que hace referencia alguien cuando dice \"esta es una pintura impresionista\".",
+                "paragraph_2": "Solo mira la imagen y saca sus propias conclusiones. A pesar de no saber nada sobre Historia del Arte, D-Curator puede encontrar conexiones interesantes entre obras de arte. De hecho, parece que D-Curator puede encontrar obras de arte que tengan una composición similar (color, estructura, líneas de fuerza)."
+            },
+            "about_experiment": {
+                "title": "Experimento",
+                "paragraph_1": "El objetivo del experimento es proporcionar feedback a D-Curator. Para mejorar sus habilidades como analizador de obras de arte, es necesario decirle cuáles obras fueron correctamente seleccionadas y cuáles no.",
+                "paragraph_2": "En este experimento, usted tendrá una obra de arte de referencia y un conjunto de obras de arte que fueron seleccionadas por D-Curator. Su tarea consiste en analizar si cada obra de arte del conjunto está conectada con la obra de arte de referencia. Recuerde que D-Curator solo tiene en cuenta la composición (color, estructura, líneas de fuerza). No esperes encontrar relaciones como \"mismo artista\" o \"mismo género\", porque D-Curator no sabe nada sobre Historia del Arte.",
+                "paragraph_3": "Además, debe saber que D-Curator solo consideró obras de arte de los siguientes períodos: Barroco, Romanticismo, Realismo, Impresionismo, Expresionismo, Surrealismo, Simbolismo y Art Nouveau. Por lo tanto, todas las obras de arte en el conjunto pertenecen a esos períodos."
+            },
+            "link": "Comenzar el experimento!"
+        }
+    }
+}

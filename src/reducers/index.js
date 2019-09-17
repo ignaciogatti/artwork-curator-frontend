@@ -5,7 +5,8 @@ import cvDataReducer from './cvDataReducer';
 import authReducer from './authReducer';
 import experimentDataReducer from './experimentDataReducer';
 import fetchUserRatingsReducer from './fetchUserRatingsReducer';
-
+import experimentDescriptionReducer from './experimentDescriptionReducer';
+import headerDescriptionReducer from './headerDescriptionReducer';
 
 export default combineReducers({
     form : formReducer,
@@ -13,6 +14,8 @@ export default combineReducers({
     resumeData : cvDataReducer,
     auth : authReducer,
     experimentData : experimentDataReducer,
-    userRatings : fetchUserRatingsReducer
+    userRatings : fetchUserRatingsReducer,
+    experimentDescription : experimentDescriptionReducer,
+    headerDescription : headerDescriptionReducer
 
 });
