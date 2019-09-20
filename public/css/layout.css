@@ -1244,3 +1244,45 @@ footer .social-links li:first-child { margin-left: 0; }
  #aboutai .row .button-row{
     text-align: center;
  }
+
+
+ /* -------------------------------------------------------------------- */
+/* l. Modal
+/* -------------------------------------------------------------------- */
+
+.dimmed.dimmable > .ui.animating.dimmer, .dimmed.dimmable > .ui.visible.dimmer, .ui.active.dimmer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .ui.modal,
+ .ui.active.modal {
+   margin: 0 auto!important;
+   top: auto !important;
+   left: auto !important;
+   transform-origin: center !important;
+   transition: all ease .5s;
+   height: 30%;
+ }
+
+ .ui.active.modal .header {
+
+   font-size: 2.075em !important;
+   height: 20% !important;
+ }
+
+ .ui.active.modal .content {
+
+   font-size: 1.775em !important;
+   height: 30% !important;
+ }
+
+ .ui.active.modal .actions {
+   margin: 0 auto!important;
+   text-align: center;
+   height: 50% !important;
+ }
+
+ .ui.active.modal .actions .red.google.button{
+   max-width: 40%;
+ }

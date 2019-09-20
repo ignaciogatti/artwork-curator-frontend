@@ -28,6 +28,9 @@ class Header extends React.Component{
                     <li className="header-li">
                         <Link className="header-link" to="/aboutme">{links_name.about_me}</Link>
                     </li>
+                    <li className="header-li">
+                        <Link className="header-link" to="/aboutai">{links_name.about_dcurator}</Link>
+                    </li>
 
                     {this.props.isSignedIn && (
                         <li className="header-li">
@@ -35,11 +38,6 @@ class Header extends React.Component{
                         </li>
                         )}
                     
-                    {this.props.isSignedIn && (
-                        <li className="header-li">
-                            <Link className="header-link" to="/aboutai">{links_name.about_dcurator}</Link>
-                        </li>
-                        )}
 
                     <li className="auth">
                         <GoogleAuth />

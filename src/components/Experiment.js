@@ -6,6 +6,7 @@ import {save_data, fetch_experiment_data, fetch_user_ratings} from '../actions';
 import Carousel from 'react-bootstrap/Carousel'
 import AgreeDesagreeButtons from './AgreeDesagreeButtons';
 import LanguageContext from '../contexts/LanguageContext';
+import history from '../history';
 
 class Experiment extends React.Component{
 
@@ -37,6 +38,10 @@ class Experiment extends React.Component{
     }
 
     componentDidMount(){
+
+        if (!this.props.isSignedIn){
+            history.push('/');
+        }
         this.props.fetch_experiment_data();
         if (this.props.isSignedIn){
             this.props.fetch_user_ratings();
@@ -44,10 +49,14 @@ class Experiment extends React.Component{
     }
 
     componentDidUpdate(prevProps){
+
         if (prevProps.isSignedIn !== this.props.isSignedIn){
             this.props.fetch_user_ratings();
         }
-     
+
+        if (prevProps.isSignedIn !== this.props.isSignedIn && !this.props.isSignedIn){
+            history.push('/');
+        }
     }
     
     renderSlides(){

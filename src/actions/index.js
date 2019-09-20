@@ -5,7 +5,6 @@ import experimentData3 from '../data/experimentData3';
 import experimentData4 from '../data/experimentData4';
 import experimentData5 from '../data/experimentData5';
 import experimentData from '../data/experimentData';
-import history from '../history';
 import {
     REQUEST_DATA,
     UPLOAD_ARTWORK,
@@ -46,7 +45,6 @@ export const signIn = userId =>{
 };
 
 export const signOut = () =>{
-    history.push('/');
     return {
         type: SIGN_OUT
     };

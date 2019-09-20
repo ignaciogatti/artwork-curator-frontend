@@ -4,6 +4,8 @@ import ArtworkList from './ArtworkList';
 import LanguageContext from '../contexts/LanguageContext';
 
 
+
+
 const ArtworkListContainer = () => {
 
     const languageContext = useContext(LanguageContext);
@@ -18,7 +20,6 @@ const ArtworkListContainer = () => {
             sentence_2: "¡Diviértete! Solo tienes que subir tu obra de arte favorita."
         }
     }
-    console.log(description[languageContext.language]);
 
     let current_description = description[languageContext.language];
 
