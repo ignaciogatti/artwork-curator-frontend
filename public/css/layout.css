@@ -1254,7 +1254,9 @@ footer .social-links li:first-child { margin-left: 0; }
    display: flex;
    align-items: center;
    justify-content: center;
+   position: fixed !important;
  }
+
  .ui.modal,
  .ui.active.modal {
    margin: 0 auto!important;

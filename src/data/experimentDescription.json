@@ -45,5 +45,15 @@
             },
             "link": "Comenzar el experimento!"
         }
+    },
+    "modal_description": {
+        "english":{
+            "content": "Before you start the experiment, you must log in",
+            "button": "Cancel"
+        },
+        "spanish":{
+            "content": "Antes de comenzar con el experimento, debes registrarte",
+            "button": "Cancelar"
+        }
     }
 }

@@ -15,11 +15,19 @@ class AboutDCurator extends React.Component{
 
     hideModal = () =>{ this.setState({showModal:false})};
 
-    renderContent(){
-        return "Before you start the experiment, you must log in"
+
+    componentDidUpdate(prevProps){
+        if (prevProps.isSignedIn !== this.props.isSignedIn && this.props.isSignedIn){
+            this.setState({showModal: false})
+        }
+
     }
 
-    renderAction(){
+    renderContent(content){
+        return content;
+    }
+
+    renderAction(cancelButton){
          return (
             <React.Fragment>
                 <GoogleAuth />
@@ -27,7 +35,7 @@ class AboutDCurator extends React.Component{
                     className="massive ui button"
                     onClick = {this.hideModal}
                 > 
-                    Cancel 
+                    {cancelButton} 
                 </button>
             </React.Fragment>
         );
@@ -65,6 +73,7 @@ class AboutDCurator extends React.Component{
     render(){
         
         let full_description = this.props.experimentDescription.full_description[this.context.language];
+        let modal_description = this.props.experimentDescription.modal_description[this.context.language];
         return(
             <section id="aboutai">
                 <div className="row">
@@ -99,8 +108,8 @@ class AboutDCurator extends React.Component{
                         show={this.state.showModal} 
                         handleClose={this.hideModal}
                         title = "Log In"
-                        content = {this.renderContent()}
-                        actions={this.renderAction()}
+                        content = {this.renderContent(modal_description.content)}
+                        actions={this.renderAction(modal_description.button)}
                         onDismiss = {()=>this.setState({showModal:false})}
                     />
                 )}
