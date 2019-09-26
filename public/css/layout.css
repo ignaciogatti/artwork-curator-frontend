@@ -1250,7 +1250,7 @@ footer .social-links li:first-child { margin-left: 0; }
 /* l. Modal
 /* -------------------------------------------------------------------- */
 
-.dimmed.dimmable > .ui.animating.dimmer, .dimmed.dimmable > .ui.visible.dimmer, .ui.active.dimmer {
+#modal .ui.modals.active.dimmer {
    display: flex;
    align-items: center;
    justify-content: center;
