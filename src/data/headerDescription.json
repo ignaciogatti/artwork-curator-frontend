@@ -3,14 +3,14 @@
         "english":{
             "artwork_curator": "Artwork Curator",
             "about_me": "About me",
-            "experiments": "Experiments",
-            "about_dcurator": "About DCurator"
+            "experiments": "Test",
+            "about_dcurator": "Experiments"
         },
         "spanish":{
             "artwork_curator": "Artwork Curator",
             "about_me": "Sobre mi",
-            "experiments": "Experimentos",
-            "about_dcurator": "Sobre DCurator"
+            "experiments": "Caso de estudio",
+            "about_dcurator": "Experimentos"
         }
     }
 }

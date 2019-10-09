@@ -1,0 +1,161 @@
+{
+  "source_artwork":{
+    "title": "Swallow, Love",
+    "artist": "Joan Miro",
+    "imageUrl": "https://uploads2.wikiart.org/images/joan-miro/swallow-love.jpg!Large.jpg",
+    "year": 1934,
+    "id": 33965
+  },
+  "sim_artworks": [
+    {
+      "title": "Swallow, Love",
+      "artist": "Joan Miro",
+      "imageUrl": "https://uploads2.wikiart.org/images/joan-miro/swallow-love.jpg!Large.jpg",
+      "id": 33965
+    },
+    {
+      "title": "View from the Dunes with Beach and Piers",
+      "artist": "Piet Mondrian",
+      "imageUrl": "https://uploads3.wikiart.org/images/piet-mondrian/view-from-the-dunes-with-beach-and-piers-1909.jpg!Large.jpg",
+      "id": 6135
+    },
+    {
+      "title": "Anna Pavlova in the Ballet Sylphyde",
+      "artist": "Valentin Serov",
+      "imageUrl": "https://uploads8.wikiart.org/images/valentin-serov/anna-pavlova-in-the-ballet-sylphyde-1909.jpg!Large.jpg",
+      "id": 16079
+    },
+    {
+      "title": "England",
+      "artist": "Boris Kustodiev",
+      "imageUrl": "https://uploads8.wikiart.org/images/boris-kustodiev/england-1924.jpg!Large.jpg",
+      "id": 21576
+    },
+    {
+      "title": "Young Woman in the Atelier",
+      "artist": "Janos Tornyai",
+      "imageUrl": "https://uploads7.wikiart.org/images/janos-tornyai/young-woman-in-the-atelier-1904.jpg!Large.jpg",
+      "id": 29481
+    },
+    {
+      "title": "Bay. Vyko",
+      "artist": "Nikolai Ge",
+      "imageUrl": "https://uploads8.wikiart.org/images/nikolai-ge/bay-vyko.jpg!Large.jpg",
+      "id": 15724
+    },
+    {
+      "title": "Self-Portrait",
+      "artist": "Frederic Bazille",
+      "imageUrl": "https://uploads6.wikiart.org/images/frederic-bazille/self-portrait-1866.jpg!Large.jpg",
+      "id": 1707
+    },
+    {
+      "title": "A Summer's Evening",
+      "artist": "Philip Wilson Steer",
+      "imageUrl": "https://uploads0.wikiart.org/images/philip-wilson-steer/a-summer-s-evening.jpg!Large.jpg",
+      "id": 36998
+    },
+    {
+      "title": "Outskirts of Louveciennes",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads0.wikiart.org/images/camille-pissarro/outskirts-of-louveciennes-1871.jpg!Large.jpg",
+      "id": 13734
+    },
+    {
+      "title": "Self-Portrait",
+      "artist": "David Bomberg",
+      "imageUrl": "https://uploads3.wikiart.org/images/david-bomberg/self-portrait-1932.jpg!Large.jpg",
+      "id": 12462
+    },
+    {
+      "title": "A Street in Vichy",
+      "artist": "Konstantin Korovin",
+      "imageUrl": "https://uploads3.wikiart.org/images/konstantin-korovin/a-street-in-vichy-1911.jpg!Large.jpg",
+      "id": 20750
+    },
+    {
+      "title": "Landscape",
+      "artist": "Luis Dourdil",
+      "imageUrl": "https://uploads7.wikiart.org/images/luis-dourdil/landscape-1959.jpg!Large.jpg",
+      "id": 39582
+    },
+    {
+      "title": "Refusal of the Confession",
+      "artist": "Ilya Repin",
+      "imageUrl": "https://uploads3.wikiart.org/images/ilya-repin/refusal-of-the-confession-1885.jpg!Large.jpg",
+      "id": 22323
+    },
+    {
+      "title": "Les Martigues",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads0.wikiart.org/images/gustave-loiseau/les-martigues.jpg!Large.jpg",
+      "id": 40380
+    },
+    {
+      "title": "In the Mountains",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads3.wikiart.org/images/gustave-loiseau/in-the-mountains.jpg!Large.jpg",
+      "id": 8685
+    },
+    {
+      "title": "Harbour at Sevastopol",
+      "artist": "Konstantin Korovin",
+      "imageUrl": "https://uploads7.wikiart.org/images/konstantin-korovin/harbour-at-sebastopol-1916.jpg!Large.jpg",
+      "id": 19256
+    },
+    {
+      "title": "Band Concert",
+      "artist": "Maurice Prendergast",
+      "imageUrl": "https://uploads3.wikiart.org/images/maurice-prendergast/band-concert.jpg!Large.jpg",
+      "id": 17532
+    },
+    {
+      "title": "Joseph's Dream in the Stable in Bethlehem",
+      "artist": "Rembrandt",
+      "imageUrl": "https://uploads0.wikiart.org/images/rembrandt/joseph-s-dream-in-the-stable-in-bethlehem-1645.jpg!Large.jpg",
+      "id": 20375
+    },
+    {
+      "title": "The limpid water. Gloomy day. Crimea",
+      "artist": "Arkhip Kuindzhi",
+      "imageUrl": "https://uploads3.wikiart.org/images/arkhip-kuindzhi/the-limpid-water-gloomy-day-crimea.jpg!Large.jpg",
+      "id": 21353
+    },
+    {
+      "title": "Rouen Cathedral",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads4.wikiart.org/images/claude-monet/rouen-cathedral-1893.jpg!Large.jpg",
+      "id": 1287
+    },
+    {
+      "title": "The Descent Of Night",
+      "artist": "Charles Rennie Mackintosh",
+      "imageUrl": "https://uploads4.wikiart.org/images/charles-rennie-mackintosh/the-descent-of-night-1894.jpg!Large.jpg",
+      "id": 40142
+    },
+    {
+      "title": "Signals",
+      "artist": "Edward Wadsworth",
+      "imageUrl": "https://uploads0.wikiart.org/images/edward-wadsworth/signals-1942.jpg!Large.jpg",
+      "id": 13538
+    },
+    {
+      "title": "Azulejo, Portuguese Institute of Oncology",
+      "artist": "Julio Resende",
+      "imageUrl": "https://uploads0.wikiart.org/images/julio-resende/azulejo-portuguese-institute-of-oncology-porto-portugal-1992.jpg!Large.jpg",
+      "id": 22523
+    },
+    {
+      "title": "Elm Park Gardens",
+      "artist": "John Bratby",
+      "imageUrl": "https://uploads4.wikiart.org/images/john-bratby/elm-park-gardens-1955.jpg!Large.jpg",
+      "id": 43693
+    },
+    {
+      "title": "Plum and Walnut Trees in Spring",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads3.wikiart.org/images/alfred-sisley/plum-and-walnut-trees-in-spring-1889.jpg!Large.jpg",
+      "id": 16074
+    }
+  ]
+}

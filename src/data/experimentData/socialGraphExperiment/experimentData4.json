@@ -1,0 +1,161 @@
+{
+  "source_artwork":{
+    "title": "A Bar at the Folies-Bergere",
+    "artist": "Edouard Manet",
+    "imageUrl": "https://uploads1.wikiart.org/00129/images/edouard-manet/a-bar-at-the-folies-bergere.jpg!Large.jpg",
+    "year": 1882,
+    "id": 36457
+  },
+  "sim_artworks": [
+    {
+      "title": "The Descent Of Night",
+      "artist": "Charles Rennie Mackintosh",
+      "imageUrl": "https://uploads4.wikiart.org/images/charles-rennie-mackintosh/the-descent-of-night-1894.jpg!Large.jpg",
+      "id": 40142
+    },
+    {
+      "title": "The Vineyard of Desolation",
+      "artist": "Wilhelm Kotarbinski",
+      "imageUrl": "https://uploads8.wikiart.org/images/wilhelm-kotarbinski/the-vineyard-of-desolation.jpg!Large.jpg",
+      "id": 30799
+    },
+    {
+      "title": "Water Lilies",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads1.wikiart.org/images/claude-monet/water-lilies-1899.jpg!Large.jpg",
+      "id": 3607
+    },
+    {
+      "title": "Avenue of Schloss Kammer Park",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads4.wikiart.org/images/gustav-klimt/avenue-of-schloss-kammer-park.jpg!Large.jpg",
+      "id": 1113
+    },
+    {
+      "title": "Old man Dressed as Saint Paul",
+      "artist": "Rembrandt",
+      "imageUrl": "https://uploads6.wikiart.org/images/rembrandt/old-man-dressed-as-saint-paul-1632.jpg!Large.jpg",
+      "id": 28600
+    },
+    {
+      "title": "Alexander and Diogenes",
+      "artist": "Cornelis de Vos",
+      "imageUrl": "https://uploads7.wikiart.org/images/cornelis-de-vos/cornelis-de-vos-alexander-and-diogenes.jpg!Large.jpg",
+      "id": 40508
+    },
+    {
+      "title": "Triton",
+      "artist": "Annibale Carracci",
+      "imageUrl": "https://uploads4.wikiart.org/images/annibale-carracci/triton.jpg!Large.jpg",
+      "id": 36229
+    },
+    {
+      "title": "A bouquet of flowers",
+      "artist": "Ilya Repin",
+      "imageUrl": "https://uploads7.wikiart.org/images/ilya-repin/a-bouquet-of-flowers-1878.jpg!Large.jpg",
+      "id": 24714
+    },
+    {
+      "title": "Farnlandschaft",
+      "artist": "Richard Oelze",
+      "imageUrl": "https://uploads8.wikiart.org/images/richard-oelze/farnlandschaft.jpg!Large.jpg",
+      "id": 41399
+    },
+    {
+      "title": "Spring in the Forest",
+      "artist": "Isaac Levitan",
+      "imageUrl": "https://uploads1.wikiart.org/images/isaac-levitan/spring-in-the-forest-1882.jpg!Large.jpg",
+      "id": 19812
+    },
+    {
+      "title": "Portrait of E. Zvantseva",
+      "artist": "Ilya Repin",
+      "imageUrl": "https://uploads1.wikiart.org/images/ilya-repin/portrait-of-e-zvantseva-1889.jpg!Large.jpg",
+      "id": 31068
+    },
+    {
+      "title": "Town Street",
+      "artist": "Abraham Manievich",
+      "imageUrl": "https://uploads0.wikiart.org/images/abraham-manievich/town-street.jpg!Large.jpg",
+      "id": 41000
+    },
+    {
+      "title": "Goldwald",
+      "artist": "Helen Dahm",
+      "imageUrl": "https://uploads4.wikiart.org/images/helen-dahm/goldwald-1957.jpg!Large.jpg",
+      "id": 41526
+    },
+    {
+      "title": "Seated Monk",
+      "artist": "Salvador Dali",
+      "imageUrl": "https://uploads5.wikiart.org/images/salvador-dali/seated-monk.jpg!Large.jpg",
+      "id": 28269
+    },
+    {
+      "title": "Caricature of Alexander Baillie Cochrane M.P.",
+      "artist": "James Tissot",
+      "imageUrl": "https://uploads1.wikiart.org/images/james-tissot/caricature-of-alexander-baillie-cochrane-m-p.jpg!Large.jpg",
+      "id": 42743
+    },
+    {
+      "title": "Carpet design",
+      "artist": "Otto Eckmann",
+      "imageUrl": "https://uploads2.wikiart.org/images/otto-eckmann/carpet-design-1898.jpg!Large.jpg",
+      "id": 39604
+    },
+    {
+      "title": "The Golden Knight",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads1.wikiart.org/images/gustav-klimt/the-golden-knight.jpg!Large.jpg",
+      "id": 5968
+    },
+    {
+      "title": "Dusk over the port of Le Havre",
+      "artist": "Eugene Boudin",
+      "imageUrl": "https://uploads6.wikiart.org/images/eugene-boudin/dusk-over-the-port-of-le-havre.jpg!Large.jpg",
+      "id": 2058
+    },
+    {
+      "title": "Coming of Fall",
+      "artist": "Karl Schrag",
+      "imageUrl": "https://uploads6.wikiart.org/images/karl-schrag/coming-of-fall.jpg!Large.jpg",
+      "id": 40733
+    },
+    {
+      "title": "Self-Portrait",
+      "artist": "David Bomberg",
+      "imageUrl": "https://uploads3.wikiart.org/images/david-bomberg/self-portrait-1932.jpg!Large.jpg",
+      "id": 12462
+    },
+    {
+      "title": "Peacock and Dragon woven wool furnishing fabric",
+      "artist": "William Morris",
+      "imageUrl": "https://uploads2.wikiart.org/images/william-morris/peacock-and-dragon-woven-wool-furnishing-fabric-1878.jpg!Large.jpg",
+      "id": 8197
+    },
+    {
+      "title": "The Trumpeter",
+      "artist": "Thomas Jones Barker",
+      "imageUrl": "https://uploads4.wikiart.org/images/thomas-jones-barker/the-trumpeter.jpg!Large.jpg",
+      "id": 34768
+    },
+    {
+      "title": "Troika. Apprentice Workmen Carrying Water",
+      "artist": "Vasily Perov",
+      "imageUrl": "https://uploads2.wikiart.org/images/vasily-perov/troika-apprentice-workmen-carrying-water-1866.jpg!Large.jpg",
+      "id": 12364
+    },
+    {
+      "title": "Terem Yaroslavna",
+      "artist": "Konstantin Korovin",
+      "imageUrl": "https://uploads2.wikiart.org/images/konstantin-korovin/terem-yaroslavna-1928.jpg!Large.jpg",
+      "id": 25622
+    },
+    {
+      "title": "Imereti-My Mother",
+      "artist": "David Kakabadze",
+      "imageUrl": "https://uploads4.wikiart.org/images/david-kakabadze/imereti-my-mother.jpg!Large.jpg",
+      "id": 4972
+    }
+  ]
+}

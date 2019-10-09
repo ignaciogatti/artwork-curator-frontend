@@ -1,0 +1,161 @@
+{
+  "source_artwork":{
+    "title": "Bathroom",
+    "artist": "Charles Maurin",
+    "imageUrl": "https://uploads3.wikiart.org/images/charles-maurin/bathroom.jpg!Large.jpg",
+    "year": 1903,
+    "id": 5629
+  },
+  "sim_artworks": [
+    {
+      "title": "Bathroom",
+      "artist": "Charles Maurin",
+      "imageUrl": "https://uploads3.wikiart.org/images/charles-maurin/bathroom.jpg!Large.jpg",
+      "id": 5629
+    },
+    {
+      "title": "Mrs. Henry White (Margaret Daisy Stuyvesant Rutherford)",
+      "artist": "John Singer Sargent",
+      "imageUrl": "https://uploads3.wikiart.org/images/john-singer-sargent/mrs-henry-white-margaret-daisy-stuyvesant-rutherford-1883.jpg!Large.jpg",
+      "id": 16821
+    },
+    {
+      "title": "Chestnut Trees at Louveciennes",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads5.wikiart.org/images/camille-pissarro/chestnut-trees-at-louveciennes-1872.jpg!Large.jpg",
+      "id": 10136
+    },
+    {
+      "title": "Sitting Nude from the Back",
+      "artist": "Janos Tornyai",
+      "imageUrl": "https://uploads7.wikiart.org/images/janos-tornyai/sitting-nude-from-the-back-1919.jpg!Large.jpg",
+      "id": 27034
+    },
+    {
+      "title": "Thinking",
+      "artist": "Nicolae Vermont",
+      "imageUrl": "https://uploads0.wikiart.org/images/nicolae-vermont/thinking-1924.jpg!Large.jpg",
+      "id": 22615
+    },
+    {
+      "title": "Portrait of a girl with crown",
+      "artist": "Guido Reni",
+      "imageUrl": "https://uploads7.wikiart.org/images/guido-reni/portrait-of-a-girl-with-crown-1642.jpg!Large.jpg",
+      "id": 1558
+    },
+    {
+      "title": "Lying Nude (The Bather IX)",
+      "artist": "Georges Braque",
+      "imageUrl": "https://uploads6.wikiart.org/images/georges-braque/lying-nude-the-bather-ix-1932.jpg!Large.jpg",
+      "id": 36444
+    },
+    {
+      "title": "Woman with Flowers in Her Hair",
+      "artist": "Gabriel von Max",
+      "imageUrl": "https://uploads8.wikiart.org/images/gabriel-von-max/woman-with-flowers-in-her-hair.jpg!Large.jpg",
+      "id": 36680
+    },
+    {
+      "title": "Winter Morning Veneux",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads2.wikiart.org/images/alfred-sisley/winter-morning-veneux-1881.jpg!Large.jpg",
+      "id": 32665
+    },
+    {
+      "title": "Landscape Vanderhovensdrif, Apies River, Pretoria",
+      "artist": "Pieter Wenning",
+      "imageUrl": "https://uploads6.wikiart.org/images/pieter-wenning/landscape-vanderhovensdrif-apies-river-pretoria.jpg!Large.jpg",
+      "id": 44103
+    },
+    {
+      "title": "At the Well",
+      "artist": "Nicolae Vermont",
+      "imageUrl": "https://uploads3.wikiart.org/images/nicolae-vermont/at-the-well-1920.jpg!Large.jpg",
+      "id": 29955
+    },
+    {
+      "title": "The Plain of Veneux, View of Sablons",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads7.wikiart.org/images/alfred-sisley/the-plain-of-veneux-view-of-sablons-1884.jpg!Large.jpg",
+      "id": 34599
+    },
+    {
+      "title": "Freja",
+      "artist": "John Bauer",
+      "imageUrl": "https://uploads1.wikiart.org/images/john-bauer/freja-1905.jpg!Large.jpg",
+      "id": 474
+    },
+    {
+      "title": "The Norman coast",
+      "artist": "Richard Parkes Bonington",
+      "imageUrl": "https://uploads3.wikiart.org/images/richard-parkes-bonington/the-norman-coast.jpg!Large.jpg",
+      "id": 1912
+    },
+    {
+      "title": "Princess Amelia",
+      "artist": "John Hoppner",
+      "imageUrl": "https://uploads4.wikiart.org/images/john-hoppner/princess-amelia-1785.jpg!Large.jpg",
+      "id": 44097
+    },
+    {
+      "title": "Madame Cezanne in Blue",
+      "artist": "Paul Cezanne",
+      "imageUrl": "https://uploads2.wikiart.org/images/paul-cezanne/madame-cezanne-in-blue-1890.jpg!Large.jpg",
+      "id": 13956
+    },
+    {
+      "title": "Fort Edmonton",
+      "artist": "Paul Kane",
+      "imageUrl": "https://uploads8.wikiart.org/images/paul-kane/fort-edmonton-1856.jpg!Large.jpg",
+      "id": 29589
+    },
+    {
+      "title": "The Studio (IV)",
+      "artist": "Georges Braque",
+      "imageUrl": "https://uploads4.wikiart.org/images/georges-braque/the-studio-iv-1950.jpg!Large.jpg",
+      "id": 36577
+    },
+    {
+      "title": "Marc",
+      "artist": "Ivan Kramskoy",
+      "imageUrl": "https://uploads7.wikiart.org/images/ivan-kramskoy/marc.jpg!Large.jpg",
+      "id": 45881
+    },
+    {
+      "title": "self-portrait",
+      "artist": "David Kakabadze",
+      "imageUrl": "https://uploads2.wikiart.org/images/david-kakabadze/self-portrait-2.jpg!Large.jpg",
+      "id": 3098
+    },
+    {
+      "title": "Young Woman in Oriental Garb",
+      "artist": "Edouard Manet",
+      "imageUrl": "https://uploads0.wikiart.org/images/edouard-manet/young-woman-in-oriental-garb-1871.jpg!Large.jpg",
+      "id": 1600
+    },
+    {
+      "title": "Girl with a Milk Can",
+      "artist": "Boris Grigoriev",
+      "imageUrl": "https://uploads3.wikiart.org/images/boris-gregoriev/girl-with-a-milk-can-1917.jpg!Large.jpg",
+      "id": 16579
+    },
+    {
+      "title": "The lady on the chair",
+      "artist": "Konstantin Korovin",
+      "imageUrl": "https://uploads7.wikiart.org/images/konstantin-korovin/the-lady-on-the-chair-1917.jpg!Large.jpg",
+      "id": 24003
+    },
+    {
+      "title": "Les Martigues",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads0.wikiart.org/images/gustave-loiseau/les-martigues.jpg!Large.jpg",
+      "id": 40380
+    },
+    {
+      "title": "Interieur chapelle Saint Blaise",
+      "artist": "Jean Cocteau",
+      "imageUrl": "https://uploads2.wikiart.org/images/jean-cocteau/interieur-chapelle-saint-blaise-1959.jpg!Large.jpg",
+      "id": 7533
+    }
+  ]
+}

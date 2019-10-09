@@ -1,10 +1,7 @@
 import artworkRetrieval from '../apis/artworkRetrieval';
 import dataExperiment from '../apis/dataExperiment';
-import experimentData2 from '../data/experimentData2';
-import experimentData3 from '../data/experimentData3';
-import experimentData4 from '../data/experimentData4';
-import experimentData5 from '../data/experimentData5';
-import experimentData from '../data/experimentData';
+//import {data_experiment} from '../data/experimentData/encodeExperiment/dataExperimentEncode';
+import {data_experiment} from '../data/experimentData/socialGraphExperiment/dataExperimentSocialGraph';
 import {
     REQUEST_DATA,
     UPLOAD_ARTWORK,
@@ -70,7 +67,7 @@ export const save_data = data => async (dispatch, getState) => {
 export const fetch_experiment_data = () =>{
     return{
         type:FETCH_EXPERIMENT_DATA,
-        payload:[experimentData, experimentData2, experimentData3, experimentData4, experimentData5]
+        payload:data_experiment
     };
 }
 

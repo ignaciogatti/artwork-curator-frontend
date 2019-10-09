@@ -1,0 +1,161 @@
+{
+  "source_artwork":{
+    "title": "Waterloo Bridge",
+    "artist": "Claude Monet",
+    "imageUrl": "https://uploads8.wikiart.org/images/claude-monet/waterloo-bridge-london-1.jpg!Large.jpg",
+    "year": 1903,
+    "id": 7066
+  },
+  "sim_artworks": [
+    {
+      "title": "Cherbourg",
+      "artist": "Eugene Boudin",
+      "imageUrl": "https://uploads8.wikiart.org/images/eugene-boudin/cherbourg-1883.jpg!Large.jpg",
+      "id": 18045
+    },
+    {
+      "title": "Trees by the River",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads1.wikiart.org/images/gustave-loiseau/trees-by-the-river-1891.jpg!Large.jpg",
+      "id": 10052
+    },
+    {
+      "title": "Saint Cyr du Vaudreuil",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads0.wikiart.org/images/gustave-loiseau/saint-cyr-du-vaudreuil.jpg!Large.jpg",
+      "id": 8862
+    },
+    {
+      "title": "Port of Dieppe",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads6.wikiart.org/images/gustave-loiseau/port-of-dieppe-1903.jpg!Large.jpg",
+      "id": 10012
+    },
+    {
+      "title": "Paper Mill at Port Marly",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads7.wikiart.org/images/gustave-loiseau/paper-mill-at-port-marly-1920.jpg!Large.jpg",
+      "id": 13024
+    },
+    {
+      "title": "Rotterdam, the Commodities Exchange Port",
+      "artist": "Eugene Boudin",
+      "imageUrl": "https://uploads2.wikiart.org/images/eugene-boudin/rotterdam-the-commodities-exchange-port-1878.jpg!Large.jpg",
+      "id": 25253
+    },
+    {
+      "title": "Snow Scene at Argenteuil",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads8.wikiart.org/images/claude-monet/snow-scene-at-argenteuil.jpg!Large.jpg",
+      "id": 6415
+    },
+    {
+      "title": "Happyness of meeting",
+      "artist": "Lev Lagorio",
+      "imageUrl": "https://uploads8.wikiart.org/images/lev-lagorio/happyness-of-meeting-1903.jpg!Large.jpg",
+      "id": 30499
+    },
+    {
+      "title": "The Watering Place at Marly Le Roi Hoarfrost",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads7.wikiart.org/images/alfred-sisley/the-watering-place-at-marly-le-roi-hoarfrost-1875.jpg!Large.jpg",
+      "id": 14825
+    },
+    {
+      "title": "A boat in the sea. Crimea",
+      "artist": "Arkhip Kuindzhi",
+      "imageUrl": "https://uploads2.wikiart.org/images/arkhip-kuindzhi/a-boat-in-the-sea-crimea.jpg!Large.jpg",
+      "id": 27334
+    },
+    {
+      "title": "Landscape, Louveciennes",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads1.wikiart.org/images/camille-pissarro/landscape-louveciennes.jpg!Large.jpg",
+      "id": 12356
+    },
+    {
+      "title": "Fog in the mountains. Caucasus",
+      "artist": "Arkhip Kuindzhi",
+      "imageUrl": "https://uploads7.wikiart.org/images/arkhip-kuindzhi/fog-in-the-mountains-caucasus.jpg!Large.jpg",
+      "id": 29599
+    },
+    {
+      "title": "On the Banks of the River Loing",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads7.wikiart.org/images/alfred-sisley/on-the-banks-of-the-river-loing.jpg!Large.jpg",
+      "id": 10763
+    },
+    {
+      "title": "The Dam at Saint Mammes",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads4.wikiart.org/images/alfred-sisley/the-dam-at-saint-mammes-1885.jpg!Large.jpg",
+      "id": 12249
+    },
+    {
+      "title": "Clipping iceberg",
+      "artist": "Caspar David Friedrich",
+      "imageUrl": "https://uploads1.wikiart.org/images/caspar-david-friedrich/clipping-iceberg.jpg!Large.jpg",
+      "id": 3950
+    },
+    {
+      "title": "Sailboats Racing' study of the Delaware River",
+      "artist": "Thomas Eakins",
+      "imageUrl": "https://uploads2.wikiart.org/images/thomas-eakins/sailboats-racing-study-of-the-delaware-river.jpg!Large.jpg",
+      "id": 1448
+    },
+    {
+      "title": "Illustration for Tudor Arghezi's Good Morning, Springtime",
+      "artist": "Constantin Piliuta",
+      "imageUrl": "https://uploads1.wikiart.org/images/constantin-piliuta/illustration-for-tudor-arghezi-s-good-morning-springtime.jpg!Large.jpg",
+      "id": 2589
+    },
+    {
+      "title": "Winter",
+      "artist": "Arkhip Kuindzhi",
+      "imageUrl": "https://uploads4.wikiart.org/images/arkhip-kuindzhi/winter-2.jpg!Large.jpg",
+      "id": 27286
+    },
+    {
+      "title": "Kurile Islands",
+      "artist": "Vasily Vereshchagin",
+      "imageUrl": "https://uploads5.wikiart.org/images/vasily-vereshchagin/kurile-islands.jpg!Large.jpg",
+      "id": 26842
+    },
+    {
+      "title": "The Saine Valley, Giverny",
+      "artist": "Guy Rose",
+      "imageUrl": "https://uploads4.wikiart.org/images/guy-rose/the-saine-valley-giverny.jpg!Large.jpg",
+      "id": 11953
+    },
+    {
+      "title": "Crater of Mount Eccles, West from Mount Napier",
+      "artist": "Eugene von Guerard",
+      "imageUrl": "https://uploads4.wikiart.org/images/eugene-von-guerard/crater-of-mount-eccles-west-from-mount-napier-1858.jpg!Large.jpg",
+      "id": 12174
+    },
+    {
+      "title": "Seascape",
+      "artist": "James Ensor",
+      "imageUrl": "https://uploads5.wikiart.org/images/james-ensor/seascape-1880.jpg!Large.jpg",
+      "id": 33386
+    },
+    {
+      "title": "Elbrus",
+      "artist": "Arkhip Kuindzhi",
+      "imageUrl": "https://uploads2.wikiart.org/images/arkhip-kuindzhi/elbrus.jpg!Large.jpg",
+      "id": 17479
+    },
+    {
+      "title": "Saint Lubin Church",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads8.wikiart.org/images/alfred-sisley/saint-lubin-church-1886.jpg!Large.jpg",
+      "id": 1781
+    },
+    {
+      "title": "Rouen Cathedral, the Portal, Morning Fog",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads4.wikiart.org/images/claude-monet/rouen-cathedral-the-portal-morning-fog.jpg!Large.jpg",
+      "id": 3142
+    }
+  ]
+}
