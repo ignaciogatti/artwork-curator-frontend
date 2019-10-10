@@ -4,4 +4,7 @@ import experimentData4 from './experimentData4';
 import experimentData5 from './experimentData5';
 import experimentData from './experimentData';
 
-export const data_experiment = [experimentData, experimentData2, experimentData3, experimentData4, experimentData5]
+export const data_experiment = {
+    data : [experimentData, experimentData2, experimentData3, experimentData4, experimentData5],
+    experimentType : 'encode'
+}

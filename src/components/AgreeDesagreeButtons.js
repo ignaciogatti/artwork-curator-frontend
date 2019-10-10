@@ -23,6 +23,7 @@ class AgreeDesagreeButtons extends React.Component{
                         onClick={this.onClick({
                             sourceArtworkId: this.props.sourceArtworkId, 
                             ratedArtworkId: this.props.ratedArtworkId,
+                            experimentType: this.props.experimentType,
                             rating: 'Agree'
                         })}
                     >
@@ -33,6 +34,7 @@ class AgreeDesagreeButtons extends React.Component{
                         onClick={this.onClick({
                             sourceArtworkId: this.props.sourceArtworkId, 
                             ratedArtworkId: this.props.ratedArtworkId,
+                            experimentType: this.props.experimentType,
                             rating: 'Disagree'
                         })}
                     >

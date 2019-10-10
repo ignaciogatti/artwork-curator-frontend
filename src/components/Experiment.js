@@ -78,6 +78,7 @@ class Experiment extends React.Component{
                     <AgreeDesagreeButtons 
                         sourceArtworkId={this.props.experimentData[this.state.current_index].source_artwork.id} 
                         ratedArtworkId={artwork.id}
+                        experimentType={this.props.experimentType}
                         onClickUpdateCarousel={this.updateCarouselIndex} 
                     />
                 </Carousel.Item>
@@ -93,6 +94,7 @@ class Experiment extends React.Component{
             return <div>Loading...</div>;
         }
 
+        console.log(this.props.experimentType);
         let short_description = this.props.experimentDescription.short_description[this.context.language];
 
         let url = this.props.experimentData[this.state.current_index].source_artwork.imageUrl.split('.jpg')[0];
@@ -147,7 +149,8 @@ class Experiment extends React.Component{
 
 const mapStateToProps = state =>{
     return { 
-        experimentData: state.experimentData,
+        experimentData : state.experimentData.data,
+        experimentType : state.experimentData.experimentType,
         isSignedIn : state.auth.isSignedIn,
         userRatings : state.userRatings,
         experimentDescription : state.experimentDescription

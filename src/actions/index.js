@@ -1,7 +1,7 @@
 import artworkRetrieval from '../apis/artworkRetrieval';
 import dataExperiment from '../apis/dataExperiment';
-//import {data_experiment} from '../data/experimentData/encodeExperiment/dataExperimentEncode';
-import {data_experiment} from '../data/experimentData/socialGraphExperiment/dataExperimentSocialGraph';
+import {data_experiment} from '../data/experimentData/encodeExperiment/dataExperimentEncode';
+//import {data_experiment} from '../data/experimentData/socialGraphExperiment/dataExperimentSocialGraph';
 import {
     REQUEST_DATA,
     UPLOAD_ARTWORK,
@@ -50,13 +50,14 @@ export const signOut = () =>{
 export const save_data = data => async (dispatch, getState) => {
 
     const {userId} = getState().auth;
-    const {sourceArtworkId, ratedArtworkId, rating} = data;
+    const {sourceArtworkId, ratedArtworkId, experimentType, rating} = data;
     const response = await dataExperiment.post(
         '/putData', 
         {...{id : parseInt(`${userId}${sourceArtworkId}`),
             userId: userId,
             sourceArtworkId: sourceArtworkId,
-            ratedArtworkId: ratedArtworkId, 
+            ratedArtworkId: ratedArtworkId,
+            experimentType: experimentType, 
             rating: rating
         } });
     
