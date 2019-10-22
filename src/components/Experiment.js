@@ -94,7 +94,6 @@ class Experiment extends React.Component{
             return <div>Loading...</div>;
         }
 
-        console.log(this.props.experimentType);
         let short_description = this.props.experimentDescription.short_description[this.context.language];
 
         let url = this.props.experimentData[this.state.current_index].source_artwork.imageUrl.split('.jpg')[0];

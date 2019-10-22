@@ -196,6 +196,7 @@
      visibility: hidden;
      display: block;
      text-align: left;
+     overflow: scroll;
    }
 
   #mobile-btn {
