@@ -1,0 +1,162 @@
+{
+    "source_artwork":{
+      "title": "A Bar at the Folies-Bergere",
+      "artist": "Edouard Manet",
+      "imageUrl": "https://uploads1.wikiart.org/00129/images/edouard-manet/a-bar-at-the-folies-bergere.jpg!Large.jpg",
+      "year": 1882,
+      "id": 36457
+    },
+
+  "sim_artworks": [
+    {
+      "title": "Avenue of Schloss Kammer Park",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads4.wikiart.org/images/gustav-klimt/avenue-of-schloss-kammer-park.jpg!Large.jpg",
+      "id": 1113
+    },
+    {
+      "title": "Schloss Kammer am Attersee, II",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads0.wikiart.org/images/gustav-klimt/schloss-kammer-am-attersee-ii-1909.jpg!Large.jpg",
+      "id": 1001
+    },
+    {
+      "title": "The Schloss Kammer on the Attersee, III",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads0.wikiart.org/images/gustav-klimt/the-schloss-kammer-on-the-attersee-iii-1910.jpg!Large.jpg",
+      "id": 2474
+    },
+    {
+      "title": "Schloss Kammer on the Attersee IV",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads8.wikiart.org/images/gustav-klimt/schloss-kammer-on-the-attersee-iv.jpg!Large.jpg",
+      "id": 992
+    },
+    {
+      "title": "Park",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads2.wikiart.org/images/gustav-klimt/park-1910.jpg!Large.jpg",
+      "id": 2488
+    },
+    {
+      "title": "In the park",
+      "artist": "Anna Ostroumova-Lebedeva",
+      "imageUrl": "https://uploads3.wikiart.org/images/anna-ostroumova-lebedeva/in-the-park-1902.jpg!Large.jpg",
+      "id": 6065
+    },
+    {
+      "title": "River Landscape",
+      "artist": "Egon Schiele",
+      "imageUrl": "https://uploads4.wikiart.org/images/egon-schiele/river-landscape-1913.jpg!Large.jpg",
+      "id": 29949
+    },
+    {
+      "title": "Avenue of Poplars",
+      "artist": "Vincent van Gogh",
+      "imageUrl": "https://uploads4.wikiart.org/images/vincent-van-gogh/avenue-of-poplars-1884(1).jpg!Large.jpg",
+      "id": 1476
+    },
+    {
+      "title": "Park",
+      "artist": "Ilya Mashkov",
+      "imageUrl": "https://uploads2.wikiart.org/images/ilya-mashkov/park-1922.jpg!Large.jpg",
+      "id": 26722
+    },
+    {
+      "title": "Flower Garden",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads2.wikiart.org/images/gustav-klimt/flower-garden-1907.jpg!Large.jpg",
+      "id": 458
+    },
+    {
+      "title": "Landscape",
+      "artist": "Charles Rennie Mackintosh",
+      "imageUrl": "https://uploads2.wikiart.org/images/charles-rennie-mackintosh/landscape-1927.jpg!Large.jpg",
+      "id": 246
+    },
+    {
+      "title": "Landscape with an Avenue of Trees",
+      "artist": "Peter Paul Rubens",
+      "imageUrl": "https://uploads4.wikiart.org/images/peter-paul-rubens/landscape-with-an-avenue-of-trees.jpg!Large.jpg",
+      "id": 19578
+    },
+    {
+      "title": "Old Park",
+      "artist": "Nikolai Ge",
+      "imageUrl": "https://uploads8.wikiart.org/images/nikolai-ge/old-park.jpg!Large.jpg",
+      "id": 15817
+    },
+    {
+      "title": "Avenue of Poplars at Sunset",
+      "artist": "Vincent van Gogh",
+      "imageUrl": "https://uploads5.wikiart.org/images/vincent-van-gogh/avenue-of-poplars-at-sunset-1884(1).jpg!Large.jpg",
+      "id": 2875
+    },
+    {
+      "title": "In the park",
+      "artist": "Ivan Shishkin",
+      "imageUrl": "https://uploads1.wikiart.org/images/ivan-shishkin/in-the-park-1897.jpg!Large.jpg",
+      "id": 22971
+    },
+    {
+      "title": "In the park",
+      "artist": "Ivan Shishkin",
+      "imageUrl": "https://uploads1.wikiart.org/images/ivan-shishkin/in-the-park-1897.jpg!Large.jpg",
+      "id": 23272
+    },
+    {
+      "title": "In the park",
+      "artist": "Vasily Vereshchagin",
+      "imageUrl": "https://uploads2.wikiart.org/images/vasily-vereshchagin/in-the-park.jpg!Large.jpg",
+      "id": 18059
+    },
+    {
+      "title": "In the park",
+      "artist": "Isaac Levitan",
+      "imageUrl": "https://uploads1.wikiart.org/images/isaac-levitan/in-the-park-1895.jpg!Large.jpg",
+      "id": 27384
+    },
+    {
+      "title": "Park",
+      "artist": "Konstantin Somov",
+      "imageUrl": "https://uploads1.wikiart.org/images/konstantin-somov/park.jpg!Large.jpg",
+      "id": 18143
+    },
+    {
+      "title": "In a park",
+      "artist": "David Burliuk",
+      "imageUrl": "https://uploads3.wikiart.org/images/david-burliuk/in-a-park.jpg!Large.jpg",
+      "id": 21766
+    },
+    {
+      "title": "In a Park",
+      "artist": "Mikhail Lebedev",
+      "imageUrl": "https://uploads5.wikiart.org/images/mikhail-lebedev/in-a-park.jpg!Large.jpg",
+      "id": 37239
+    },
+    {
+      "title": "At the park",
+      "artist": "Isaac Levitan",
+      "imageUrl": "https://uploads1.wikiart.org/images/isaac-levitan/at-the-park-1880.jpg!Large.jpg",
+      "id": 24711
+    },
+    {
+      "title": "Avenue in the country",
+      "artist": "Anthony van Dyck",
+      "imageUrl": "https://uploads0.wikiart.org/images/anthony-van-dyck/avenue-in-the-country.jpg!Large.jpg",
+      "id": 8044
+    },
+    {
+      "title": "In the Park",
+      "artist": "Childe Hassam",
+      "imageUrl": "https://uploads5.wikiart.org/images/childe-hassam/in-the-park.jpg!Large.jpg",
+      "id": 9373
+    },
+    {
+      "title": "In the park",
+      "artist": "David Burliuk",
+      "imageUrl": "https://uploads5.wikiart.org/images/david-burliuk/in-the-park.jpg!Large.jpg",
+      "id": 19804
+    }
+  ]
+}

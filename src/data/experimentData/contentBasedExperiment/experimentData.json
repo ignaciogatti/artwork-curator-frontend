@@ -1,0 +1,162 @@
+{
+  "source_artwork":{
+    "title": "Waterloo Bridge",
+    "artist": "Claude Monet",
+    "imageUrl": "https://uploads8.wikiart.org/images/claude-monet/waterloo-bridge-london-1.jpg!Large.jpg",
+    "year": 1903,
+    "id": 7066
+  },
+
+  "sim_artworks": [
+    {
+      "title": "Waterloo Bridge",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads4.wikiart.org/images/claude-monet/waterloo-bridge-1901.jpg!Large.jpg",
+      "id": 7066
+    },
+    {
+      "title": "Waterloo Place",
+      "artist": "Robert Spencer",
+      "imageUrl": "https://uploads5.wikiart.org/images/robert-spencer/waterloo-place-1917.jpg!Large.jpg",
+      "id": 19564
+    },
+    {
+      "title": "The Bridge",
+      "artist": "Maurice de Vlaminck",
+      "imageUrl": "https://uploads1.wikiart.org/images/maurice-de-vlaminck/the-bridge.jpg!Large.jpg",
+      "id": 23125
+    },
+    {
+      "title": "Parisian Bridge",
+      "artist": "Raoul Dufy",
+      "imageUrl": "https://uploads2.wikiart.org/images/raoul-dufy/parisian-bridge-1922.jpg!Large.jpg",
+      "id": 36696
+    },
+    {
+      "title": "Waterloo Bridge, Fog",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads3.wikiart.org/images/claude-monet/waterloo-bridge-fog.jpg!Large.jpg",
+      "id": 4756
+    },
+    {
+      "title": "Waterloo Row",
+      "artist": "Robert Spencer",
+      "imageUrl": "https://uploads3.wikiart.org/images/robert-spencer/waterloo-row-1917.jpg!Large.jpg",
+      "id": 20816
+    },
+    {
+      "title": "Waterloo Bridge, London",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads6.wikiart.org/images/claude-monet/waterloo-bridge-london.jpg!Large.jpg",
+      "id": 4356
+    },
+    {
+      "title": "Bridge",
+      "artist": "Konstantin Korovin",
+      "imageUrl": "https://uploads1.wikiart.org/images/konstantin-korovin/bridge-1880.jpg!Large.jpg",
+      "id": 17094
+    },
+    {
+      "title": "The Old Bridge",
+      "artist": "Henri Martin",
+      "imageUrl": "https://uploads7.wikiart.org/images/henri-martin/the-old-bridge.jpg!Large.jpg",
+      "id": 10734
+    },
+    {
+      "title": "Waterloo Bridge, Sunlight Effect",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads6.wikiart.org/images/claude-monet/waterloo-bridge-sunlight-effect.jpg!Large.jpg",
+      "id": 6934
+    },
+    {
+      "title": "Waterloo Bridge, Sunlight Effect",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads6.wikiart.org/images/claude-monet/waterloo-bridge-sunlight-effect.jpg!Large.jpg",
+      "id": 4854
+    },
+    {
+      "title": "Waterloo Bridge, Sunlight in the Fog",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads1.wikiart.org/images/claude-monet/waterloo-bridge-sunlight-in-the-fog.jpg!Large.jpg",
+      "id": 2169
+    },
+    {
+      "title": "Waterloo Bridge at Sunset, Pink Effect",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads3.wikiart.org/images/claude-monet/waterloo-bridge-at-sunset-pink-effect.jpg!Large.jpg",
+      "id": 3585
+    },
+    {
+      "title": "The Argenteuil Bridge",
+      "artist": "Gustave Caillebotte",
+      "imageUrl": "https://uploads3.wikiart.org/images/gustave-caillebotte/the-argenteuil-bridge.jpg!Large.jpg",
+      "id": 10737
+    },
+    {
+      "title": "Bridge",
+      "artist": "Konstantin Korovin",
+      "imageUrl": "https://uploads1.wikiart.org/images/konstantin-korovin/bridge-1880.jpg!Large.jpg",
+      "id": 21715
+    },
+    {
+      "title": "bridge",
+      "artist": "David Kakabadze",
+      "imageUrl": "https://uploads7.wikiart.org/images/david-kakabadze/bridge-1915.jpg!Large.jpg",
+      "id": 6656
+    },
+    {
+      "title": "The Bridge under Repair",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads3.wikiart.org/images/claude-monet/the-bridge-under-repair-1872.jpg!Large.jpg",
+      "id": 6614
+    },
+    {
+      "title": "A bridge",
+      "artist": "Oleksandr Bogomazov",
+      "imageUrl": "https://uploads4.wikiart.org/images/oleksandr-bogomazov/a-bridge-1908.jpg!Large.jpg",
+      "id": 4723
+    },
+    {
+      "title": "Landscape with Bridge",
+      "artist": "Vasile Dobrian",
+      "imageUrl": "https://uploads3.wikiart.org/images/vasile-dobrian/landscape-with-bridge-1963.jpg!Large.jpg",
+      "id": 38443
+    },
+    {
+      "title": "The Bridge at Argenteuil",
+      "artist": "Gustave Caillebotte",
+      "imageUrl": "https://uploads6.wikiart.org/images/gustave-caillebotte/the-bridge-at-argenteuil.jpg!Large.jpg",
+      "id": 7191
+    },
+    {
+      "title": "The Bridge on the River",
+      "artist": "Henri Martin",
+      "imageUrl": "https://uploads7.wikiart.org/images/henri-martin/the-bridge-on-the-river.jpg!Large.jpg",
+      "id": 30242
+    },
+    {
+      "title": "The Opening of Waterloo Bridge seen from Whitehall Stairs",
+      "artist": "John Constable",
+      "imageUrl": "https://uploads7.wikiart.org/images/john-constable/the-opening-of-waterloo-bridge-seen-from-whitehall-stairs.jpg!Large.jpg",
+      "id": 355
+    },
+    {
+      "title": "The Bridge",
+      "artist": "Philip Wilson Steer",
+      "imageUrl": "https://uploads1.wikiart.org/images/philip-wilson-steer/the-bridge.jpg!Large.jpg",
+      "id": 36258
+    },
+    {
+      "title": "The Bridge",
+      "artist": "Egon Schiele",
+      "imageUrl": "https://uploads8.wikiart.org/images/egon-schiele/the-bridge-1913.jpg!Large.jpg",
+      "id": 14267
+    },
+    {
+      "title": "On the Bridge",
+      "artist": "Georg Pauli",
+      "imageUrl": "https://uploads1.wikiart.org/images/georg-pauli/on-the-bridge-1888.jpg!Large.jpg",
+      "id": 2606
+    }
+  ]
+}
