@@ -2,12 +2,14 @@
     "links_name":{
         "english":{
             "artwork_curator": "Artwork Curator",
+            "sequence_generator": "Sequence Generator",
             "about_me": "About me",
             "experiments": "Test",
             "about_dcurator": "Experiments"
         },
         "spanish":{
             "artwork_curator": "Artwork Curator",
+            "sequence_generator": "Generador de sequencia",
             "about_me": "Sobre mi",
             "experiments": "Caso de estudio",
             "about_dcurator": "Experimentos"

@@ -21,7 +21,7 @@ class UploadImageForm extends Component {
     this.props.uploadArtwork(fd);
   };
 
-  handleOnDrop = (newImageFile, onChange) => {
+  handleOnDrop = (newImageFile, id, onChange) => {
     const imageFile = {
       file: newImageFile[0],
       name: newImageFile[0].name,
@@ -47,6 +47,7 @@ class UploadImageForm extends Component {
             imagefile={this.state.imageFile}
             handleOnDrop={this.handleOnDrop}
             validate={[imageIsRequired]}
+            id={0}
           />
           <Button
             className="uploadButton"

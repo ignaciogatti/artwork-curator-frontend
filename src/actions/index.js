@@ -82,3 +82,19 @@ export const fetch_user_ratings = () => async (dispatch, getState) =>{
     
     dispatch({type: FETCH_USER_RATINGS, payload: response.data});
 }
+
+
+export const uploadSequenceArtworks = fd => async dispatch => {
+
+    dispatch({type:REQUEST_DATA});
+
+    const config = {
+       headers: {'Content-Type': 'multipart/form-data' }
+      };
+
+
+    const response = await artworkRetrieval.post('/artwork/sequencernn/predict/', fd, config);
+
+    dispatch({type : UPLOAD_ARTWORK, payload : response.data.sim_artworks});
+  
+  };

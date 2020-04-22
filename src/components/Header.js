@@ -26,6 +26,9 @@ class Header extends React.Component{
                         <Link className="header-link" to="/">{links_name.artwork_curator}</Link>
                     </li>
                     <li className="header-li">
+                        <Link className="header-link" to="/sequencegeneration">{links_name.sequence_generator}</Link>
+                    </li>
+                    <li className="header-li">
                         <Link className="header-link" to="/aboutme">{links_name.about_me}</Link>
                     </li>
                     <li className="header-li">

@@ -1,0 +1,178 @@
+#sequenceGenerator #imageUpload {
+    max-height: 100%;
+    display: inline-block;
+    margin-top: 10%; 
+  }
+  
+#sequenceGenerator  .ui.placeholder.segment {
+    width: 34.375em;
+    margin: 2.5em auto;
+    margin-left: 0em auto;
+  }
+
+#sequenceGenerator  .app-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #ddd;
+    height: 90%;
+    width: 90%;
+  }
+
+  #sequenceGenerator #uploadForm{
+    height: 100%;
+    margin: 0 !important;
+  }
+  
+#sequenceGenerator .clear {
+    clear: both;
+  }
+  
+#sequenceGenerator .details,
+  .title {
+    font-size: 1em;
+    text-align: center;
+  }
+  
+#sequenceGenerator .error {
+    margin-top: 0.25em;
+    color: red;
+  }
+  
+#sequenceGenerator .has-error {
+    border: 0.0625em dotted red;
+  }
+  
+#sequenceGenerator  .image-container {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+    height: 80%;
+  }
+  
+#sequenceGenerator .preview-container {
+    width: 25%;
+    height: 50%;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding: 0.8em;
+    display: inline-block;
+  }
+
+#sequenceGenerator .preview-container p{
+    text-align: center !important;
+    font-size: 1em !important;
+  }
+
+#sequenceGenerator .placeholder-preview {
+    cursor: pointer;
+  }
+  
+#sequenceGenerator  .placeholder-preview,
+  .render-preview {
+    text-align: center;
+    background-color: #efebeb;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    margin: auto;
+  }
+
+#sequenceGenerator  .upload-container {
+    cursor: pointer;
+    height: 18.75em;
+  }
+  
+#sequenceGenerator  #uploadIcon{
+    height: 70%;
+    width: 70%;
+    padding: 0.8em;
+    margin-top: 1em;
+  }
+
+#sequenceGenerator  .uploadButton{
+    padding: 0.8em 1.2em 0.8em 1.2em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    position: relative;
+    bottom: 0.8em;
+  }
+
+#sequenceGenerator  .buttonsPlaceholder{
+      padding-top: 1.2em; 
+  }
+  /* screenwidth less than 1050px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1050px) {
+  #sequenceGenerator .app-container{
+    width: 100%;
+  }
+
+  #sequenceGenerator .preview-container p{
+    font-size: 0.9em !important;
+  }
+
+
+}
+
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+  #sequenceGenerator .uploadButton{
+    font-size: 0.6em;
+    margin: 0.5em;
+  }
+
+  #sequenceGenerator .preview-container p{
+    font-size: 0.9em !important;
+  }
+  
+}
+
+
+  @media only screen and (max-width: 767px) {
+
+    /* mobile navigation
+    -------------------------------------------------------------------- */
+
+    #sequenceGenerator #uploadIcon{
+      height: 10%;
+      width: 10%;
+      padding: 0.4em;
+    }
+  
+    #sequenceGenerator .app-container {
+     margin-bottom: 1em;
+     height: 15em;
+    }
+  
+    #sequenceGenerator #imageUpload{
+      max-width: 9.375em;
+      max-height: 8.5em;
+      margin-top: 2%; 
+    }
+
+    #sequenceGenerator .details{
+      display:none;
+    }
+
+    #sequenceGenerator .preview-container p{
+      font-size: 0.9em !important;
+    }
+
+    #sequenceGenerator .image-container{
+      padding-top: 0;
+    }
+
+    #sequenceGenerator .placeholder-preview,
+  .render-preview {
+    height: 80%;
+    width: 100%;
+  }
+  }
+
+

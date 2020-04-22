@@ -7,6 +7,7 @@ import ShowError from "../ShowError/ShowError";
 
 const DropZoneField = ({
   handleOnDrop,
+  id,
   input: { onChange },
   imagefile,
   meta: { error, touched }
@@ -15,7 +16,7 @@ const DropZoneField = ({
     <DropZone
       accept="image/jpeg, image/png, image/gif, image/bmp"
       className="upload-container"
-      onDrop={file => handleOnDrop(file, onChange)}
+      onDrop={file => handleOnDrop(file, id, onChange)}
       multiple={false}
     >
       {({ getRootProps, getInputProps }) =>
@@ -37,6 +38,7 @@ const DropZoneField = ({
 
 DropZoneField.propTypes = {
   error: PropTypes.string,
+  name: PropTypes.string,
   handleOnDrop: PropTypes.func.isRequired,
   imagefile: PropTypes.arrayOf(
     PropTypes.shape({

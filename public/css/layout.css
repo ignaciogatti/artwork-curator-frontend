@@ -1220,7 +1220,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 
  /* -------------------------------------------------------------------- */
-/* l. About AI Section
+/* m. About AI Section
 /* -------------------------------------------------------------------- */
 
  #aboutai {
@@ -1247,7 +1247,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 
  /* -------------------------------------------------------------------- */
-/* l. Modal
+/* n. Modal
 /* -------------------------------------------------------------------- */
 
 #modal .ui.modals.active.dimmer {
@@ -1287,4 +1287,90 @@ footer .social-links li:first-child { margin-left: 0; }
 
  .ui.active.modal .actions .red.google.button{
    max-width: 40%;
+ }
+
+
+ /* -------------------------------------------------------------------- */
+/* m. Sequence Generator Section
+/* -------------------------------------------------------------------- */
+
+#sequenceGenerator {
+   background: rgb(0, 0, 0);
+   overflow: hidden;
+}
+
+ #sequenceGenerator h2 {
+   font: 1.5625em/1.875em 'opensans-bold', sans-serif;
+}
+
+ #sequenceGenerator .row{
+   padding-top: 1.5em;
+   padding-bottom: 1.5em;
+   border-bottom: 0.0625em solid #E8E8E8;
+   text-align: left;
+   justify-content: center;
+   height: 30vh;
+   background-color: rgb(238, 236, 235);
+}
+
+ #sequenceGenerator .row .button-row{
+    text-align: center;
+ }
+
+ #sequenceGenerator .main-col { 
+   
+   margin: 0.5;
+   margin-top: 0.5;
+   margin-bottom: 0.5;
+   display: block;
+   text-align: center;
+   height: 100%;
+ }
+
+ #sequenceGenerator .sequence-row{
+
+   border-bottom: 0.0625em solid #E8E8E8;
+   text-align: left;
+   justify-content: center;
+   height: 65vh;
+   background-color: rgb(27, 27, 27);
+
+ }
+
+ #sequenceGenerator .carousel-item {
+   height: 65vh;
+   text-align: center;
+ }
+
+ #sequenceGenerator .carousel-item img{
+      height: 65vh;
+      object-fit: contain;
+      position: sticky;
+      border: 10px solid #ddd;
+      margin: auto;
+ }
+
+ #sequenceGenerator .carousel-caption {
+   color:  rgba(0, 0, 0, 0.705) !important;
+   font-size: 2.075em;
+   bottom: 2.5em;
+}
+
+#sequenceGenerator .carousel-caption p{
+   text-align: center;
+}
+
+
+#sequenceGenerator .carousel-item button{
+   position: absolute;
+   margin: 0.8em;
+   bottom: 1.2em;
+ }
+
+ #sequenceGenerator .carousel-item button.left{
+   left: 15%;
+ }
+
+ #sequenceGenerator .carousel-item button.right{
+   right: 15%;
  }
