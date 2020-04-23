@@ -2,7 +2,7 @@ import {
     UPLOAD_ARTWORK,
     REQUEST_DATA,
     RESET_ARTWORK_LIST
-} from '../actions/types'
+} from '../actions/types';
 
 
 const INITIAL_STATE = {

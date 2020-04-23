@@ -1,5 +1,7 @@
 import {combineReducers} from 'redux';
 import {reducer as formReducer} from 'redux-form';
+import { connectRouter } from 'connected-react-router';
+
 import artworkRetrievalReducer from './artworkRetrievalReducer';
 import cvDataReducer from './cvDataReducer';
 import authReducer from './authReducer';
@@ -8,14 +10,17 @@ import fetchUserRatingsReducer from './fetchUserRatingsReducer';
 import experimentDescriptionReducer from './experimentDescriptionReducer';
 import headerDescriptionReducer from './headerDescriptionReducer';
 
-export default combineReducers({
-    form : formReducer,
-    artworksFetchData : artworkRetrievalReducer,
-    resumeData : cvDataReducer,
-    auth : authReducer,
-    experimentData : experimentDataReducer,
-    userRatings : fetchUserRatingsReducer,
-    experimentDescription : experimentDescriptionReducer,
-    headerDescription : headerDescriptionReducer
 
+const createRootReducer = (history) => combineReducers({
+  router: connectRouter(history),
+  form : formReducer,
+  artworksFetchData : artworkRetrievalReducer,
+  resumeData : cvDataReducer,
+  auth : authReducer,
+  experimentData : experimentDataReducer,
+  userRatings : fetchUserRatingsReducer,
+  experimentDescription : experimentDescriptionReducer,
+  headerDescription : headerDescriptionReducer
 });
+
+export default createRootReducer;

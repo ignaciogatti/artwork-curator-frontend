@@ -1,12 +1,19 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import Carousel from 'react-bootstrap/Carousel'
+import {resetArtworkList} from '../actions';
 
 class ArtworkList extends React.Component{
 
     state={
         index:0,
         direction:null
+    }
+
+    componentDidMount(){
+        if (this.props.artworks.length !== 1) {
+            this.props.resetArtworkList();
+        }
     }
 
     componentDidUpdate(prevProps){
@@ -82,4 +89,4 @@ const mapStateToProps = state => {
     } 
 }
 
-export default connect(mapStateToProps)(ArtworkList);
+export default connect(mapStateToProps, {resetArtworkList})(ArtworkList);

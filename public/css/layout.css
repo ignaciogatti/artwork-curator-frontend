@@ -1327,6 +1327,10 @@ footer .social-links li:first-child { margin-left: 0; }
    height: 100%;
  }
 
+ #sequenceGenerator .dimmer{
+    position: relative;
+ }
+
  #sequenceGenerator .sequence-row{
 
    border-bottom: 0.0625em solid #E8E8E8;

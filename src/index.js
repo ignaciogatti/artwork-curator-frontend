@@ -4,10 +4,17 @@ import {Provider} from 'react-redux';
 import{createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
-import App from './components/App';
-import reducers from './reducers';
+import history from './history';
+import { routerMiddleware } from 'connected-react-router';
 
-const store = createStore(reducers, applyMiddleware(thunk));
+import App from './components/App';
+//import reducers from './reducers';
+import createRootReducer from './reducers'
+
+
+const store = createStore(
+    createRootReducer(history), 
+    applyMiddleware(thunk, routerMiddleware(history)));
 
 ReactDOM.render(
     <Provider store={store} >
@@ -15,3 +22,4 @@ ReactDOM.render(
     </Provider>,
     document.querySelector("#root")
 );
+
