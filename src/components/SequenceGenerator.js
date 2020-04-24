@@ -27,7 +27,7 @@ const SequenceGenerator = () => {
         <div>
             <section id="sequenceGenerator">
                 <div className="row">
-                    <div className="three columns main-col">
+                    <div className="three columns main-col description">
                         <h3>D-Curator</h3>
                             <p><i>D-Curator</i> {current_description.sentence_1} 
                             <br />
@@ -35,7 +35,7 @@ const SequenceGenerator = () => {
                             </p>
                             
                     </div>
-                    <div className="nine columns main-col">
+                    <div className="nine columns main-col upload-form">
                         <UploadSequenceForm />
                     </div>
                 </div>

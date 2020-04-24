@@ -1303,6 +1303,30 @@ footer .social-links li:first-child { margin-left: 0; }
    font: 1.5625em/1.875em 'opensans-bold', sans-serif;
 }
 
+
+#sequenceGenerator h1 {
+   font: 1.125em/1.5em 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 0.0625em;
+   padding-bottom: 0.375em;
+}
+#sequenceGenerator h1 span {
+   border-bottom: 0.1875em solid #11ABB0;
+   padding-bottom: 0.375em;
+}
+
+#sequenceGenerator h3 {
+   font: 1.5625em/1.875em 'opensans-bold', sans-serif;
+}
+#sequenceGenerator p{
+   font-size: 1.2em;
+   text-align: left;
+}
+
+#sequenceGenerator strong{
+   font-size: 0.8em;
+}
+
  #sequenceGenerator .row{
    padding-top: 1.5em;
    padding-bottom: 1.5em;

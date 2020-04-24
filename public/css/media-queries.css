@@ -53,6 +53,18 @@
   #experiment .carousel-item img{ max-height: 100vh; }  
   #experiment .carousel-caption { font-size: 1.75em; }
 
+   /* Sequence Generator Section
+  ------------------------------------------------------------------- */
+  #sequenceGenerator h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+  #sequenceGenerator h3 {
+   font-size: 1.5em;
+   }
+   #sequenceGenerator p{ 
+     font-size: 1em;
+   }
+  #sequenceGenerator .carousel-item img{ max-height: 100vh; }  
+  #sequenceGenerator .carousel-caption { font-size: 1.75em; }
+
 }
 
 
@@ -169,6 +181,44 @@
 
   #experiment .carousel-item img{ max-height: 100vh; }  
   #experiment .carousel-caption { font-size: 1.75em; }
+
+
+   /* Sequence Generator Section
+  ------------------------------------------------------------------- */
+  #sequenceGenerator h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+  #sequenceGenerator h3 {
+   font-size: 1.5em;
+   }
+   #sequenceGenerator p{ 
+     font-size: 1em;
+   }
+
+   #sequenceGenerator .row{
+      height: 50vh !important;
+   }
+
+   #sequenceGenerator .description { 
+      width: 100vw !important;
+      display: block;
+      text-align: center;
+      height: 30%;
+    }
+
+    #sequenceGenerator .upload-form { 
+      width: 100vw !important;
+      padding: 1em !important;
+      display: block;
+      text-align: center !important;
+      justify-items: center !important;
+      height: 70%;
+    }
+
+   #sequenceGenerator .main-col{
+      width: 100vw !important;
+   }
+
+  #sequenceGenerator .carousel-item img{ max-height: 100vh; }  
+  #sequenceGenerator .carousel-caption { font-size: 1.75em; }
 
 
 }
@@ -445,7 +495,7 @@
     }
    #artworkList h3, #artworkList .info { text-align: center; }
 
-     /* Experiment Section
+     /*l. Experiment Section
   --------------------------------------------------------------------- */
   #experiment .header-col {
    padding-top: 0;
@@ -476,12 +526,46 @@
    .bars { width: 100%; }
 
  
-   /* l. Modal
+   /* m. Modal
    /* -------------------------------------------------------------------- */
 
    .dimmed.dimmable > .ui.animating.dimmer, .dimmed.dimmable > .ui.visible.dimmer, .ui.active.dimmer {
       position: fixed !important;
    }
+
+
+   /* j. Sequence Generator Section
+   /*--------------------------------------------------------------------- */ 
+
+   #sequenceGenerator .row{
+      height: 70vh !important;
+   }
+
+   #sequenceGenerator .description { 
+      width: 100vw !important;
+      display: block;
+      text-align: center;
+      height: 30%;
+    }
+
+    #sequenceGenerator .upload-form { 
+      width: 100vw !important;
+      padding: 1em !important;
+      display: block;
+      text-align: center !important;
+      justify-items: center !important;
+      height: 70%;
+    }
+
+   #sequenceGenerator h1 { letter-spacing: 3px; }
+   #sequenceGenerator h3 {
+      font-size: 1.5em;
+   }
+   #sequenceGenerator p{ 
+      font-size: 0.9em;
+    }
+    #sequenceGenerator h3, #sequenceGenerator .info { text-align: center; }
+
  
 }
 

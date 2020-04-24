@@ -10,7 +10,7 @@ const Placeholder = ({ getInputProps, getRootProps, error, touched }) => (
   >
     <input {...getInputProps()} />
     <MdCloudUpload id="uploadIcon" />
-    <p>Click or drag image file to this area to upload.</p>
+    <p>Click or drag image file to upload.</p>
   </div>
 );
 
