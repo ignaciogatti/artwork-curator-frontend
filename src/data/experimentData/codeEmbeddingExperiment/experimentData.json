@@ -1,0 +1,162 @@
+{
+  "source_artwork":{
+    "title": "Waterloo Bridge",
+    "artist": "Claude Monet",
+    "imageUrl": "https://uploads8.wikiart.org/images/claude-monet/waterloo-bridge-london-1.jpg!Large.jpg",
+    "year": 1903,
+    "id": 7066
+  },
+  
+  "sim_artworks": [
+    {
+      "title": "Port of Dieppe",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads6.wikiart.org/images/gustave-loiseau/port-of-dieppe-1903.jpg!Large.jpg",
+      "id": 10012
+    },
+    {
+      "title": "Port of Dieppe",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads6.wikiart.org/images/gustave-loiseau/port-of-dieppe-1903.jpg!Large.jpg",
+      "id": 13264
+    },
+    {
+      "title": "The Road to Dieppe",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads5.wikiart.org/images/gustave-loiseau/the-road-to-dieppe.jpg!Large.jpg",
+      "id": 24132
+    },
+    {
+      "title": "Red House near Port Marly",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads3.wikiart.org/images/gustave-loiseau/red-house-near-port-marly.jpg!Large.jpg",
+      "id": 11398
+    },
+    {
+      "title": "Port at Dieppe in Fog",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads8.wikiart.org/images/gustave-loiseau/port-at-dieppe-in-fog.jpg!Large.jpg",
+      "id": 11094
+    },
+    {
+      "title": "Wagram Avenue",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads0.wikiart.org/images/gustave-loiseau/wagram-avenue.jpg!Large.jpg",
+      "id": 13062
+    },
+    {
+      "title": "San-Marco square in Venice",
+      "artist": "Eugene Boudin",
+      "imageUrl": "https://uploads7.wikiart.org/images/eugene-boudin/san-marco-square-in-venice-1895.jpg!Large.jpg",
+      "id": 5395
+    },
+    {
+      "title": "Channel in Brussels",
+      "artist": "Eugene Boudin",
+      "imageUrl": "https://uploads0.wikiart.org/images/eugene-boudin/channel-in-brussels-1871.jpg!Large.jpg",
+      "id": 4091
+    },
+    {
+      "title": "Martigues",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads1.wikiart.org/images/gustave-loiseau/martigues-1913.jpg!Large.jpg",
+      "id": 9389
+    },
+    {
+      "title": "The Arc de Triomphe Friedland Avenue",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads5.wikiart.org/images/gustave-loiseau/the-arc-de-triomphe-friedland-avenue.jpg!Large.jpg",
+      "id": 13365
+    },
+    {
+      "title": "Zaandam, The Dike",
+      "artist": "Claude Monet",
+      "imageUrl": "https://uploads0.wikiart.org/images/claude-monet/zaandam-the-dike.jpg!Large.jpg",
+      "id": 7139
+    },
+    {
+      "title": "Port at Dieppe",
+      "artist": "Gustave Loiseau",
+      "imageUrl": "https://uploads6.wikiart.org/images/gustave-loiseau/port-at-dieppe-1905.jpg!Large.jpg",
+      "id": 10135
+    },
+    {
+      "title": "The Watering Place at Marly Le Roi Hoarfrost",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads7.wikiart.org/images/alfred-sisley/the-watering-place-at-marly-le-roi-hoarfrost-1875.jpg!Large.jpg",
+      "id": 14825
+    },
+    {
+      "title": "The Port of St. Tropez",
+      "artist": "Paul Signac",
+      "imageUrl": "https://uploads4.wikiart.org/images/paul-signac/the-port-of-st-tropez.jpg!Large.jpg",
+      "id": 31849
+    },
+    {
+      "title": "The Seine Viewed from the Pont Neuf, Winter",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads8.wikiart.org/images/camille-pissarro/the-seine-viewed-from-the-pont-neuf-winter-1902.jpg!Large.jpg",
+      "id": 9324
+    },
+    {
+      "title": "The Louvre, Morning, Sun",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads6.wikiart.org/images/camille-pissarro/the-louvre-morning-sun-1901.jpg!Large.jpg",
+      "id": 8939
+    },
+    {
+      "title": "Village Street Louveciennes",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads8.wikiart.org/images/alfred-sisley/village-street-louveciennes-1874.jpg!Large.jpg",
+      "id": 31752
+    },
+    {
+      "title": "Port Louis Lomalo",
+      "artist": "Paul Signac",
+      "imageUrl": "https://uploads0.wikiart.org/images/paul-signac/port-louis-lomalo.jpg!Large.jpg",
+      "id": 26213
+    },
+    {
+      "title": "Outer harbour of Le Havre",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads0.wikiart.org/images/camille-pissarro/outer-harbour-of-le-havre-1903.jpg!Large.jpg",
+      "id": 14609
+    },
+    {
+      "title": "Panepistimiou street",
+      "artist": "Paul Mathiopoulos",
+      "imageUrl": "https://uploads5.wikiart.org/images/paul-mathiopoulos/panepistimiou-street-1896.jpg!Large.jpg",
+      "id": 30872
+    },
+    {
+      "title": "The Louvre, Afternoon",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads4.wikiart.org/images/camille-pissarro/the-louvre-afternoon-1902.jpg!Large.jpg",
+      "id": 8722
+    },
+    {
+      "title": "Venice. Saint Mark's Basilica.",
+      "artist": "Vasily Surikov",
+      "imageUrl": "https://uploads1.wikiart.org/images/vasily-surikov/venice-saint-mark-s-basilica-1884.jpg!Large.jpg",
+      "id": 29735
+    },
+    {
+      "title": "Kensington Gardens, London",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads0.wikiart.org/images/camille-pissarro/kensington-gardens-london-1890.jpg!Large.jpg",
+      "id": 10600
+    },
+    {
+      "title": "Wind Street",
+      "artist": "Constantin Piliuta",
+      "imageUrl": "https://uploads1.wikiart.org/images/constantin-piliuta/wind-street.jpg!Large.jpg",
+      "id": 16828
+    },
+    {
+      "title": "The Fishmarket, Dieppe, Grey Weather, Morning",
+      "artist": "Camille Pissarro",
+      "imageUrl": "https://uploads8.wikiart.org/images/camille-pissarro/the-fishmarket-dieppe-grey-weather-morning-1902.jpg!Large.jpg",
+      "id": 8678
+    }
+  ]
+}

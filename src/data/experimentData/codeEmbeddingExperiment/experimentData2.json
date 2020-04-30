@@ -1,0 +1,162 @@
+{
+  "source_artwork":{
+    "title": "Swallow, Love",
+    "artist": "Joan Miro",
+    "imageUrl": "https://uploads2.wikiart.org/images/joan-miro/swallow-love.jpg!Large.jpg",
+    "year": 1934,
+    "id": 33965
+  },
+
+  "sim_artworks": [
+    {
+      "title": "Painting (Man with a Pipe)",
+      "artist": "Joan Miro",
+      "imageUrl": "https://uploads0.wikiart.org/images/joan-miro/not_detected_227983.jpg!Large.jpg",
+      "id": 31618
+    },
+    {
+      "title": "Swallow, Love",
+      "artist": "Joan Miro",
+      "imageUrl": "https://uploads2.wikiart.org/images/joan-miro/swallow-love.jpg!Large.jpg",
+      "id": 33965
+    },
+    {
+      "title": "The Bush",
+      "artist": "John Ferren",
+      "imageUrl": "https://uploads5.wikiart.org/images/john-ferren/the-bush-1955.jpg!Large.jpg",
+      "id": 44228
+    },
+    {
+      "title": "Children's Games",
+      "artist": "Rufino Tamayo",
+      "imageUrl": "https://uploads6.wikiart.org/images/rufino-tamayo/children-s-games-1959.jpg!Large.jpg",
+      "id": 40455
+    },
+    {
+      "title": "Dau al Set",
+      "artist": "Joan Ponc",
+      "imageUrl": "https://uploads0.wikiart.org/images/joan-ponc/dau-al-set.jpg!Large.jpg",
+      "id": 42712
+    },
+    {
+      "title": "Young Woman in the Atelier",
+      "artist": "Janos Tornyai",
+      "imageUrl": "https://uploads7.wikiart.org/images/janos-tornyai/young-woman-in-the-atelier-1904.jpg!Large.jpg",
+      "id": 29481
+    },
+    {
+      "title": "Page de Musique",
+      "artist": "Jean Helion",
+      "imageUrl": "https://uploads3.wikiart.org/images/jean-helion/page-de-musique-1962.jpg!Large.jpg",
+      "id": 44348
+    },
+    {
+      "title": "Azulejo, Portuguese Institute of Oncology",
+      "artist": "Julio Resende",
+      "imageUrl": "https://uploads0.wikiart.org/images/julio-resende/azulejo-portuguese-institute-of-oncology-porto-portugal-1992.jpg!Large.jpg",
+      "id": 22523
+    },
+    {
+      "title": "Trice",
+      "artist": "Francis Picabia",
+      "imageUrl": "https://uploads1.wikiart.org/images/francis-picabia/trice.jpg!Large.jpg",
+      "id": 5797
+    },
+    {
+      "title": "Catalan Peasant Head",
+      "artist": "Joan Miro",
+      "imageUrl": "https://uploads0.wikiart.org/images/joan-miro/not_detected_227967.jpg!Large.jpg",
+      "id": 7889
+    },
+    {
+      "title": "The Painter's Muse",
+      "artist": "Henri Martin",
+      "imageUrl": "https://uploads2.wikiart.org/images/henri-martin/the-painter-s-muse.jpg!Large.jpg",
+      "id": 34872
+    },
+    {
+      "title": "Child and Seeing Hands",
+      "artist": "Hans Bellmer",
+      "imageUrl": "https://uploads5.wikiart.org/images/hans-bellmer/child-and-seeing-hands-1950(1).jpg!Large.jpg",
+      "id": 31907
+    },
+    {
+      "title": "Refusal of the Confession",
+      "artist": "Ilya Repin",
+      "imageUrl": "https://uploads3.wikiart.org/images/ilya-repin/refusal-of-the-confession-1885.jpg!Large.jpg",
+      "id": 22323
+    },
+    {
+      "title": "The Descent Of Night",
+      "artist": "Charles Rennie Mackintosh",
+      "imageUrl": "https://uploads4.wikiart.org/images/charles-rennie-mackintosh/the-descent-of-night-1894.jpg!Large.jpg",
+      "id": 40142
+    },
+    {
+      "title": "Mulher e Roupa",
+      "artist": "Julio Resende",
+      "imageUrl": "https://uploads4.wikiart.org/images/julio-resende/mulher-e-roupa-1986.jpg!Large.jpg",
+      "id": 44253
+    },
+    {
+      "title": "God's Eyes",
+      "artist": "Ion Tuculescu",
+      "imageUrl": "https://uploads4.wikiart.org/images/ion-tuculescu/god-s-eyes.jpg!Large.jpg",
+      "id": 17169
+    },
+    {
+      "title": "Band Concert",
+      "artist": "Maurice Prendergast",
+      "imageUrl": "https://uploads3.wikiart.org/images/maurice-prendergast/band-concert.jpg!Large.jpg",
+      "id": 17532
+    },
+    {
+      "title": "Woman",
+      "artist": "Jules Perahim",
+      "imageUrl": "https://uploads8.wikiart.org/images/jules-perahim/woman.jpg!Large.jpg",
+      "id": 41632
+    },
+    {
+      "title": "A Summer's Evening",
+      "artist": "Philip Wilson Steer",
+      "imageUrl": "https://uploads0.wikiart.org/images/philip-wilson-steer/a-summer-s-evening.jpg!Large.jpg",
+      "id": 36998
+    },
+    {
+      "title": "Red Glove and White Glove",
+      "artist": "Georges Papazoff",
+      "imageUrl": "https://uploads0.wikiart.org/images/georges-papazoff/red-glove-and-white-glove-1924.jpg!Large.jpg",
+      "id": 15194
+    },
+    {
+      "title": "In Front of the Easel",
+      "artist": "Nicolae Vermont",
+      "imageUrl": "https://uploads4.wikiart.org/images/nicolae-vermont/in-front-of-the-easel-1910.jpg!Large.jpg",
+      "id": 22166
+    },
+    {
+      "title": "Invention of a Dream",
+      "artist": "Richard Oelze",
+      "imageUrl": "https://uploads1.wikiart.org/images/richard-oelze/invention-of-a-dream-1960.jpg!Large.jpg",
+      "id": 13957
+    },
+    {
+      "title": "Philosopher",
+      "artist": "Henri Martin",
+      "imageUrl": "https://uploads4.wikiart.org/images/henri-martin/philosopher.jpg!Large.jpg",
+      "id": 34374
+    },
+    {
+      "title": "Odyssey and Nausicaa",
+      "artist": "Valentin Serov",
+      "imageUrl": "https://uploads2.wikiart.org/images/valentin-serov/odyssey-and-nausicaa-1910.jpg!Large.jpg",
+      "id": 17787
+    },
+    {
+      "title": "Boulogne Sands",
+      "artist": "Philip Wilson Steer",
+      "imageUrl": "https://uploads5.wikiart.org/images/philip-wilson-steer/boulogne-sands.jpg!Large.jpg",
+      "id": 35056
+    }
+  ]
+}

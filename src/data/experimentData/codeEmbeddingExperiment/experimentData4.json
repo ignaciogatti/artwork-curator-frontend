@@ -1,0 +1,162 @@
+{
+  "source_artwork":{
+    "title": "A Bar at the Folies-Bergere",
+    "artist": "Edouard Manet",
+    "imageUrl": "https://uploads1.wikiart.org/00129/images/edouard-manet/a-bar-at-the-folies-bergere.jpg!Large.jpg",
+    "year": 1882,
+    "id": 36457
+  },
+
+  "sim_artworks": [
+    {
+      "title": "Buchenhain",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads3.wikiart.org/images/gustav-klimt/buchenhain.jpg!Large.jpg",
+      "id": 2411
+    },
+    {
+      "title": "Farnlandschaft",
+      "artist": "Richard Oelze",
+      "imageUrl": "https://uploads8.wikiart.org/images/richard-oelze/farnlandschaft.jpg!Large.jpg",
+      "id": 41399
+    },
+    {
+      "title": "Willows",
+      "artist": "Paul Gauguin",
+      "imageUrl": "https://uploads5.wikiart.org/images/paul-gauguin/willows-1885.jpg!Large.jpg",
+      "id": 24609
+    },
+    {
+      "title": "Pear Tree",
+      "artist": "Gustav Klimt",
+      "imageUrl": "https://uploads7.wikiart.org/images/gustav-klimt/pear-tree-1903.jpg!Large.jpg",
+      "id": 41746
+    },
+    {
+      "title": "The Bridge at Maincy",
+      "artist": "Paul Cezanne",
+      "imageUrl": "https://uploads0.wikiart.org/images/paul-cezanne/the-bridge-at-maincy-1879.jpg!Large.jpg",
+      "id": 1688
+    },
+    {
+      "title": "Landscape at Vence",
+      "artist": "Christopher Wood",
+      "imageUrl": "https://uploads2.wikiart.org/images/christopher-wood/landscape-at-vence-1927.jpg!Large.jpg",
+      "id": 20925
+    },
+    {
+      "title": "The Spring Wood",
+      "artist": "John Collier",
+      "imageUrl": "https://uploads8.wikiart.org/images/john-collier/the-spring-wood.jpg!Large.jpg",
+      "id": 35418
+    },
+    {
+      "title": "An Egyptian Poppy and a Water Mole",
+      "artist": "John Crome",
+      "imageUrl": "https://uploads3.wikiart.org/images/john-crome/an-egyptian-poppy-and-a-water-mole-1812.jpg!Large.jpg",
+      "id": 16448
+    },
+    {
+      "title": "Village forestier Grosrouvre",
+      "artist": "Henri Le Fauconnier",
+      "imageUrl": "https://uploads6.wikiart.org/images/henri-le-fauconnier/village-forestier-grosrouvre-1943.jpg!Large.jpg",
+      "id": 12941
+    },
+    {
+      "title": "Study of tree",
+      "artist": "Richard Gerstl",
+      "imageUrl": "https://uploads0.wikiart.org/images/richard-gerstl/meadow-with-houses-in-background.jpg!Large.jpg",
+      "id": 3963
+    },
+    {
+      "title": "In the Forest of Fontainbleau",
+      "artist": "Paul Cezanne",
+      "imageUrl": "https://uploads0.wikiart.org/images/paul-cezanne/in-the-forest-of-fontainbleau-1882.jpg!Large.jpg",
+      "id": 6334
+    },
+    {
+      "title": "Oestervold Park, Copenhagen",
+      "artist": "Paul Gauguin",
+      "imageUrl": "https://uploads6.wikiart.org/images/paul-gauguin/oestervold-park-copenhagen-1885.jpg!Large.jpg",
+      "id": 12485
+    },
+    {
+      "title": "Spring in the Forest",
+      "artist": "Isaac Levitan",
+      "imageUrl": "https://uploads1.wikiart.org/images/isaac-levitan/spring-in-the-forest-1882.jpg!Large.jpg",
+      "id": 19812
+    },
+    {
+      "title": "Thicket",
+      "artist": "Ivan Shishkin",
+      "imageUrl": "https://uploads6.wikiart.org/images/ivan-shishkin/thicket-1879.jpg!Large.jpg",
+      "id": 22627
+    },
+    {
+      "title": "Coming of Fall",
+      "artist": "Karl Schrag",
+      "imageUrl": "https://uploads6.wikiart.org/images/karl-schrag/coming-of-fall.jpg!Large.jpg",
+      "id": 40733
+    },
+    {
+      "title": "Green Pool",
+      "artist": "Frank Johnston",
+      "imageUrl": "https://uploads5.wikiart.org/images/frank-johnston/green-pool.jpg!Large.jpg",
+      "id": 41273
+    },
+    {
+      "title": "The Wave",
+      "artist": "Gustave Courbet",
+      "imageUrl": "https://uploads0.wikiart.org/images/gustave-courbet/the-wave-1866.jpg!Large.jpg",
+      "id": 1576
+    },
+    {
+      "title": "Snowy Weather at Veneux Nadon",
+      "artist": "Alfred Sisley",
+      "imageUrl": "https://uploads1.wikiart.org/images/alfred-sisley/snowy-weather-at-veneux-nadon-1880.jpg!Large.jpg",
+      "id": 3418
+    },
+    {
+      "title": "Shadows. Moonlit Night.",
+      "artist": "Isaac Levitan",
+      "imageUrl": "https://uploads6.wikiart.org/images/isaac-levitan/shadows-moonlit-night.jpg!Large.jpg",
+      "id": 24171
+    },
+    {
+      "title": "Boulevard in the evening.",
+      "artist": "Isaac Levitan",
+      "imageUrl": "https://uploads5.wikiart.org/images/isaac-levitan/boulevard-in-the-evening-1883.jpg!Large.jpg",
+      "id": 26314
+    },
+    {
+      "title": "The Fire of Autumn",
+      "artist": "Willard Metcalf",
+      "imageUrl": "https://uploads5.wikiart.org/images/willard-metcalf/the-fire-of-autumn.jpg!Large.jpg",
+      "id": 32731
+    },
+    {
+      "title": "Moon night",
+      "artist": "Jan Sluyters",
+      "imageUrl": "https://uploads3.wikiart.org/images/jan-sluyters/moon-night.jpg!Large.jpg",
+      "id": 44221
+    },
+    {
+      "title": "Moonlight on the Grand",
+      "artist": "Homer Watson",
+      "imageUrl": "https://uploads6.wikiart.org/images/homer-watson/moonlight-on-the-grand.jpg!Large.jpg",
+      "id": 35512
+    },
+    {
+      "title": "River floods, such as seas",
+      "artist": "Ivan Shishkin",
+      "imageUrl": "https://uploads6.wikiart.org/images/ivan-shishkin/river-floods-such-as-seas-1890.jpg!Large.jpg",
+      "id": 25486
+    },
+    {
+      "title": "A grove with birch",
+      "artist": "Arkhip Kuindzhi",
+      "imageUrl": "https://uploads5.wikiart.org/images/arkhip-kuindzhi/a-grove-with-birch.jpg!Large.jpg",
+      "id": 27306
+    }
+  ]
+}
