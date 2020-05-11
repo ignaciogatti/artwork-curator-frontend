@@ -6,5 +6,6 @@ import experimentData from './experimentData';
 
 export const data_experiment = {
     data : [experimentData, experimentData2, experimentData3, experimentData4, experimentData5],
+    service_name : '/artwork/contentbase/predict/',
     experimentType : 'contentBased'
 }
