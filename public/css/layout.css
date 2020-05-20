@@ -1027,6 +1027,10 @@ footer .social-links li:first-child { margin-left: 0; }
    text-align: left;
 }
 
+#artworkList i{
+   font-size: 1em;
+}
+
 
 #artworkList .header-col { 
    padding-top: 0.5625em; 
@@ -1063,11 +1067,26 @@ footer .social-links li:first-child { margin-left: 0; }
  #artworkList .carousel-caption {
    color:  rgba(14, 10, 10, 0.705) !important;
    font-size: 2.075em;
+   bottom: 2.5em;
 }
 
 #artworkList .carousel-caption p{
    text-align: center;
 }
+
+#artworkList .carousel-item button{
+   position: absolute;
+   margin: 0.8em;
+   bottom: 1.2em;
+ }
+
+ #artworkList .carousel-item button.left{
+   left: 15%;
+ }
+
+ #artworkList .carousel-item button.right{
+   right: 15%;
+ }
 
 
 /* ------------------------------------------------------------------ */

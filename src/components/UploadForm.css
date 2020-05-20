@@ -150,8 +150,12 @@
       margin-top: 2%; 
     }
 
-    .details{
+    .render-preview .details{
       display:none;
+    }
+
+    .preview-container .placeholder-preview .image-container{
+      height: 20%;
     }
 
     .preview-container p{
