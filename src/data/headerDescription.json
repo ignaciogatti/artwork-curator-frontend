@@ -5,14 +5,14 @@
             "sequence_generator": "Sequence Generator",
             "about_me": "About me",
             "experiments": "Test",
-            "about_dcurator": "Experiments"
+            "about_dcurator": "About D-Curator"
         },
         "spanish":{
             "artwork_curator": "Artwork Curator",
             "sequence_generator": "Generador de sequencia",
             "about_me": "Sobre mi",
             "experiments": "Caso de estudio",
-            "about_dcurator": "Experimentos"
+            "about_dcurator": "Sobre D-Curator"
         }
     }
 }

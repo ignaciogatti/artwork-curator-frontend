@@ -1,9 +1,9 @@
 import artworkRetrieval from '../apis/artworkRetrieval';
 import dataExperiment from '../apis/dataExperiment';
-import {data_experiment} from '../data/experimentData/encodeExperiment/dataExperimentEncode';
+//import {data_experiment} from '../data/experimentData/encodeExperiment/dataExperimentEncode';
 //import {data_experiment} from '../data/experimentData/socialGraphExperiment/dataExperimentSocialGraph';
 //import {data_experiment} from '../data/experimentData/contentBasedExperiment/dataExperimentContentBased';
-//import {data_experiment} from '../data/experimentData/codeEmbeddingExperiment/dataExperimentCodeEmbedding';
+import {data_experiment} from '../data/experimentData/codeEmbeddingExperiment/dataExperimentCodeEmbedding';
 import {
     REQUEST_DATA,
     UPLOAD_ARTWORK,

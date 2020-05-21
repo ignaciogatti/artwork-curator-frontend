@@ -20,8 +20,9 @@
         "english":{
             "about_dcurator": {
                 "title": "About D-Curator",
-                "paragraph_1": "D-Curator is a Artificial Intelligence (AI) developed with Deep Learning techniques. Basically, these techniques allow the machine to analize the images taking into account only pixel representation. In other words, D-Curator has no idea about who painted each artwork, or the history behind it, or what it means when someone says \"this is an impressionist painting\".",
-                "paragraph_2": "It only looks at the image and takes its own conclusions. Despite of the fact that it doesn't know anything about Art History, it is able to find interesting connections between artworks. Indeed, it seems that D-Curator can find artworks that have  a similar composition (color, structure, strength lines)."
+                "paragraph_1": "D-Curator is an Artificial Intelligence (AI) developed with Machine Learning techniques. D-Curator's goal is to recommend artwork. In order to achieve this, it analyzes artworks from two points of view: the image and artwork's context.",
+                "paragraph_2": "Regarding the image, D-Curator analyzes the composition (color, structure, lines of force) of an artwork and looks for other similar ones. Regarding the artwork's context, D-Curator takes into account the style, genre and artist of an artwork and looks for others with similar characteristics.",
+                "paragraph_3": "D-Curator combines both aspects when making a recommendation. In this way, D-Curator manages to introduce diversity in the recommended artworks; for example: if the user enters an artwork by Monet, in addition to recommending impressionist artworks, it will also offer other artworks of a similar composition but that belong to other artistic periods."
             },
             "about_experiment": {
                 "title": "Experiment",
@@ -34,14 +35,15 @@
         "spanish":{
             "about_dcurator": {
                 "title": "Sobre D-Curator",
-                "paragraph_1": "D-Curator es una Inteligencia Artificial (IA) desarrollada con técnicas de Deep Learning. Básicamente, estas técnicas permiten que la máquina analice las imágenes teniendo en cuenta solo la representación digital. En otras palabras, D-Curator no sabe quién pintó cada obra de arte, o la historia detrás de ella, o a que hace referencia alguien cuando dice \"esta es una pintura impresionista\".",
-                "paragraph_2": "Solo mira la imagen y saca sus propias conclusiones. A pesar de no saber nada sobre Historia del Arte, D-Curator puede encontrar conexiones interesantes entre obras de arte. De hecho, parece que D-Curator puede encontrar obras de arte que tengan una composición similar (color, estructura, líneas de fuerza)."
+                "paragraph_1": "D-Curator es una Inteligencia Artificial (IA) desarrollada con técnicas de Machine Learning. El objetivo de D-Curator es recomendar obras de artes. Para ello, analiza las obras de artes desde dos puntos de vista: la imagen visual y el contexto de la obra.",
+                "paragraph_2": "Por el lado de la imagen visual, D-Curator analiza la composición (color, estructura, líneas de fuerza) de una obra de arte y busca otras similares. Por el lado del contexto de la obra, D-Curator tiene en cuenta el estilo, el género y el artista de una obra de arte y busca otras con cararterísticas similares.",
+                "paragraph_3": "D-Curator combina ambos aspectos a la hora de realizar una recomendación. De esta manera, D-Curator logra introducir diversidad en las obras de artes recomendadas; por ejemplo: si el usuario ingresa una obra de Monet, además de recomendarle obras de arte impresionistas, también le ofrecerá otras obras de composición similar pero que pertenencen a otros períodos artísticos."
             },
             "about_experiment": {
-                "title": "Experimento",
-                "paragraph_1": "El objetivo del experimento es proporcionar feedback a D-Curator. Para mejorar sus habilidades como analizador de obras de arte, es necesario decirle cuáles obras fueron correctamente seleccionadas y cuáles no.",
-                "paragraph_2": "En este experimento, usted tendrá una obra de arte de referencia y un conjunto de obras de arte que fueron seleccionadas por D-Curator. Su tarea consiste en analizar si cada obra de arte del conjunto está conectada con la obra de arte de referencia. Recuerde que D-Curator solo tiene en cuenta la composición (color, estructura, líneas de fuerza). No esperes encontrar relaciones como \"mismo artista\" o \"mismo género\", porque D-Curator no sabe nada sobre Historia del Arte.",
-                "paragraph_3": "Además, debe saber que D-Curator solo consideró obras de arte de los siguientes períodos: Barroco, Romanticismo, Realismo, Impresionismo, Expresionismo, Surrealismo, Simbolismo y Art Nouveau. Por lo tanto, todas las obras de arte en el conjunto pertenecen a esos períodos."
+                "title": "Aprendizaje",
+                "paragraph_1": "Para mejorar sus habilidades como analizador de obras de arte es necesario que alguien le diga a D-Curator cuáles obras fueron correctamente seleccionadas y cuáles no. Por eso es importante que tú le proporciones feedback a D-Curator.",
+                "paragraph_2": "A partir de la obra de arte que tú eligas, D-Curator seleccionará un conjunto de obras de arte. Tu tarea consiste en analizar si cada obra de arte del conjunto está conectada con la obra de arte de referencia.",
+                "paragraph_3": "Recuerda que D-Curator seleccionará obras de artes de los siguientes períodos: Barroco, Romanticismo, Realismo, Impresionismo, Expresionismo, Surrealismo, Simbolismo y Art Nouveau. Por lo tanto, todas las obras de arte recomendadas pertenecerán a esos períodos. Por ejemplo, la relación \"mismo artista\" podrá verse dentro del conjunto de obras recomendadas. Sin embargo la relación \"mismo artista\" entre la obra elegida por ti y las recomendadas depende de que tu obra pertenezca a uno de los períodos nombrados anteriormente."
             },
             "link": "Comenzar el experimento!"
         }

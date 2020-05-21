@@ -83,6 +83,8 @@ class AboutDCurator extends React.Component{
                             {full_description.about_dcurator.paragraph_1}
                             <br/>
                             {full_description.about_dcurator.paragraph_2}
+                            <br/>
+                            {full_description.about_dcurator.paragraph_3}
                         </p>
                     </div>
                 </div>        
