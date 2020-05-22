@@ -50,7 +50,7 @@ class ArtworkList extends React.Component{
         return this.props.artworks.map((artwork, index)=>{
             let url = artwork.imageUrl.split('.jpg')[0];
             url = url +'.jpg';
-            console.log(this.props.experimentType)
+            
             return(
                 <Carousel.Item key={artwork.id}>
                     <img 
@@ -69,7 +69,7 @@ class ArtworkList extends React.Component{
                     }
                     {(artwork.title !== "") && (this.props.isSignedIn) &&
                     <AgreeDesagreeButtons 
-                        sourceArtworkId={-1} 
+                        sourceArtworkId={this.props.file_id} 
                         ratedArtworkId={artwork.id}
                         experimentType={this.props.experimentType}
                         onClickUpdateCarousel={this.updateCarouselIndex} 
@@ -82,6 +82,7 @@ class ArtworkList extends React.Component{
  
 
     render(){
+        
         if (this.props.isFetching){
             return (
                 <div className="nine columns main-col">
@@ -114,6 +115,7 @@ const mapStateToProps = state => {
     
     return {
         artworks : state.artworksFetchData.items,
+        file_id : state.artworksFetchData.file_id,
         isFetching : state.artworksFetchData.isFetching,
         isSignedIn : state.auth.isSignedIn,
         experimentType : state.experimentData.experimentType

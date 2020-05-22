@@ -16,6 +16,10 @@ class UploadImageForm extends Component {
 
     const fd = new FormData();
     fd.append("image_file", formProps.imageToUpload.file);
+    //Save userId if he/she is signed
+    if (this.props.isSignedIn){
+      fd.append("userId", this.props.userId.toString());
+    }
     // append any additional Redux form fields
     // create an AJAX request here with the created formData
     this.props.uploadArtwork(fd);
@@ -75,8 +79,17 @@ class UploadImageForm extends Component {
 }
 
 
+const mapStateToProps = state => {
+    
+  return {
+      isSignedIn : state.auth.isSignedIn,
+      userId : state.auth.userId
+  } 
+}
+
+
 const formWrapped = reduxForm( {
     form: 'uploadImageForm'
 })(UploadImageForm);
 
-export default connect(null,{uploadArtwork, resetArtworkList})(formWrapped);
+export default connect(mapStateToProps,{uploadArtwork, resetArtworkList})(formWrapped);

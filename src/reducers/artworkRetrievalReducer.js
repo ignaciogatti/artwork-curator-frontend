@@ -11,7 +11,8 @@ const INITIAL_STATE = {
         "artist": "",
         "imageUrl": "images/description-app.jpg",
         "id": -1
-    }], 
+    }],
+    file_id : "",  
     isFetching : false
 }
 
@@ -20,7 +21,8 @@ export default (state= INITIAL_STATE, action) => {
                  case UPLOAD_ARTWORK:
                     return {
                         ...state,
-                        items: action.payload,
+                        items: action.payload.sim_artworks,
+                        file_id : action.payload.file_id,
                         isFetching:false
                     };
                  case REQUEST_DATA:
