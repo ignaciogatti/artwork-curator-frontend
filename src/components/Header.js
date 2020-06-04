@@ -12,6 +12,7 @@ class Header extends React.Component{
 
     render(){
         
+        
         let links_name = this.props.headerDescription.links_name[this.context.language];
         return(
         <header id="home">
@@ -35,11 +36,7 @@ class Header extends React.Component{
                         <Link className="header-link" to="/aboutai">{links_name.about_dcurator}</Link>
                     </li>
 
-                    {this.props.isSignedIn && (
-                        <li className="header-li">
-                            <Link className="header-link" to="/experiment">{links_name.experiments}</Link>
-                        </li>
-                        )}
+                    
                     
 
                     <li className="auth">
@@ -70,3 +67,15 @@ const mapStateToProps = (state) =>{
 }
 
 export default connect(mapStateToProps, null)(Header);
+
+
+/*
+Set visible experiment tab
+
+{this.props.isSignedIn && (
+                        <li className="header-li">
+                            <Link className="header-link" to="/experiment">{links_name.experiments}</Link>
+                        </li>
+                        )}
+
+*/

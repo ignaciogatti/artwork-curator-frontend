@@ -41,7 +41,7 @@ class ArtworkSequenceList extends React.Component{
                     {(artwork.title !== "") && 
                         <Carousel.Caption>
                             <p className="legend">
-                                <i>{artwork.title}</i> by {artwork.artist} 
+                                <i className="title">{artwork.title}</i> by <b className="artist">{artwork.artist}</b> 
                             </p>
                         </Carousel.Caption>
                     }

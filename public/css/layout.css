@@ -1027,7 +1027,7 @@ footer .social-links li:first-child { margin-left: 0; }
    text-align: left;
 }
 
-#artworkList i{
+#artworkList i, b{
    font-size: 1em;
 }
 
@@ -1072,6 +1072,10 @@ footer .social-links li:first-child { margin-left: 0; }
 
 #artworkList .carousel-caption p{
    text-align: center;
+}
+
+#artworkList .carousel-caption .legend .artist, .title{
+   text-transform: capitalize;
 }
 
 #artworkList .carousel-item button{
@@ -1176,7 +1180,7 @@ footer .social-links li:first-child { margin-left: 0; }
    font-size: 0.8em;
 }
 
-#experiment i{
+#experiment i, b{
    font-size: 1em;
 }
 
@@ -1222,6 +1226,9 @@ footer .social-links li:first-child { margin-left: 0; }
    text-align: center;
 }
 
+#experiment .carousel-caption .artist, .title{
+   text-transform: capitalize;
+}
 
  #experiment .carousel-item button{
    position: absolute;
@@ -1346,6 +1353,10 @@ footer .social-links li:first-child { margin-left: 0; }
    font-size: 0.8em;
 }
 
+#sequenceGenerator i, b{
+   font-size: 1em;
+}
+
  #sequenceGenerator .row{
    padding-top: 1.5em;
    padding-bottom: 1.5em;
@@ -1405,6 +1416,10 @@ footer .social-links li:first-child { margin-left: 0; }
 
 #sequenceGenerator .carousel-caption p{
    text-align: center;
+}
+
+#sequenceGenerator .carousel-caption .artist, .title{
+   text-transform: capitalize;
 }
 
 

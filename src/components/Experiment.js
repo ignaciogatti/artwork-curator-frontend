@@ -72,7 +72,7 @@ class Experiment extends React.Component{
                     />
                     <Carousel.Caption>
                         <p className="legend">
-                            <i>{artwork.title}</i> by <strong>{artwork.artist}</strong> 
+                            <i className="title">{artwork.title}</i> by <strong className="artist">{artwork.artist}</strong> 
                         </p>
                     </Carousel.Caption>
                     <AgreeDesagreeButtons 

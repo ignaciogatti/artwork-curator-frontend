@@ -47,7 +47,7 @@ class AboutDCurator extends React.Component{
             return(
                 <React.Fragment>
                     <Link
-                        to="/experiment"
+                        to="/"
                         className="massive ui primary button"         
                         > 
                             {link}
