@@ -9,7 +9,7 @@ import experimentDataReducer from './experimentDataReducer';
 import fetchUserRatingsReducer from './fetchUserRatingsReducer';
 import experimentDescriptionReducer from './experimentDescriptionReducer';
 import headerDescriptionReducer from './headerDescriptionReducer';
-
+import surveyModalDescriptionReducer from './surveyModalDescriptionReducer';
 
 const createRootReducer = (history) => combineReducers({
   router: connectRouter(history),
@@ -20,7 +20,9 @@ const createRootReducer = (history) => combineReducers({
   experimentData : experimentDataReducer,
   userRatings : fetchUserRatingsReducer,
   experimentDescription : experimentDescriptionReducer,
-  headerDescription : headerDescriptionReducer
+  headerDescription : headerDescriptionReducer,
+  surveyModalDescription : surveyModalDescriptionReducer
+
 });
 
 export default createRootReducer;

@@ -3,15 +3,22 @@ import {connect} from 'react-redux';
 import Carousel from 'react-bootstrap/Carousel'
 import AgreeDesagreeButtons from './AgreeDesagreeButtons';
 import {resetArtworkList, save_data, fetch_experiment_data, fetch_user_ratings} from '../actions';
+import Modal from './Modal';
+import LanguageContext from '../contexts/LanguageContext';
 
 class ArtworkList extends React.Component{
 
+    static contextType = LanguageContext;
+
     state={
         index:0,
-        direction:null
+        direction:null,
+        prev_index: 0,
+        showModal: false
     }
 
 
+//-------------------------- Component set up ------------------------------------------
     componentDidMount(){
         this.props.fetch_experiment_data();
         if (this.props.artworks.length !== 1) {
@@ -25,24 +32,30 @@ class ArtworkList extends React.Component{
 
 
     componentDidUpdate(prevProps){
+
         if(prevProps.artworks.length !== this.props.artworks.length){
-            this.setState({index:0, direction: null});
+            this.setState({index:0, direction: null, rankedArtworks : 0, showModal: false});
         }
 
         if (prevProps.isSignedIn !== this.props.isSignedIn){
             this.props.fetch_user_ratings();
         }
+
     }
 
-
+//-------------------------- Carousel design ------------------------------------------
     handleSelect = (selectedIndex, e) => {
         this.setState({index:selectedIndex, direction: e.direction});
       };
 
 
     updateCarouselIndex = () => {
-        let new_index = (this.state.index + 1) % this.props.artworks.length; 
+        let new_index = (this.state.index + 1) % this.props.artworks.length;
         this.setState({index:new_index});
+        if (new_index === 0){
+            this.setState({showModal:true});
+        }
+        console.log(this.state);
     }
 
 
@@ -79,10 +92,41 @@ class ArtworkList extends React.Component{
         })
     }
 
- 
+ //-------------------------- Modal set up ------------------------------------------
 
+    hideModal = () =>{ this.setState({showModal:false})};
+
+    renderContent(content){
+        return content;
+    }
+
+    renderAction(surveyButton, cancelButton){
+         return (
+            <React.Fragment>
+                <a 
+                    className="massive ui primary button"
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSc0UOGTw1aIb2L1sSFYdINgbaCbBDd-j2EslCAmFhFFjG8kDQ/viewform?usp=sf_link'
+                    target="_blank"
+                    onClick = {this.hideModal}
+                >
+                    {surveyButton}
+                </a>
+
+                <button 
+                    className="massive ui button"
+                    onClick = {this.hideModal}
+                > 
+                    {cancelButton} 
+                </button>
+            </React.Fragment>
+        );
+    };
+
+
+//------------------------- Render ----------------------------------------------------
     render(){
         
+        let surveyModalDescription = this.props.surveyModalDescription.modal_description[this.context.language];
         if (this.props.isFetching){
             return (
                 <div className="nine columns main-col">
@@ -103,6 +147,16 @@ class ArtworkList extends React.Component{
                     >
                         {this.renderSlides()}
                     </Carousel>
+                    {this.state.showModal && (
+                    <Modal
+                        show={this.state.showModal} 
+                        handleClose={this.hideModal}
+                        title = {surveyModalDescription.title}
+                        content = {this.renderContent(surveyModalDescription.content)}
+                        actions={this.renderAction(surveyModalDescription.surveyButton, surveyModalDescription.cancelButton)}
+                        onDismiss = {()=>this.setState({showModal:false})}
+                    />
+                )}
                 </div>
             );
         }
@@ -118,7 +172,8 @@ const mapStateToProps = state => {
         file_id : state.artworksFetchData.file_id,
         isFetching : state.artworksFetchData.isFetching,
         isSignedIn : state.auth.isSignedIn,
-        experimentType : state.experimentData.experimentType
+        experimentType : state.experimentData.experimentType,
+        surveyModalDescription : state.surveyModalDescription
     } 
 }
 

@@ -1,0 +1,16 @@
+{
+    "modal_description": {
+        "english":{
+            "title": "Survey",
+            "content": "Thanks for your help! Please, complete the survey to finish the process. It is only take a few minutes",
+            "surveyButton": "Go to Survey",
+            "cancelButton": "Cancel"
+        },
+        "spanish":{
+            "title": "Encuesta",
+            "content": "Gracias por tu ayuda! Por favor, completa la encuesta para finalizar el proceso. Solo toma unos minutos.",
+            "surveyButton": "Ir a la encuesta",
+            "cancelButton": "Cancelar"
+        }
+    }
+}
