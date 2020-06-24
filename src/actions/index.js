@@ -94,7 +94,7 @@ export const uploadSequenceArtworks = fd => async dispatch => {
       };
 
 
-    const response = await artworkRetrieval.post('/artwork/sequence/rnn/predict/', fd, config);
+    const response = await artworkRetrieval.post('/artwork/sequence/artistrnn/predict/', fd, config);
 
     dispatch({type : UPLOAD_ARTWORK, payload : response.data});
   
