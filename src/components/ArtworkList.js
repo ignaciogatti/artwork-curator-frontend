@@ -55,7 +55,6 @@ class ArtworkList extends React.Component{
         if (new_index === 0){
             this.setState({showModal:true});
         }
-        console.log(this.state);
     }
 
 
@@ -92,7 +91,7 @@ class ArtworkList extends React.Component{
         })
     }
 
- //-------------------------- Modal set up ------------------------------------------
+ //---------------------------- Modal set up ------------------------------------------
 
     hideModal = () =>{ this.setState({showModal:false})};
 
@@ -123,7 +122,7 @@ class ArtworkList extends React.Component{
     };
 
 
-//------------------------- Render ----------------------------------------------------
+//--------------------------- Render ----------------------------------------------------
     render(){
         
         let surveyModalDescription = this.props.surveyModalDescription.modal_description[this.context.language];
