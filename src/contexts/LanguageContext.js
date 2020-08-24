@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Context = React.createContext('english');
+const Context = React.createContext('spanish');
 
 export class LanguageStore extends React.Component {
-    state = {language : 'english'};
+    state = {language : 'spanish'};
 
     onLanguageChange = (language) => {
         this.setState({language});
