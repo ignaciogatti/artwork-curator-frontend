@@ -9,6 +9,7 @@ import LanguageContext from '../contexts/LanguageContext';
 class ArtworkList extends React.Component{
 
     static contextType = LanguageContext;
+    tourApproach = "artworkRetrieval";
 
     state={
         index:0,
@@ -84,6 +85,7 @@ class ArtworkList extends React.Component{
                         sourceArtworkId={this.props.file_id} 
                         ratedArtworkId={artwork.id}
                         experimentType={this.props.experimentType}
+                        tourApproach={this.tourApproach}
                         onClickUpdateCarousel={this.updateCarouselIndex} 
                     />}
                 </Carousel.Item>

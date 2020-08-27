@@ -14,6 +14,7 @@ class AgreeDesagreeButtons extends React.Component{
 
     render(){
 
+        console.log(this.props.tourApproach);
         let old_ratings = this.props.userRatings.find(
             res => (res.ratedArtworkId === this.props.ratedArtworkId.toString()) && 
             (res.experimentType === this.props.experimentType) && 
@@ -28,6 +29,7 @@ class AgreeDesagreeButtons extends React.Component{
                             sourceArtworkId: this.props.sourceArtworkId, 
                             ratedArtworkId: this.props.ratedArtworkId,
                             experimentType: this.props.experimentType,
+                            tourApproach: this.props.tourApproach,
                             rating: 'Agree'
                         })}
                     >
@@ -39,6 +41,7 @@ class AgreeDesagreeButtons extends React.Component{
                             sourceArtworkId: this.props.sourceArtworkId, 
                             ratedArtworkId: this.props.ratedArtworkId,
                             experimentType: this.props.experimentType,
+                            tourApproach: this.props.tourApproach,
                             rating: 'Disagree'
                         })}
                     >

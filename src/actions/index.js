@@ -52,14 +52,17 @@ export const signOut = () =>{
 export const save_data = data => async (dispatch, getState) => {
 
     const {userId} = getState().auth;
-    const {sourceArtworkId, ratedArtworkId, experimentType, rating} = data;
+    const {sourceArtworkId, ratedArtworkId, experimentType, tourApproach, rating} = data;
+    console.log(tourApproach);
+    console.log(userId);
     const response = await dataExperiment.post(
         '/putData', 
         {...{
             userId: userId,
             sourceArtworkId: sourceArtworkId.toString(),
             ratedArtworkId: ratedArtworkId.toString(),
-            experimentType: experimentType, 
+            experimentType: experimentType,
+          //  tourApproach: tourApproach, 
             rating: rating
         } });
     
