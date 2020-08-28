@@ -62,7 +62,7 @@ export const save_data = data => async (dispatch, getState) => {
             sourceArtworkId: sourceArtworkId.toString(),
             ratedArtworkId: ratedArtworkId.toString(),
             experimentType: experimentType,
-          //  tourApproach: tourApproach, 
+            tourApproach: tourApproach, 
             rating: rating
         } });
     

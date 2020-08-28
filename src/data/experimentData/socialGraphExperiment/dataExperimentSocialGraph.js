@@ -7,5 +7,8 @@ import experimentData from './experimentData';
 export const data_experiment = {
     data : [experimentData, experimentData2, experimentData3, experimentData4, experimentData5],
     service_name : '/artwork/social_graph/predict/',
-    experimentType : 'social_graph'
+    experimentType : {
+        artworkRetrieval:'social_graph',
+        sequence: 'artistrnn'
+    }
 }

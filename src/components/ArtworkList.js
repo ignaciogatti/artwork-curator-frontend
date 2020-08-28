@@ -35,7 +35,7 @@ class ArtworkList extends React.Component{
     componentDidUpdate(prevProps){
 
         if(prevProps.artworks.length !== this.props.artworks.length){
-            this.setState({index:0, direction: null, rankedArtworks : 0, showModal: false});
+            this.setState({index:0, direction: null, prev_index : 0, showModal: false});
         }
 
         if (prevProps.isSignedIn !== this.props.isSignedIn){
@@ -84,7 +84,7 @@ class ArtworkList extends React.Component{
                     <AgreeDesagreeButtons 
                         sourceArtworkId={this.props.file_id} 
                         ratedArtworkId={artwork.id}
-                        experimentType={this.props.experimentType}
+                        experimentType={this.props.experimentType[this.tourApproach]}
                         tourApproach={this.tourApproach}
                         onClickUpdateCarousel={this.updateCarouselIndex} 
                     />}

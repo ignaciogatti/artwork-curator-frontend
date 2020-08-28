@@ -1,16 +1,22 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import Carousel from 'react-bootstrap/Carousel';
-import {resetArtworkList} from '../actions';
+import {resetArtworkList, save_data, fetch_experiment_data, fetch_user_ratings} from '../actions';
+import AgreeDesagreeButtons from './AgreeDesagreeButtons';
 
 class ArtworkSequenceList extends React.Component{
 
     state={
         index:0,
-        direction:null
+        direction:null,
+        prev_index: 0
     }
 
+    tourApproach = "sequence";
+
+//-------------------------- Component set up ------------------------------------------
     componentDidMount(){
+        this.props.fetch_experiment_data();
         if (this.props.artworks.length !== 1) {
             this.props.resetArtworkList();
         }
@@ -18,13 +24,23 @@ class ArtworkSequenceList extends React.Component{
 
     componentDidUpdate(prevProps){
         if(prevProps.artworks.length !== this.props.artworks.length){
-            this.setState({index:0, direction: null});
+            this.setState({index:0, direction: null, prev_index:0});
         }
     }
 
+//-------------------------- Carousel design ------------------------------------------
     handleSelect = (selectedIndex, e) => {
         this.setState({index:selectedIndex, direction: e.direction});
       };
+
+
+    updateCarouselIndex = () => {
+        let new_index = (this.state.index + 1) % this.props.artworks.length;
+        this.setState({index:new_index});
+        if (new_index === 0){
+            this.setState({showModal:true});
+        }
+    }
 
     renderSlides=()=>{
         return this.props.artworks.map((artwork, index)=>{
@@ -45,6 +61,15 @@ class ArtworkSequenceList extends React.Component{
                             </p>
                         </Carousel.Caption>
                     }
+                    {(artwork.title !== "") && (this.props.isSignedIn) &&
+                    <AgreeDesagreeButtons 
+                        //sourceArtworkId={this.props.file_id}
+                        sourceArtworkId={0} 
+                        ratedArtworkId={artwork.id}
+                        experimentType={this.props.experimentType[this.tourApproach]}
+                        tourApproach={this.tourApproach}
+                        onClickUpdateCarousel={this.updateCarouselIndex} 
+                    />}
                 </Carousel.Item>
             );
         })
@@ -85,8 +110,11 @@ const mapStateToProps = state => {
     
     return {
         artworks : state.artworksFetchData.items,
-        isFetching : state.artworksFetchData.isFetching
+        isFetching : state.artworksFetchData.isFetching,
+        file_id : state.artworksFetchData.file_id,
+        experimentType : state.experimentData.experimentType,
+        isSignedIn : state.auth.isSignedIn
     } 
 }
 
-export default connect(mapStateToProps, {resetArtworkList})(ArtworkSequenceList);
+export default connect(mapStateToProps, {resetArtworkList, save_data, fetch_experiment_data, fetch_user_ratings})(ArtworkSequenceList);

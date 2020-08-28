@@ -14,10 +14,17 @@ class AgreeDesagreeButtons extends React.Component{
 
     render(){
 
+        console.log(this.props.userRatings);
+        console.log(this.props.sourceArtworkId);
+        console.log(this.props.ratedArtworkId);
+        console.log(this.props.experimentType);
         console.log(this.props.tourApproach);
+
+
         let old_ratings = this.props.userRatings.find(
             res => (res.ratedArtworkId === this.props.ratedArtworkId.toString()) && 
-            (res.experimentType === this.props.experimentType) && 
+            (res.experimentType === this.props.experimentType) &&
+            (res.tourApproach === this.props.tourApproach) && 
             (res.sourceArtworkId === this.props.sourceArtworkId.toString()) );
 
         if (!old_ratings){
