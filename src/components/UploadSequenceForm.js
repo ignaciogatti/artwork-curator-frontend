@@ -19,6 +19,10 @@ class UploadSequenceImageForm extends Component {
     fd.append("image_file_two", formProps.imageToUpload_2.file);
     fd.append("image_file_three", formProps.imageToUpload_3.file);
     // append any additional Redux form fields
+    //Save userId if he/she is signed
+    if (this.props.isSignedIn){
+      fd.append("userId", this.props.userId.toString());
+    }
     // create an AJAX request here with the created formData
     this.props.uploadSequenceArtworks(fd);
   };
@@ -101,8 +105,16 @@ class UploadSequenceImageForm extends Component {
 }
 
 
+const mapStateToProps = state => {
+    
+  return {
+      isSignedIn : state.auth.isSignedIn,
+      userId : state.auth.userId
+  } 
+}
+
 const formWrapped = reduxForm( {
     form: 'uploadImageForm'
 })(UploadSequenceImageForm);
 
-export default connect(null,{uploadSequenceArtworks, resetArtworkList})(formWrapped);
+export default connect(mapStateToProps,{uploadSequenceArtworks, resetArtworkList})(formWrapped);

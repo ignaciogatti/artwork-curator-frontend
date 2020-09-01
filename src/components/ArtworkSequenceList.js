@@ -63,8 +63,7 @@ class ArtworkSequenceList extends React.Component{
                     }
                     {(artwork.title !== "") && (this.props.isSignedIn) &&
                     <AgreeDesagreeButtons 
-                        //sourceArtworkId={this.props.file_id}
-                        sourceArtworkId={0} 
+                        sourceArtworkId={this.props.file_id}
                         ratedArtworkId={artwork.id}
                         experimentType={this.props.experimentType[this.tourApproach]}
                         tourApproach={this.tourApproach}
