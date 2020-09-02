@@ -1,9 +1,16 @@
 import artworkRetrieval from '../apis/artworkRetrieval';
 import dataExperiment from '../apis/dataExperiment';
-//import {data_experiment} from '../data/experimentData/encodeExperiment/dataExperimentEncode';
-//import {data_experiment} from '../data/experimentData/socialGraphExperiment/dataExperimentSocialGraph';
-//import {data_experiment} from '../data/experimentData/contentBasedExperiment/dataExperimentContentBased';
-import {data_experiment} from '../data/experimentData/codeEmbeddingExperiment/dataExperimentCodeEmbedding';
+//--------------------------------Artwork retrieval approaches ----------------------------------------------//
+import {artwork_retrieval_experiment} from '../data/experimentData/encodeExperiment/dataExperimentEncode';
+//import {artwork_retrieval_experiment} from '../data/experimentData/socialGraphExperiment/dataExperimentSocialGraph';
+//import {artwork_retrieval_experiment} from '../data/experimentData/contentBasedExperiment/dataExperimentContentBased';
+//import {artwork_retrieval_experiment} from '../data/experimentData/codeEmbeddingExperiment/dataExperimentCodeEmbedding';
+
+//-------------------------------Sequence approaches -----------------------------------------------------//
+//import {sequence_experiment} from '../data/experimentData/sequenceApproach/dataExperimentArtistRNN';
+//import {sequence_experiment} from '../data/experimentData/sequenceApproach/dataExperimentRNN';
+import {sequence_experiment} from '../data/experimentData/sequenceApproach/dataExperimentMostSimilar';
+
 import {
     REQUEST_DATA,
     UPLOAD_ARTWORK,
@@ -24,7 +31,7 @@ export const uploadArtwork = fd => async dispatch => {
        headers: {'Content-Type': 'multipart/form-data' }
       };
 
-    const response = await artworkRetrieval.post(data_experiment.service_name, fd, config);
+    const response = await artworkRetrieval.post(artwork_retrieval_experiment.service_name, fd, config);
 
     dispatch({type : UPLOAD_ARTWORK, payload : response.data});
   
@@ -73,7 +80,10 @@ export const save_data = data => async (dispatch, getState) => {
 export const fetch_experiment_data = () =>{
     return{
         type:FETCH_EXPERIMENT_DATA,
-        payload:data_experiment
+        payload:{
+            'artworkRetrieval':artwork_retrieval_experiment,
+            'sequence': sequence_experiment
+        }
     };
 }
 
@@ -97,7 +107,7 @@ export const uploadSequenceArtworks = fd => async dispatch => {
       };
 
 
-    const response = await artworkRetrieval.post(data_experiment.sequence_service_name, fd, config);
+    const response = await artworkRetrieval.post(sequence_experiment.service_name, fd, config);
 
     dispatch({type : UPLOAD_ARTWORK, payload : response.data});
   

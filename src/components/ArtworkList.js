@@ -84,7 +84,7 @@ class ArtworkList extends React.Component{
                     <AgreeDesagreeButtons 
                         sourceArtworkId={this.props.file_id} 
                         ratedArtworkId={artwork.id}
-                        experimentType={this.props.experimentType[this.tourApproach]}
+                        experimentType={this.props.experimentData[this.tourApproach].experimentType}
                         tourApproach={this.tourApproach}
                         onClickUpdateCarousel={this.updateCarouselIndex} 
                     />}
@@ -173,7 +173,7 @@ const mapStateToProps = state => {
         file_id : state.artworksFetchData.file_id,
         isFetching : state.artworksFetchData.isFetching,
         isSignedIn : state.auth.isSignedIn,
-        experimentType : state.experimentData.experimentType,
+        experimentData : state.experimentData,
         surveyModalDescription : state.surveyModalDescription
     } 
 }
