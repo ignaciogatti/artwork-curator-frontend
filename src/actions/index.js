@@ -1,10 +1,10 @@
 import artworkRetrieval from '../apis/artworkRetrieval';
 import dataExperiment from '../apis/dataExperiment';
 //--------------------------------Artwork retrieval approaches ----------------------------------------------//
-import {artwork_retrieval_experiment} from '../data/experimentData/encodeExperiment/dataExperimentEncode';
+//import {artwork_retrieval_experiment} from '../data/experimentData/encodeExperiment/dataExperimentEncode';
 //import {artwork_retrieval_experiment} from '../data/experimentData/socialGraphExperiment/dataExperimentSocialGraph';
 //import {artwork_retrieval_experiment} from '../data/experimentData/contentBasedExperiment/dataExperimentContentBased';
-//import {artwork_retrieval_experiment} from '../data/experimentData/codeEmbeddingExperiment/dataExperimentCodeEmbedding';
+import {artwork_retrieval_experiment} from '../data/experimentData/codeEmbeddingExperiment/dataExperimentCodeEmbedding';
 
 //-------------------------------Sequence approaches -----------------------------------------------------//
 //import {sequence_experiment} from '../data/experimentData/sequenceApproach/dataExperimentArtistRNN';
