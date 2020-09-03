@@ -19,7 +19,7 @@ class ArtworkList extends React.Component{
     }
 
 
-//-------------------------- Component set up ------------------------------------------
+//-------------------------- Component set up ------------------------------------------//
     componentDidMount(){
         this.props.fetch_experiment_data();
         if (this.props.artworks.length !== 1) {
@@ -44,7 +44,7 @@ class ArtworkList extends React.Component{
 
     }
 
-//-------------------------- Carousel design ------------------------------------------
+//-------------------------- Carousel design ------------------------------------------//
     handleSelect = (selectedIndex, e) => {
         this.setState({index:selectedIndex, direction: e.direction});
       };
@@ -93,7 +93,7 @@ class ArtworkList extends React.Component{
         })
     }
 
- //---------------------------- Modal set up ------------------------------------------
+ //---------------------------- Modal set up ------------------------------------------//
 
     hideModal = () =>{ this.setState({showModal:false})};
 
@@ -124,7 +124,7 @@ class ArtworkList extends React.Component{
     };
 
 
-//--------------------------- Render ----------------------------------------------------
+//--------------------------- Render ----------------------------------------------------//
     render(){
         
         let surveyModalDescription = this.props.surveyModalDescription.modal_description[this.context.language];

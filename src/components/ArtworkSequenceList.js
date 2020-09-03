@@ -2,19 +2,24 @@ import React from 'react';
 import {connect} from 'react-redux';
 import Carousel from 'react-bootstrap/Carousel';
 import {resetArtworkList, save_data, fetch_experiment_data, fetch_user_ratings} from '../actions';
+import Modal from './Modal';
 import AgreeDesagreeButtons from './AgreeDesagreeButtons';
+import LanguageContext from '../contexts/LanguageContext';
 
 class ArtworkSequenceList extends React.Component{
+
+    static contextType = LanguageContext;
 
     state={
         index:0,
         direction:null,
-        prev_index: 0
+        prev_index: 0,
+        showModal: false
     }
 
     tourApproach = "sequence";
 
-//-------------------------- Component set up ------------------------------------------
+//-------------------------- Component set up ------------------------------------------//
     componentDidMount(){
         this.props.fetch_experiment_data();
         if (this.props.artworks.length !== 1) {
@@ -24,17 +29,17 @@ class ArtworkSequenceList extends React.Component{
 
     componentDidUpdate(prevProps){
         if(prevProps.artworks.length !== this.props.artworks.length){
-            this.setState({index:0, direction: null, prev_index:0});
+            this.setState({index:0, direction: null, prev_index:0, showModal: false});
         }
     }
 
-//-------------------------- Carousel design ------------------------------------------
+//-------------------------- Carousel design ------------------------------------------//
     handleSelect = (selectedIndex, e) => {
         this.setState({index:selectedIndex, direction: e.direction});
       };
 
 
-    updateCarouselIndex = () => {
+      updateCarouselIndex = () => {
         let new_index = (this.state.index + 1) % this.props.artworks.length;
         this.setState({index:new_index});
         if (new_index === 0){
@@ -74,9 +79,41 @@ class ArtworkSequenceList extends React.Component{
         })
     }
 
+//---------------------------- Modal set up ------------------------------------------//
+
+    hideModal = () =>{ this.setState({showModal:false})};
+
+    renderContent(content){
+        return content;
+    }
+
+    renderAction(surveyButton, cancelButton){
+         return (
+            <React.Fragment>
+                <a 
+                    className="massive ui primary button"
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSfEWSIL5C9p7DVqMemuu3x0z2eZxzuzvxIwAbunSEkKWaC_Ag/viewform?usp=sf_link'
+                    target="_blank"
+                    onClick = {this.hideModal}
+                >
+                    {surveyButton}
+                </a>
+
+                <button 
+                    className="massive ui button"
+                    onClick = {this.hideModal}
+                > 
+                    {cancelButton} 
+                </button>
+            </React.Fragment>
+        );
+    };
  
+//--------------------------- Render ----------------------------------------------------//
 
     render(){
+
+        let surveyModalDescription = this.props.surveyModalDescription.modal_description[this.context.language];
         if (this.props.isFetching){
             return (
                 <div className="sequence-row">
@@ -97,6 +134,16 @@ class ArtworkSequenceList extends React.Component{
                     >
                         {this.renderSlides()}
                     </Carousel>
+                    {this.state.showModal && (
+                    <Modal
+                        show={this.state.showModal} 
+                        handleClose={this.hideModal}
+                        title = {surveyModalDescription.title}
+                        content = {this.renderContent(surveyModalDescription.content)}
+                        actions={this.renderAction(surveyModalDescription.surveyButton, surveyModalDescription.cancelButton)}
+                        onDismiss = {()=>this.setState({showModal:false})}
+                    />
+                )}
                 </div>
             );
         }
@@ -112,7 +159,8 @@ const mapStateToProps = state => {
         isFetching : state.artworksFetchData.isFetching,
         file_id : state.artworksFetchData.file_id,
         experimentData : state.experimentData,
-        isSignedIn : state.auth.isSignedIn
+        isSignedIn : state.auth.isSignedIn,
+        surveyModalDescription : state.surveyModalDescription
     } 
 }
 
